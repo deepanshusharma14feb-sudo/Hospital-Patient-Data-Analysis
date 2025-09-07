@@ -1,0 +1,1001 @@
+PatientID,Age,Gender,BloodType,BMI,AdmissionDate,DischargeDate,LengthOfStay,AdmissionType,PrimaryDiagnosisCode,PrimaryDiagnosis,SecondaryDiagnosisCode,SecondaryDiagnosis,Treatment,TotalCost,InsuranceType,InsuranceCoverage,PatientPayment,InsurancePayment,Outcome,Readmitted
+P0001,54,Male,A+,23.0,2025-06-23,2025-07-08,15,Emergency,R10,Abdominal Pain,,,Chemotherapy,84958.76,Private,0.9,8495.88,76462.88,Recovered,False
+P0002,42,Male,A+,27.1,2023-12-31,2024-01-24,24,Elective,R50,Fever,K21,GERD,Medication,181228.34,Other,0.68,57993.07,123235.27,Recovered,False
+P0003,57,Female,A+,32.0,2023-10-03,2023-10-10,7,Emergency,J45,Asthma,G47,Sleep Disorder,Radiation Therapy,124072.57,Self-Pay,0.0,124072.57,0.0,Stable,True
+P0004,75,Female,A+,23.5,2024-06-15,2024-06-18,3,Maternity,I25,Coronary Artery Disease,J01,Sinusitis,IV Fluids,19519.69,Medicare,0.84,3123.15,16396.54,Improved,False
+P0005,40,Male,O+,16.6,2024-05-15,2024-05-23,8,Emergency,I25,Coronary Artery Disease,,,Respiratory Therapy,42164.06,Medicaid,0.9,4216.41,37947.65,Recovered,False
+P0006,40,Female,O+,29.1,2024-04-23,2024-04-24,1,Emergency,J01,Sinusitis,N39,Urinary Tract Infection,IV Fluids,6837.08,Medicare,0.76,1640.9,5196.18,Recovered,False
+P0007,76,Male,AB+,22.8,2024-01-28,2024-01-31,3,Observation,E11,Type 2 Diabetes,,,Respiratory Therapy,32012.95,Medicare,0.83,5442.2,26570.75,Improved,False
+P0008,60,Female,A+,20.1,2023-12-21,2024-01-04,14,Emergency,M17,Osteoarthritis,F32,Depression,Physical Therapy,51105.17,Medicare,0.81,9709.98,41395.19,Improved,False
+P0009,35,Female,O-,22.9,2025-07-31,2025-08-01,1,Elective,R10,Abdominal Pain,G47,Sleep Disorder,Medication,7505.95,Medicare,0.82,1351.07,6154.88,Improved,False
+P0010,55,Female,A-,25.1,2025-03-19,2025-03-21,2,Elective,N39,Urinary Tract Infection,,,Physical Therapy,16375.34,Medicare,0.8,3275.07,13100.27,Improved,False
+P0011,35,Female,A+,23.0,2023-12-06,2023-12-07,1,Urgent,G47,Sleep Disorder,I25,Coronary Artery Disease,Pain Management,6817.0,Medicare,0.83,1158.89,5658.11,Recovered,False
+P0012,35,Female,O+,15.0,2025-05-04,2025-05-11,7,Maternity,N39,Urinary Tract Infection,,,Observation,19837.74,Medicaid,0.86,2777.28,17060.46,Improved,False
+P0013,49,Male,A+,30.5,2024-11-13,2024-11-16,3,Maternity,N39,Urinary Tract Infection,,,Chemotherapy,55859.06,Other,0.58,23460.81,32398.25,Recovered,False
+P0014,6,Female,A-,32.4,2023-10-10,2023-10-11,1,Emergency,I10,Hypertension,,,Medication,5669.66,Private,0.73,1530.81,4138.85,Recovered,False
+P0015,10,Male,B-,29.3,2023-10-08,2023-10-09,1,Urgent,I25,Coronary Artery Disease,,,Medication,3353.13,Other,0.6,1341.25,2011.88,Recovered,False
+P0016,33,Female,O+,20.3,2023-12-12,2023-12-17,5,Elective,O80,Normal Delivery,M54,Back Pain,Radiation Therapy,49095.51,Medicaid,0.86,6873.37,42222.14,Recovered,False
+P0017,24,Female,B-,25.0,2024-04-18,2024-04-21,3,Elective,E11,Type 2 Diabetes,,,Counseling,15599.41,Medicaid,0.92,1247.95,14351.46,Recovered,False
+P0018,51,Female,O+,26.0,2024-05-03,2024-05-05,2,Emergency,L20,Atopic Dermatitis,,,Medication,10980.5,Medicaid,0.93,768.64,10211.86,Stable,False
+P0019,26,Male,O-,29.0,2025-02-06,2025-02-07,1,Elective,S06,Head Injury,,,Observation,5128.27,Medicare,0.79,1076.94,4051.33,Recovered,True
+P0020,16,Female,A+,29.3,2025-05-16,2025-05-17,1,Maternity,K21,GERD,M54,Back Pain,Radiation Therapy,10691.89,Medicare,0.81,2031.46,8660.43,Recovered,False
+P0021,74,Female,A+,22.3,2023-10-05,2023-11-02,28,Observation,M54,Back Pain,J01,Sinusitis,Pain Management,120465.5,Self-Pay,0.0,120465.5,0.0,Improved,False
+P0022,40,Female,A-,26.4,2025-04-04,2025-04-08,4,Emergency,J01,Sinusitis,K21,GERD,IV Fluids,49164.64,Other,0.65,17207.62,31957.02,Recovered,False
+P0023,46,Male,B+,28.3,2024-03-29,2024-04-10,12,Emergency,J18,Pneumonia,A09,Gastroenteritis,IV Fluids,32387.79,Medicare,0.8,6477.56,25910.23,Improved,False
+P0024,16,Male,B+,33.3,2025-07-04,2025-07-05,1,Emergency,R50,Fever,,,Respiratory Therapy,5342.75,Medicare,0.81,1015.12,4327.63,Recovered,False
+P0025,34,Male,O+,29.5,2025-08-26,2025-08-31,5,Urgent,R10,Abdominal Pain,,,Respiratory Therapy,37552.98,Medicaid,0.94,2253.18,35299.8,Improved,False
+P0026,47,Male,O+,29.9,2025-03-19,2025-03-26,7,Elective,E11,Type 2 Diabetes,,,Counseling,44111.13,Medicare,0.79,9263.34,34847.79,Recovered,False
+P0027,21,Female,O+,26.4,2024-11-10,2024-11-12,2,Elective,R10,Abdominal Pain,,,Respiratory Therapy,17924.32,Medicaid,0.92,1433.95,16490.37,Recovered,False
+P0028,52,Male,A+,33.1,2024-04-20,2024-05-07,17,Emergency,M17,Osteoarthritis,G47,Sleep Disorder,Counseling,177801.85,Medicare,0.81,33782.35,144019.5,Stable,False
+P0029,32,Female,O+,28.0,2024-12-10,2024-12-11,1,Emergency,N39,Urinary Tract Infection,,,Observation,3103.92,Medicaid,0.94,186.24,2917.68,Improved,False
+P0030,39,Male,O-,21.7,2025-05-03,2025-05-04,1,Elective,I10,Hypertension,M54,Back Pain,Respiratory Therapy,4077.78,Medicare,0.79,856.33,3221.45,Recovered,False
+P0031,32,Male,O+,33.0,2024-06-18,2024-06-21,3,Observation,I25,Coronary Artery Disease,,,Respiratory Therapy,17147.0,Medicaid,0.88,2057.64,15089.36,Recovered,False
+P0032,82,Female,A+,29.5,2023-09-14,2023-09-25,11,Elective,L20,Atopic Dermatitis,,,Pain Management,52988.83,Medicare,0.83,9008.1,43980.73,Improved,True
+P0033,44,Female,O+,23.8,2024-02-18,2024-02-22,4,Emergency,N39,Urinary Tract Infection,,,Physical Therapy,23921.05,Medicaid,0.86,3348.95,20572.1,Improved,False
+P0034,23,Female,A+,23.6,2025-08-22,2025-08-23,1,Elective,M17,Osteoarthritis,E11,Type 2 Diabetes,Surgery,10273.62,Other,0.52,4931.34,5342.28,Recovered,True
+P0035,61,Female,A+,27.5,2024-11-13,2024-11-17,4,Emergency,J45,Asthma,R10,Abdominal Pain,Chemotherapy,68452.8,Medicaid,0.93,4791.7,63661.1,Deceased,False
+P0036,20,Female,A+,28.3,2024-08-21,2024-08-22,1,Maternity,R50,Fever,J44,COPD,Counseling,4867.51,Self-Pay,0.0,4867.51,0.0,Improved,False
+P0037,49,Male,O+,27.0,2024-06-18,2024-06-20,2,Emergency,R10,Abdominal Pain,,,Pain Management,6757.16,Private,0.91,608.14,6149.02,Recovered,False
+P0038,5,Female,O+,27.6,2024-02-14,2024-02-15,1,Elective,F32,Depression,R50,Fever,Counseling,5712.54,Other,0.5,2856.27,2856.27,Improved,False
+P0039,18,Female,A+,34.5,2024-04-15,2024-04-17,2,Emergency,J44,COPD,,,Counseling,5874.91,Private,0.76,1409.98,4464.93,Recovered,False
+P0040,48,Female,A-,31.4,2024-08-17,2024-08-18,1,Elective,F32,Depression,,,Counseling,2415.14,Private,0.87,313.97,2101.17,Recovered,False
+P0041,59,Male,B+,27.0,2023-12-21,2023-12-24,3,Elective,S06,Head Injury,J45,Asthma,Medication,15089.16,Self-Pay,0.0,15089.16,0.0,Recovered,False
+P0042,48,Female,A-,30.7,2023-12-11,2023-12-12,1,Elective,J01,Sinusitis,,,Respiratory Therapy,2888.07,Medicare,0.81,548.73,2339.34,Recovered,False
+P0043,42,Male,A+,20.8,2024-10-01,2024-10-02,1,Emergency,N39,Urinary Tract Infection,J01,Sinusitis,Pain Management,7318.89,Medicaid,0.93,512.32,6806.57,Recovered,False
+P0044,38,Male,B+,28.0,2023-12-16,2023-12-22,6,Emergency,J01,Sinusitis,,,Surgery,29925.01,Other,0.74,7780.5,22144.51,Recovered,False
+P0045,15,Male,O+,35.0,2024-09-09,2024-09-12,3,Emergency,G47,Sleep Disorder,,,Counseling,8463.27,Private,0.78,1861.92,6601.35,Improved,False
+P0046,30,Male,A+,24.9,2024-08-25,2024-08-26,1,Elective,A09,Gastroenteritis,R50,Fever,Counseling,7255.1,Other,0.57,3119.69,4135.41,Improved,False
+P0047,35,Female,A+,21.8,2025-05-18,2025-05-22,4,Emergency,N39,Urinary Tract Infection,,,Surgery,44127.66,Private,0.95,2206.38,41921.28,Recovered,False
+P0048,66,Female,A-,22.7,2024-06-04,2024-06-19,15,Elective,E11,Type 2 Diabetes,L20,Atopic Dermatitis,Medication,62513.76,Medicare,0.81,11877.61,50636.15,Recovered,False
+P0049,51,Female,O-,20.6,2023-10-22,2023-11-01,10,Urgent,J44,COPD,,,Observation,62331.78,Private,0.74,16206.26,46125.52,Recovered,False
+P0050,9,Male,O+,22.1,2024-12-21,2024-12-22,1,Urgent,L20,Atopic Dermatitis,M54,Back Pain,Radiation Therapy,8530.79,Private,0.85,1279.62,7251.17,Improved,True
+P0051,51,Male,O+,24.1,2025-03-10,2025-03-26,16,Emergency,S06,Head Injury,,,Physical Therapy,126530.94,Private,0.76,30367.43,96163.51,Recovered,False
+P0052,37,Male,A-,19.0,2024-01-13,2024-01-15,2,Elective,J45,Asthma,,,Surgery,49958.28,Self-Pay,0.0,49958.28,0.0,Improved,False
+P0053,31,Female,O+,26.1,2024-09-29,2024-09-30,1,Emergency,R50,Fever,,,Respiratory Therapy,7906.8,Private,0.94,474.41,7432.39,Deceased,False
+P0054,57,Male,A+,30.5,2023-11-27,2023-11-28,1,Elective,R10,Abdominal Pain,,,Respiratory Therapy,3305.43,Private,0.8,661.09,2644.34,Recovered,False
+P0055,65,Female,O+,21.5,2025-03-26,2025-03-31,5,Urgent,I25,Coronary Artery Disease,G47,Sleep Disorder,Respiratory Therapy,25730.53,Medicare,0.82,4631.5,21099.03,Recovered,False
+P0056,63,Female,O+,33.6,2024-07-04,2024-07-05,1,Emergency,I10,Hypertension,,,Medication,13639.82,Medicaid,0.9,1363.98,12275.84,Recovered,False
+P0057,28,Male,O+,28.6,2025-06-12,2025-06-13,1,Emergency,E11,Type 2 Diabetes,,,Pain Management,4856.89,Medicare,0.81,922.81,3934.08,Improved,False
+P0058,38,Female,O+,31.2,2025-06-02,2025-06-03,1,Urgent,A09,Gastroenteritis,,,Radiation Therapy,40807.71,Self-Pay,0.0,40807.71,0.0,Improved,True
+P0059,51,Female,O+,22.7,2024-09-12,2024-09-21,9,Urgent,M54,Back Pain,,,Physical Therapy,113060.26,Private,0.76,27134.46,85925.8,Stable,True
+P0060,64,Female,A+,30.3,2025-04-21,2025-05-05,14,Emergency,M54,Back Pain,R50,Fever,Radiation Therapy,210122.6,Medicare,0.78,46226.97,163895.63,Recovered,False
+P0061,35,Female,O+,20.5,2024-03-22,2024-03-23,1,Elective,N39,Urinary Tract Infection,O80,Normal Delivery,Radiation Therapy,13227.73,Medicare,0.83,2248.71,10979.02,Deceased,False
+P0062,41,Male,A+,30.5,2025-08-29,2025-09-06,8,Emergency,R07,Chest Pain,,,Pain Management,37068.59,Private,0.78,8155.09,28913.5,Recovered,False
+P0063,22,Male,AB+,26.9,2023-11-18,2023-11-22,4,Emergency,J44,COPD,I25,Coronary Artery Disease,Pain Management,24470.71,Private,0.76,5872.97,18597.74,Recovered,False
+P0064,21,Female,A+,28.8,2023-10-24,2023-10-27,3,Observation,G47,Sleep Disorder,,,Radiation Therapy,26143.37,Private,0.8,5228.67,20914.7,Improved,False
+P0065,61,Female,A+,20.1,2025-07-16,2025-07-17,1,Urgent,M17,Osteoarthritis,,,Pain Management,5664.27,Private,0.87,736.36,4927.91,Deteriorated,True
+P0066,72,Male,B+,21.5,2024-04-28,2024-05-06,8,Urgent,M17,Osteoarthritis,G47,Sleep Disorder,Pain Management,25649.44,Medicare,0.78,5642.88,20006.56,Recovered,False
+P0067,43,Female,A+,29.0,2024-06-30,2024-07-12,12,Emergency,S06,Head Injury,,,Observation,24714.43,Medicaid,0.92,1977.15,22737.28,Recovered,False
+P0068,65,Female,B+,21.3,2023-11-28,2023-12-05,7,Urgent,E11,Type 2 Diabetes,M54,Back Pain,Medication,57594.24,Medicare,0.82,10366.96,47227.28,Recovered,False
+P0069,52,Female,O+,28.3,2024-05-03,2024-05-06,3,Emergency,R10,Abdominal Pain,S06,Head Injury,Counseling,6004.84,Private,0.73,1621.31,4383.53,Recovered,False
+P0070,32,Male,A+,19.2,2023-12-20,2023-12-22,2,Emergency,R07,Chest Pain,,,Physical Therapy,16346.2,Medicare,0.8,3269.24,13076.96,Recovered,False
+P0071,52,Female,A+,30.2,2024-10-01,2024-10-07,6,Elective,N39,Urinary Tract Infection,S06,Head Injury,Pain Management,17754.61,Private,0.77,4083.56,13671.05,Deceased,False
+P0072,75,Female,O+,19.8,2024-06-18,2024-06-24,6,Emergency,N39,Urinary Tract Infection,E11,Type 2 Diabetes,Medication,38342.41,Medicare,0.81,7285.06,31057.35,Improved,True
+P0073,44,Male,A-,28.8,2024-12-15,2024-12-16,1,Urgent,M17,Osteoarthritis,,,Respiratory Therapy,6136.33,Private,0.77,1411.36,4724.97,Improved,False
+P0074,76,Male,O+,29.1,2025-06-19,2025-06-22,3,Elective,E11,Type 2 Diabetes,G47,Sleep Disorder,Medication,26998.9,Medicare,0.83,4589.81,22409.09,Improved,False
+P0075,0,Female,O+,22.5,2024-09-15,2024-09-16,1,Emergency,R07,Chest Pain,,,Radiation Therapy,11623.41,Medicare,0.81,2208.45,9414.96,Recovered,False
+P0076,61,Male,O+,28.9,2024-02-21,2024-03-04,12,Emergency,M17,Osteoarthritis,G47,Sleep Disorder,Respiratory Therapy,33141.94,Private,0.82,5965.55,27176.39,Improved,True
+P0077,46,Female,O+,27.3,2024-09-21,2024-09-22,1,Emergency,R07,Chest Pain,M54,Back Pain,Pain Management,5965.42,Medicare,0.83,1014.12,4951.3,Improved,True
+P0078,39,Female,B+,23.3,2024-09-05,2024-09-17,12,Emergency,K21,GERD,,,Respiratory Therapy,73960.57,Medicare,0.78,16271.33,57689.24,Recovered,False
+P0079,46,Male,O+,21.0,2024-04-09,2024-04-10,1,Elective,S06,Head Injury,,,Pain Management,5456.64,Medicaid,0.91,491.1,4965.54,Improved,False
+P0080,5,Female,A+,16.2,2025-07-25,2025-07-26,1,Urgent,L20,Atopic Dermatitis,A09,Gastroenteritis,Physical Therapy,8010.81,Medicare,0.84,1281.73,6729.08,Recovered,False
+P0081,40,Male,A+,27.7,2024-06-07,2024-06-12,5,Emergency,E11,Type 2 Diabetes,,,Physical Therapy,22468.83,Private,0.87,2920.95,19547.88,Stable,False
+P0082,52,Female,O+,18.2,2025-08-26,2025-09-04,9,Emergency,G47,Sleep Disorder,,,Chemotherapy,71327.48,Private,0.78,15692.05,55635.43,Deceased,False
+P0083,74,Male,B+,26.5,2025-08-07,2025-08-29,22,Elective,L20,Atopic Dermatitis,,,Medication,69626.96,Medicare,0.82,12532.85,57094.11,Recovered,False
+P0084,34,Female,O+,24.7,2025-07-02,2025-07-03,1,Urgent,S06,Head Injury,,,Counseling,3270.71,Medicare,0.76,784.97,2485.74,Improved,False
+P0085,28,Male,O+,29.4,2023-11-20,2023-11-25,5,Emergency,G47,Sleep Disorder,,,Respiratory Therapy,25582.21,Private,0.83,4348.98,21233.23,Recovered,False
+P0086,34,Male,O+,24.5,2025-05-23,2025-05-24,1,Emergency,S06,Head Injury,,,Counseling,10760.68,Private,0.88,1291.28,9469.4,Improved,False
+P0087,63,Female,O+,24.4,2025-06-19,2025-06-27,8,Elective,I25,Coronary Artery Disease,,,Respiratory Therapy,91113.94,Medicaid,0.9,9111.39,82002.55,Recovered,False
+P0088,51,Male,B+,29.7,2024-03-01,2024-03-08,7,Emergency,M17,Osteoarthritis,A09,Gastroenteritis,Counseling,37485.03,Private,0.85,5622.75,31862.28,Recovered,False
+P0089,34,Female,A+,27.7,2025-03-07,2025-03-11,4,Emergency,O80,Normal Delivery,,,Medication,22109.75,Private,0.78,4864.15,17245.6,Recovered,False
+P0090,55,Male,O+,27.6,2024-05-15,2024-05-17,2,Elective,S06,Head Injury,,,Surgery,36122.22,Private,0.77,8308.11,27814.11,Improved,True
+P0091,46,Female,A-,28.3,2024-02-22,2024-03-03,10,Elective,R10,Abdominal Pain,,,Counseling,42327.61,Medicare,0.79,8888.8,33438.81,Recovered,False
+P0092,64,Male,O+,18.3,2024-12-24,2024-12-25,1,Elective,A09,Gastroenteritis,,,Physical Therapy,5854.95,Private,0.82,1053.89,4801.06,Deteriorated,False
+P0093,30,Female,O+,29.8,2024-09-30,2024-10-01,1,Elective,J44,COPD,,,Medication,4584.71,Private,0.95,229.24,4355.47,Recovered,False
+P0094,38,Male,O+,29.1,2024-06-10,2024-06-15,5,Elective,J18,Pneumonia,,,Counseling,8622.63,Private,0.75,2155.66,6466.97,Deteriorated,True
+P0095,37,Male,A-,20.9,2025-06-24,2025-06-26,2,Emergency,F32,Depression,,,Counseling,6260.14,Private,0.87,813.82,5446.32,Improved,False
+P0096,15,Male,A+,24.8,2025-08-12,2025-08-15,3,Emergency,J45,Asthma,J44,COPD,Radiation Therapy,31063.7,Other,0.71,9008.47,22055.23,Recovered,False
+P0097,50,Male,B+,25.8,2025-03-31,2025-04-03,3,Emergency,M54,Back Pain,O80,Normal Delivery,Pain Management,12588.37,Medicare,0.77,2895.33,9693.04,Recovered,False
+P0098,50,Female,A+,25.3,2024-04-19,2024-04-20,1,Emergency,N39,Urinary Tract Infection,J44,COPD,Respiratory Therapy,4891.6,Other,0.74,1271.82,3619.78,Improved,False
+P0099,45,Male,O+,27.7,2025-08-09,2025-08-18,9,Elective,M54,Back Pain,F32,Depression,Physical Therapy,61112.96,Private,0.8,12222.59,48890.37,Improved,False
+P0100,40,Female,A-,33.2,2024-08-05,2024-08-08,3,Urgent,M17,Osteoarthritis,I25,Coronary Artery Disease,Pain Management,25575.58,Private,0.89,2813.31,22762.27,Improved,False
+P0101,16,Male,A+,31.4,2023-11-04,2023-11-05,1,Maternity,J45,Asthma,,,Respiratory Therapy,7578.03,Medicare,0.81,1439.83,6138.2,Recovered,False
+P0102,36,Male,A+,19.4,2024-04-29,2024-05-04,5,Elective,J45,Asthma,R07,Chest Pain,Respiratory Therapy,40950.18,Medicaid,0.92,3276.01,37674.17,Recovered,False
+P0103,38,Female,O+,29.1,2023-10-10,2023-10-13,3,Emergency,J01,Sinusitis,,,Counseling,15172.36,Private,0.87,1972.41,13199.95,Deceased,False
+P0104,28,Female,O+,32.6,2024-07-27,2024-07-29,2,Emergency,N39,Urinary Tract Infection,R07,Chest Pain,Medication,9531.3,Private,0.9,953.13,8578.17,Improved,False
+P0105,41,Male,A-,27.9,2024-10-22,2024-10-25,3,Urgent,F32,Depression,J01,Sinusitis,Counseling,13122.19,Medicare,0.77,3018.1,10104.09,Recovered,False
+P0106,53,Male,A+,31.5,2024-06-08,2024-06-17,9,Elective,R10,Abdominal Pain,,,Radiation Therapy,59169.7,Private,0.79,12425.64,46744.06,Recovered,False
+P0107,82,Male,B+,36.1,2023-11-14,2023-11-28,14,Elective,J18,Pneumonia,,,Pain Management,66550.45,Medicare,0.82,11979.08,54571.37,Improved,False
+P0108,48,Female,A+,31.1,2024-04-11,2024-04-17,6,Urgent,J18,Pneumonia,,,IV Fluids,28911.89,Other,0.69,8962.69,19949.2,Improved,True
+P0109,50,Female,O+,27.2,2025-04-10,2025-04-11,1,Elective,M17,Osteoarthritis,M54,Back Pain,Respiratory Therapy,11416.88,Self-Pay,0.0,11416.88,0.0,Recovered,False
+P0110,43,Male,O+,31.2,2024-07-26,2024-08-03,8,Urgent,R10,Abdominal Pain,I10,Hypertension,Physical Therapy,53348.26,Medicare,0.81,10136.17,43212.09,Recovered,False
+P0111,6,Female,A-,26.7,2024-04-12,2024-04-13,1,Emergency,J45,Asthma,G47,Sleep Disorder,Physical Therapy,3601.58,Self-Pay,0.0,3601.58,0.0,Improved,False
+P0112,44,Female,A+,26.1,2025-07-10,2025-07-15,5,Elective,I25,Coronary Artery Disease,,,Physical Therapy,38062.12,Self-Pay,0.0,38062.12,0.0,Recovered,False
+P0113,46,Female,O-,24.2,2025-01-31,2025-02-02,2,Urgent,K21,GERD,S06,Head Injury,Chemotherapy,38161.73,Medicaid,0.92,3052.94,35108.79,Recovered,False
+P0114,94,Female,B+,33.8,2024-10-17,2024-11-06,20,Emergency,R07,Chest Pain,,,Physical Therapy,115024.09,Private,0.91,10352.17,104671.92,Deteriorated,True
+P0115,41,Male,O+,21.9,2025-06-27,2025-07-02,5,Elective,M54,Back Pain,I10,Hypertension,Counseling,27105.86,Medicaid,0.93,1897.41,25208.45,Recovered,False
+P0116,51,Male,A+,33.7,2024-12-20,2024-12-21,1,Emergency,E11,Type 2 Diabetes,,,Medication,1645.37,Private,0.71,477.16,1168.21,Recovered,False
+P0117,44,Male,B+,28.5,2024-02-01,2024-02-03,2,Maternity,J44,COPD,,,Observation,2108.79,Medicaid,0.92,168.7,1940.09,Stable,False
+P0118,21,Male,A+,19.0,2024-06-05,2024-06-09,4,Emergency,J18,Pneumonia,,,Medication,12166.05,Medicaid,0.9,1216.6,10949.44,Recovered,False
+P0119,67,Female,B-,27.8,2024-01-28,2024-01-29,1,Elective,N39,Urinary Tract Infection,J44,COPD,Observation,3382.79,Medicare,0.78,744.21,2638.58,Improved,False
+P0120,60,Female,O-,15.5,2024-05-17,2024-06-06,20,Emergency,J45,Asthma,A09,Gastroenteritis,Observation,131171.78,Medicare,0.8,26234.36,104937.42,Recovered,False
+P0121,60,Male,A-,29.1,2025-04-04,2025-04-11,7,Elective,N39,Urinary Tract Infection,,,Counseling,16536.17,Private,0.79,3472.6,13063.57,Recovered,False
+P0122,26,Male,A+,30.4,2025-03-12,2025-03-14,2,Emergency,N39,Urinary Tract Infection,,,IV Fluids,7581.49,Medicaid,0.93,530.7,7050.79,Deteriorated,True
+P0123,73,Male,A+,23.0,2024-06-03,2024-06-05,2,Emergency,G47,Sleep Disorder,N39,Urinary Tract Infection,Chemotherapy,26791.45,Medicaid,0.89,2947.06,23844.39,Improved,False
+P0124,16,Female,A-,26.6,2025-04-28,2025-04-29,1,Elective,F32,Depression,,,Counseling,3260.31,Self-Pay,0.0,3260.31,0.0,Recovered,False
+P0125,56,Male,A+,35.8,2024-11-19,2024-12-05,16,Observation,J18,Pneumonia,M17,Osteoarthritis,Radiation Therapy,145700.05,Medicaid,0.86,20398.01,125302.04,Improved,False
+P0126,88,Female,A+,23.5,2025-04-27,2025-04-30,3,Emergency,I25,Coronary Artery Disease,,,Surgery,33806.08,Medicare,0.83,5747.03,28059.05,Stable,False
+P0127,25,Male,O+,20.7,2024-10-20,2024-10-24,4,Emergency,R07,Chest Pain,,,Counseling,24221.7,Other,0.8,4844.34,19377.36,Recovered,False
+P0128,33,Male,B+,33.4,2024-09-12,2024-09-13,1,Urgent,I10,Hypertension,L20,Atopic Dermatitis,Physical Therapy,10054.08,Self-Pay,0.0,10054.08,0.0,Improved,False
+P0129,46,Female,A+,35.8,2024-04-19,2024-04-20,1,Elective,K21,GERD,A09,Gastroenteritis,Counseling,3684.95,Medicare,0.84,589.59,3095.36,Deteriorated,False
+P0130,34,Female,O+,26.0,2024-01-27,2024-01-28,1,Observation,K21,GERD,,,Physical Therapy,11907.97,Medicaid,0.91,1071.72,10836.25,Recovered,False
+P0131,13,Male,A+,31.1,2025-02-10,2025-02-11,1,Emergency,L20,Atopic Dermatitis,,,Radiation Therapy,13760.03,Other,0.77,3164.81,10595.22,Improved,False
+P0132,46,Female,O-,32.7,2025-01-25,2025-02-11,17,Elective,E11,Type 2 Diabetes,G47,Sleep Disorder,Medication,122169.15,Medicaid,0.89,13438.61,108730.54,Improved,False
+P0133,23,Female,A+,22.3,2023-12-10,2023-12-11,1,Emergency,J18,Pneumonia,,,Medication,3489.64,Medicaid,0.9,348.96,3140.68,Recovered,False
+P0134,54,Female,O+,23.6,2023-10-26,2023-10-29,3,Emergency,M54,Back Pain,N39,Urinary Tract Infection,Physical Therapy,13526.59,Medicare,0.77,3111.12,10415.47,Recovered,True
+P0135,26,Male,O+,32.2,2023-12-29,2023-12-30,1,Elective,L20,Atopic Dermatitis,,,Medication,4108.1,Medicare,0.78,903.78,3204.32,Recovered,False
+P0136,75,Female,O+,34.4,2024-02-11,2024-02-17,6,Elective,R07,Chest Pain,,,Surgery,93051.88,Medicare,0.82,16749.34,76302.54,Improved,False
+P0137,29,Female,O-,28.8,2025-06-11,2025-06-12,1,Urgent,J01,Sinusitis,K21,GERD,Pain Management,6378.58,Private,0.94,382.71,5995.87,Recovered,False
+P0138,38,Female,A+,21.6,2024-02-18,2024-02-26,8,Emergency,A09,Gastroenteritis,R10,Abdominal Pain,Medication,45675.95,Other,0.61,17813.62,27862.33,Recovered,False
+P0139,61,Male,O-,35.9,2025-08-04,2025-08-08,4,Emergency,G47,Sleep Disorder,,,Respiratory Therapy,55762.22,Private,0.71,16171.04,39591.18,Recovered,False
+P0140,20,Male,A-,23.3,2024-11-13,2024-11-14,1,Emergency,F32,Depression,I10,Hypertension,Medication,6369.81,Medicare,0.8,1273.96,5095.85,Recovered,False
+P0141,49,Male,A-,24.3,2025-05-10,2025-05-11,1,Maternity,A09,Gastroenteritis,,,Pain Management,5229.38,Medicare,0.81,993.58,4235.8,Deceased,False
+P0142,71,Female,A-,27.7,2023-11-12,2023-12-11,29,Emergency,I25,Coronary Artery Disease,,,Chemotherapy,406759.88,Medicare,0.76,97622.37,309137.51,Recovered,False
+P0143,12,Male,AB-,33.8,2024-10-06,2024-10-07,1,Emergency,L20,Atopic Dermatitis,E11,Type 2 Diabetes,Radiation Therapy,22787.29,Medicaid,0.94,1367.24,21420.05,Recovered,False
+P0144,48,Female,A+,30.3,2024-10-02,2024-10-03,1,Emergency,A09,Gastroenteritis,O80,Normal Delivery,Counseling,5087.27,Medicaid,0.89,559.6,4527.67,Recovered,False
+P0145,50,Female,O+,28.1,2025-05-10,2025-05-16,6,Elective,G47,Sleep Disorder,R10,Abdominal Pain,Radiation Therapy,121750.16,Self-Pay,0.0,121750.16,0.0,Improved,False
+P0146,60,Male,AB-,28.3,2024-12-30,2025-01-05,6,Emergency,J45,Asthma,,,Counseling,21180.52,Private,0.8,4236.1,16944.42,Recovered,False
+P0147,20,Female,O+,26.2,2025-03-02,2025-03-03,1,Observation,N39,Urinary Tract Infection,,,Surgery,10678.45,Medicare,0.82,1922.12,8756.33,Improved,False
+P0148,18,Male,O+,28.8,2024-05-22,2024-05-23,1,Emergency,A09,Gastroenteritis,,,Observation,2573.34,Self-Pay,0.0,2573.34,0.0,Improved,False
+P0149,55,Female,B+,15.0,2025-03-27,2025-04-04,8,Urgent,S06,Head Injury,,,Chemotherapy,86514.07,Other,0.66,29414.78,57099.29,Recovered,False
+P0150,50,Male,A+,24.5,2023-09-19,2023-09-21,2,Emergency,N39,Urinary Tract Infection,M17,Osteoarthritis,Radiation Therapy,17142.85,Medicare,0.77,3942.86,13199.99,Stable,False
+P0151,50,Female,A+,27.2,2025-08-04,2025-08-13,9,Elective,R07,Chest Pain,,,IV Fluids,49581.5,Self-Pay,0.0,49581.5,0.0,Recovered,False
+P0152,51,Female,A+,20.2,2024-01-03,2024-01-09,6,Observation,J18,Pneumonia,J45,Asthma,Radiation Therapy,89113.57,Medicaid,0.94,5346.81,83766.76,Improved,False
+P0153,31,Female,A+,27.9,2025-08-06,2025-08-07,1,Emergency,J44,COPD,,,IV Fluids,8571.17,Private,0.71,2485.64,6085.53,Deceased,False
+P0154,49,Female,A-,25.0,2025-03-10,2025-03-13,3,Maternity,J45,Asthma,,,Chemotherapy,21995.57,Self-Pay,0.0,21995.57,0.0,Stable,True
+P0155,50,Female,A+,34.8,2024-06-07,2024-06-09,2,Elective,A09,Gastroenteritis,,,IV Fluids,7752.23,Other,0.59,3178.41,4573.82,Deteriorated,False
+P0156,30,Female,O-,33.9,2025-06-25,2025-06-29,4,Observation,S06,Head Injury,,,Surgery,75941.46,Medicare,0.8,15188.29,60753.17,Recovered,False
+P0157,82,Female,O+,23.7,2024-08-21,2024-08-27,6,Elective,R10,Abdominal Pain,,,Pain Management,38582.26,Medicare,0.81,7330.63,31251.63,Recovered,False
+P0158,54,Female,A-,25.2,2023-12-31,2024-01-02,2,Emergency,K21,GERD,L20,Atopic Dermatitis,IV Fluids,10595.55,Medicare,0.79,2225.07,8370.48,Recovered,False
+P0159,21,Male,O+,25.6,2024-07-04,2024-07-06,2,Emergency,E11,Type 2 Diabetes,,,Medication,15247.51,Private,0.74,3964.35,11283.16,Recovered,True
+P0160,58,Female,A+,23.7,2024-11-26,2024-12-28,32,Emergency,G47,Sleep Disorder,A09,Gastroenteritis,Surgery,337641.51,Medicare,0.82,60775.47,276866.04,Improved,False
+P0161,25,Female,B+,27.0,2024-02-16,2024-02-17,1,Emergency,J45,Asthma,,,Radiation Therapy,9003.02,Medicaid,0.92,720.24,8282.78,Improved,True
+P0162,60,Female,O+,22.2,2024-12-15,2024-12-30,15,Emergency,F32,Depression,R10,Abdominal Pain,Observation,36035.89,Medicare,0.81,6846.82,29189.07,Improved,False
+P0163,68,Male,B+,20.3,2023-09-11,2023-09-15,4,Emergency,L20,Atopic Dermatitis,,,Physical Therapy,9849.24,Medicare,0.81,1871.36,7977.88,Recovered,False
+P0164,28,Female,B+,29.1,2024-06-03,2024-06-04,1,Emergency,E11,Type 2 Diabetes,I10,Hypertension,Physical Therapy,6074.07,Medicare,0.78,1336.3,4737.77,Recovered,False
+P0165,64,Male,O-,29.1,2025-02-01,2025-02-03,2,Urgent,R10,Abdominal Pain,,,Medication,8567.21,Private,0.73,2313.15,6254.06,Improved,False
+P0166,53,Female,O+,22.0,2024-03-08,2024-03-11,3,Emergency,K21,GERD,J01,Sinusitis,Radiation Therapy,26741.9,Medicare,0.8,5348.38,21393.52,Recovered,False
+P0167,61,Male,O+,30.5,2025-02-08,2025-02-10,2,Emergency,K21,GERD,J44,COPD,Counseling,5949.76,Medicaid,0.88,713.97,5235.79,Stable,False
+P0168,82,Female,O+,22.8,2023-12-25,2023-12-26,1,Elective,I10,Hypertension,,,Observation,3720.92,Medicare,0.77,855.81,2865.11,Recovered,False
+P0169,40,Female,O+,27.3,2025-06-09,2025-06-19,10,Emergency,K21,GERD,,,Counseling,26538.65,Private,0.7,7961.6,18577.06,Improved,False
+P0170,29,Male,A+,30.1,2024-07-09,2024-07-14,5,Emergency,E11,Type 2 Diabetes,,,IV Fluids,27630.09,Medicare,0.82,4973.42,22656.67,Recovered,False
+P0171,27,Female,A-,25.8,2025-06-23,2025-06-26,3,Emergency,O80,Normal Delivery,R50,Fever,Counseling,15201.75,Medicare,0.83,2584.3,12617.45,Improved,False
+P0172,28,Male,A+,28.3,2025-02-08,2025-02-09,1,Observation,A09,Gastroenteritis,,,Medication,4274.78,Private,0.96,170.99,4103.79,Recovered,False
+P0173,43,Female,B+,23.4,2025-05-23,2025-05-24,1,Urgent,N39,Urinary Tract Infection,,,Radiation Therapy,9575.04,Medicaid,0.94,574.5,9000.54,Stable,False
+P0174,51,Female,AB-,25.0,2024-03-29,2024-03-30,1,Emergency,M54,Back Pain,,,Counseling,4043.12,Private,0.81,768.19,3274.93,Recovered,False
+P0175,50,Female,A+,25.0,2024-02-11,2024-02-18,7,Elective,O80,Normal Delivery,,,Observation,24270.89,Medicaid,0.93,1698.96,22571.93,Recovered,False
+P0176,61,Female,O-,22.3,2024-09-24,2024-10-11,17,Elective,I25,Coronary Artery Disease,R50,Fever,IV Fluids,165829.87,Medicaid,0.87,21557.88,144271.99,Improved,False
+P0177,45,Female,O+,25.1,2024-02-20,2024-02-22,2,Elective,I25,Coronary Artery Disease,,,Surgery,31036.41,Medicaid,0.88,3724.37,27312.04,Recovered,False
+P0178,74,Male,O+,18.3,2025-03-13,2025-03-14,1,Elective,M17,Osteoarthritis,E11,Type 2 Diabetes,Physical Therapy,8429.25,Medicare,0.78,1854.43,6574.82,Stable,True
+P0179,39,Male,AB+,23.5,2025-03-04,2025-03-07,3,Elective,S06,Head Injury,F32,Depression,Physical Therapy,24493.97,Self-Pay,0.0,24493.97,0.0,Improved,False
+P0180,99,Female,O+,24.6,2023-09-08,2023-09-13,5,Emergency,I10,Hypertension,,,Observation,10661.61,Medicare,0.79,2238.94,8422.67,Recovered,False
+P0181,57,Female,A+,24.7,2025-05-13,2025-05-16,3,Emergency,J45,Asthma,K21,GERD,Pain Management,14406.35,Private,0.74,3745.65,10660.7,Recovered,False
+P0182,27,Female,O+,24.8,2024-08-04,2024-08-06,2,Elective,O80,Normal Delivery,,,IV Fluids,11177.48,Medicare,0.83,1900.17,9277.31,Improved,True
+P0183,23,Female,A+,25.7,2025-01-20,2025-01-23,3,Urgent,M54,Back Pain,O80,Normal Delivery,Radiation Therapy,51428.58,Medicaid,0.91,4628.57,46800.01,Recovered,False
+P0184,54,Male,O+,28.4,2023-09-27,2023-09-28,1,Elective,J44,COPD,,,Chemotherapy,31292.82,Self-Pay,0.0,31292.82,0.0,Improved,False
+P0185,40,Female,A+,30.4,2023-12-31,2024-01-01,1,Urgent,J01,Sinusitis,A09,Gastroenteritis,Chemotherapy,11047.8,Medicaid,0.87,1436.21,9611.59,Recovered,False
+P0186,59,Male,O+,22.8,2024-09-13,2024-10-13,30,Maternity,J18,Pneumonia,,,Surgery,429069.76,Self-Pay,0.0,429069.76,0.0,Improved,False
+P0187,54,Female,O-,20.0,2024-07-18,2024-07-20,2,Emergency,N39,Urinary Tract Infection,,,Counseling,11324.83,Private,0.84,1811.97,9512.86,Recovered,False
+P0188,43,Male,A+,20.8,2024-05-10,2024-05-11,1,Elective,R50,Fever,,,Medication,4725.24,Self-Pay,0.0,4725.24,0.0,Stable,False
+P0189,28,Male,B+,23.6,2023-11-06,2023-11-07,1,Elective,L20,Atopic Dermatitis,,,Surgery,31199.88,Private,0.92,2495.99,28703.89,Recovered,False
+P0190,14,Male,O-,24.2,2024-05-11,2024-05-12,1,Maternity,I25,Coronary Artery Disease,N39,Urinary Tract Infection,Pain Management,3336.38,Medicare,0.84,533.82,2802.56,Recovered,False
+P0191,36,Male,B+,22.2,2025-04-10,2025-04-12,2,Maternity,R50,Fever,,,IV Fluids,15377.21,Medicare,0.79,3229.21,12148.0,Stable,False
+P0192,62,Female,O+,19.5,2023-11-27,2023-12-08,11,Elective,J45,Asthma,I10,Hypertension,Chemotherapy,214882.5,Medicaid,0.87,27934.73,186947.78,Recovered,True
+P0193,49,Male,O+,23.7,2023-12-04,2023-12-06,2,Emergency,J45,Asthma,,,Counseling,11823.08,Medicare,0.8,2364.62,9458.46,Recovered,False
+P0194,20,Male,A-,26.9,2025-01-17,2025-01-18,1,Urgent,N39,Urinary Tract Infection,J45,Asthma,Radiation Therapy,13346.97,Medicaid,0.86,1868.58,11478.39,Recovered,False
+P0195,48,Male,A+,29.0,2023-11-17,2023-11-22,5,Emergency,J45,Asthma,,,IV Fluids,38096.63,Medicaid,0.88,4571.6,33525.03,Recovered,False
+P0196,52,Male,A+,23.2,2025-03-06,2025-03-10,4,Urgent,E11,Type 2 Diabetes,,,IV Fluids,21208.34,Other,0.56,9331.67,11876.67,Stable,False
+P0197,27,Male,O+,23.9,2024-01-14,2024-01-19,5,Observation,I10,Hypertension,,,IV Fluids,19422.09,Medicaid,0.87,2524.87,16897.22,Improved,False
+P0198,48,Male,A-,21.4,2024-01-17,2024-01-27,10,Emergency,K21,GERD,R07,Chest Pain,IV Fluids,38821.08,Private,0.72,10869.9,27951.18,Recovered,False
+P0199,46,Female,AB+,25.8,2025-07-14,2025-07-15,1,Elective,R50,Fever,,,Physical Therapy,3291.61,Self-Pay,0.0,3291.61,0.0,Improved,False
+P0200,22,Female,B-,21.8,2025-01-06,2025-01-09,3,Emergency,J01,Sinusitis,R10,Abdominal Pain,Radiation Therapy,29213.37,Self-Pay,0.0,29213.37,0.0,Improved,True
+P0201,52,Female,O+,28.9,2025-03-23,2025-03-27,4,Emergency,R50,Fever,J44,COPD,Chemotherapy,58600.32,Medicare,0.81,11134.06,47466.26,Stable,False
+P0202,56,Male,O+,17.1,2024-02-24,2024-03-20,25,Emergency,J45,Asthma,,,Radiation Therapy,278420.44,Medicaid,0.87,36194.66,242225.78,Recovered,False
+P0203,66,Male,O-,24.2,2024-06-05,2024-06-10,5,Urgent,I25,Coronary Artery Disease,J01,Sinusitis,Respiratory Therapy,36345.47,Medicare,0.78,7996.0,28349.47,Improved,False
+P0204,66,Female,B+,27.5,2025-03-01,2025-03-30,29,Observation,E11,Type 2 Diabetes,,,Medication,238480.78,Medicare,0.77,54850.58,183630.2,Improved,False
+P0205,17,Female,O+,26.9,2025-05-21,2025-05-23,2,Observation,J45,Asthma,,,Surgery,24879.43,Medicaid,0.93,1741.56,23137.87,Recovered,False
+P0206,26,Male,O+,39.5,2024-11-14,2024-11-15,1,Emergency,J45,Asthma,J44,COPD,Radiation Therapy,29968.39,Private,0.86,4195.57,25772.82,Recovered,False
+P0207,55,Male,O+,27.7,2024-04-11,2024-04-15,4,Urgent,A09,Gastroenteritis,O80,Normal Delivery,Observation,18545.77,Medicaid,0.89,2040.03,16505.74,Recovered,False
+P0208,55,Male,O-,21.0,2025-03-13,2025-04-09,27,Elective,S06,Head Injury,G47,Sleep Disorder,Physical Therapy,133765.68,Private,0.95,6688.28,127077.4,Improved,False
+P0209,55,Male,A+,25.5,2025-08-14,2025-08-25,11,Emergency,R50,Fever,,,Respiratory Therapy,68458.99,Other,0.72,19168.52,49290.47,Recovered,False
+P0210,100,Male,A+,17.1,2024-03-31,2024-04-02,2,Emergency,J44,COPD,,,Radiation Therapy,18027.55,Medicare,0.78,3966.06,14061.49,Deteriorated,True
+P0211,56,Female,O+,25.6,2025-09-07,2025-09-14,7,Emergency,J18,Pneumonia,,,Medication,33417.12,Medicaid,0.93,2339.2,31077.92,Recovered,False
+P0212,67,Female,B+,21.8,2024-07-23,2024-07-27,4,Observation,I25,Coronary Artery Disease,A09,Gastroenteritis,Chemotherapy,20917.64,Private,0.89,2300.94,18616.7,Improved,False
+P0213,64,Female,O+,30.6,2024-10-20,2024-10-21,1,Elective,E11,Type 2 Diabetes,,,Respiratory Therapy,9861.05,Medicare,0.8,1972.21,7888.84,Deteriorated,True
+P0214,58,Female,O+,23.3,2025-07-26,2025-07-29,3,Elective,J18,Pneumonia,N39,Urinary Tract Infection,Respiratory Therapy,6402.1,Private,0.86,896.29,5505.81,Improved,False
+P0215,38,Female,A+,25.4,2025-07-04,2025-07-05,1,Emergency,R07,Chest Pain,,,Pain Management,6131.47,Medicare,0.78,1348.92,4782.55,Stable,False
+P0216,60,Female,O+,22.8,2024-09-24,2024-10-04,10,Elective,I25,Coronary Artery Disease,,,Surgery,98674.16,Self-Pay,0.0,98674.16,0.0,Stable,False
+P0217,29,Female,B+,34.7,2024-11-29,2024-11-30,1,Emergency,N39,Urinary Tract Infection,,,Medication,3530.0,Medicaid,0.93,247.1,3282.9,Recovered,False
+P0218,40,Male,AB+,24.4,2025-02-18,2025-02-25,7,Emergency,J45,Asthma,,,Observation,20166.09,Medicaid,0.88,2419.93,17746.16,Improved,False
+P0219,35,Male,O+,35.2,2024-12-13,2024-12-14,1,Elective,R07,Chest Pain,,,Radiation Therapy,27541.48,Private,0.85,4131.22,23410.26,Recovered,False
+P0220,46,Male,O+,30.1,2024-01-09,2024-01-10,1,Emergency,K21,GERD,A09,Gastroenteritis,Counseling,2439.32,Medicare,0.84,390.29,2049.03,Improved,True
+P0221,91,Female,A+,28.4,2024-05-18,2024-05-21,3,Urgent,R50,Fever,L20,Atopic Dermatitis,IV Fluids,23592.47,Medicare,0.79,4954.42,18638.05,Recovered,False
+P0222,7,Female,B+,27.8,2024-04-25,2024-04-26,1,Emergency,J44,COPD,,,Physical Therapy,8719.57,Medicaid,0.89,959.15,7760.42,Recovered,False
+P0223,58,Male,O+,28.0,2023-11-12,2023-11-13,1,Elective,F32,Depression,,,Counseling,1528.36,Medicaid,0.93,106.99,1421.37,Improved,False
+P0224,12,Female,O+,16.4,2024-08-19,2024-08-20,1,Emergency,N39,Urinary Tract Infection,,,Surgery,12406.11,Private,0.92,992.49,11413.62,Recovered,False
+P0225,35,Male,O+,24.6,2023-09-29,2023-10-02,3,Elective,G47,Sleep Disorder,M54,Back Pain,Physical Therapy,31534.27,Private,0.8,6306.85,25227.42,Recovered,False
+P0226,66,Female,A+,30.2,2025-05-02,2025-05-04,2,Emergency,I25,Coronary Artery Disease,,,Medication,6203.97,Private,0.88,744.48,5459.49,Deceased,False
+P0227,46,Male,A+,25.8,2025-03-28,2025-03-30,2,Emergency,R07,Chest Pain,I25,Coronary Artery Disease,Pain Management,19393.03,Private,0.88,2327.16,17065.87,Recovered,False
+P0228,23,Male,A-,19.0,2024-04-30,2024-05-01,1,Observation,J18,Pneumonia,,,Surgery,13737.17,Medicaid,0.89,1511.09,12226.08,Recovered,False
+P0229,30,Female,O+,25.7,2025-05-02,2025-05-08,6,Emergency,O80,Normal Delivery,,,IV Fluids,32167.82,Medicare,0.8,6433.56,25734.26,Recovered,False
+P0230,58,Male,A+,34.5,2024-04-20,2024-05-03,13,Urgent,A09,Gastroenteritis,L20,Atopic Dermatitis,Observation,46040.05,Private,0.96,1841.6,44198.45,Deceased,False
+P0231,30,Male,A+,32.2,2023-09-15,2023-09-17,2,Maternity,J18,Pneumonia,,,Respiratory Therapy,14357.97,Self-Pay,0.0,14357.97,0.0,Deceased,False
+P0232,49,Male,O-,25.7,2023-11-19,2023-11-21,2,Emergency,N39,Urinary Tract Infection,,,Counseling,4957.34,Medicare,0.76,1189.76,3767.58,Improved,False
+P0233,45,Female,A+,30.8,2025-09-01,2025-09-02,1,Emergency,S06,Head Injury,,,Chemotherapy,12193.44,Medicaid,0.91,1097.41,11096.03,Stable,False
+P0234,31,Female,O-,24.2,2025-06-15,2025-06-24,9,Elective,M17,Osteoarthritis,,,Physical Therapy,56300.86,Medicaid,0.86,7882.12,48418.74,Recovered,False
+P0235,87,Male,O+,17.5,2023-11-07,2023-11-08,1,Maternity,M54,Back Pain,,,Chemotherapy,13585.04,Private,0.93,950.95,12634.09,Deceased,False
+P0236,57,Female,O+,21.4,2024-04-29,2024-05-01,2,Observation,F32,Depression,G47,Sleep Disorder,Counseling,8890.46,Private,0.81,1689.19,7201.27,Recovered,False
+P0237,4,Female,A+,33.8,2023-11-16,2023-11-17,1,Elective,N39,Urinary Tract Infection,S06,Head Injury,Observation,2480.33,Medicare,0.83,421.66,2058.67,Improved,False
+P0238,48,Male,A+,24.6,2023-10-10,2023-10-11,1,Urgent,J45,Asthma,,,Observation,4807.46,Private,0.75,1201.86,3605.6,Recovered,False
+P0239,31,Male,O+,24.8,2024-08-11,2024-08-12,1,Emergency,R50,Fever,E11,Type 2 Diabetes,Pain Management,6049.55,Medicare,0.84,967.93,5081.62,Improved,False
+P0240,62,Male,O+,24.5,2023-11-19,2023-11-28,9,Maternity,I25,Coronary Artery Disease,,,Pain Management,29659.92,Medicaid,0.93,2076.19,27583.73,Improved,False
+P0241,29,Male,O+,35.5,2025-02-15,2025-02-16,1,Maternity,E11,Type 2 Diabetes,,,Physical Therapy,4797.28,Private,0.88,575.67,4221.61,Recovered,False
+P0242,42,Female,A+,34.1,2024-05-08,2024-05-13,5,Emergency,N39,Urinary Tract Infection,,,Respiratory Therapy,23239.45,Medicaid,0.87,3021.13,20218.32,Deceased,False
+P0243,55,Male,O+,37.1,2024-06-19,2024-06-20,1,Emergency,E11,Type 2 Diabetes,,,Pain Management,3904.19,Medicare,0.76,937.01,2967.18,Recovered,False
+P0244,62,Female,O+,25.2,2025-07-24,2025-07-25,1,Emergency,E11,Type 2 Diabetes,,,Medication,4420.9,Other,0.59,1812.57,2608.33,Recovered,False
+P0245,20,Female,O+,27.5,2025-01-17,2025-01-22,5,Emergency,J45,Asthma,M54,Back Pain,Observation,22118.1,Self-Pay,0.0,22118.1,0.0,Recovered,False
+P0246,38,Male,O+,18.4,2024-04-14,2024-04-15,1,Urgent,K21,GERD,,,Chemotherapy,11419.35,Private,0.86,1598.71,9820.64,Improved,False
+P0247,35,Female,O+,33.4,2025-03-13,2025-03-19,6,Emergency,N39,Urinary Tract Infection,,,Respiratory Therapy,40814.19,Medicaid,0.89,4489.56,36324.63,Stable,False
+P0248,31,Male,O+,20.2,2024-01-21,2024-01-23,2,Emergency,A09,Gastroenteritis,,,IV Fluids,10194.33,Medicare,0.84,1631.09,8563.24,Recovered,False
+P0249,80,Female,A+,27.1,2025-04-14,2025-04-15,1,Emergency,J01,Sinusitis,J18,Pneumonia,Observation,2606.74,Medicare,0.78,573.48,2033.26,Improved,True
+P0250,53,Female,B+,20.5,2025-04-20,2025-05-06,16,Maternity,K21,GERD,F32,Depression,Physical Therapy,74113.03,Private,0.78,16304.87,57808.16,Recovered,False
+P0251,19,Female,A+,23.1,2025-01-04,2025-01-05,1,Elective,K21,GERD,,,IV Fluids,7602.99,Self-Pay,0.0,7602.99,0.0,Recovered,False
+P0252,63,Female,B+,21.8,2024-05-13,2024-05-25,12,Emergency,I25,Coronary Artery Disease,,,Counseling,47017.61,Medicaid,0.9,4701.76,42315.85,Deceased,False
+P0253,87,Male,B+,23.0,2025-01-04,2025-01-05,1,Emergency,L20,Atopic Dermatitis,,,Physical Therapy,7532.7,Medicaid,0.89,828.6,6704.1,Recovered,False
+P0254,65,Female,A+,23.3,2024-10-28,2024-11-10,13,Maternity,I10,Hypertension,,,IV Fluids,128132.41,Medicare,0.82,23063.83,105068.58,Stable,False
+P0255,14,Female,A-,23.3,2024-03-20,2024-03-21,1,Urgent,E11,Type 2 Diabetes,,,Chemotherapy,16259.77,Private,0.91,1463.38,14796.39,Recovered,False
+P0256,35,Female,A+,30.2,2023-12-13,2023-12-15,2,Emergency,S06,Head Injury,,,Respiratory Therapy,6303.13,Medicare,0.76,1512.75,4790.38,Recovered,False
+P0257,70,Female,O+,20.5,2023-12-16,2023-12-27,11,Emergency,M17,Osteoarthritis,,,Physical Therapy,72403.62,Medicare,0.81,13756.69,58646.93,Deteriorated,False
+P0258,30,Female,O-,27.1,2025-07-13,2025-07-21,8,Emergency,I25,Coronary Artery Disease,,,Chemotherapy,85903.86,Medicaid,0.86,12026.54,73877.32,Recovered,False
+P0259,53,Male,A+,32.1,2024-11-22,2024-12-04,12,Emergency,M54,Back Pain,,,Respiratory Therapy,171780.22,Medicare,0.81,32638.24,139141.98,Recovered,False
+P0260,60,Male,O-,23.4,2024-09-04,2024-09-14,10,Elective,S06,Head Injury,I10,Hypertension,Chemotherapy,174035.3,Medicaid,0.92,13922.82,160112.48,Recovered,False
+P0261,26,Female,AB+,22.4,2024-11-14,2024-11-19,5,Observation,R50,Fever,J01,Sinusitis,Surgery,61369.06,Medicaid,0.87,7977.98,53391.08,Recovered,False
+P0262,43,Male,A+,24.8,2024-11-01,2024-11-02,1,Elective,R07,Chest Pain,,,Observation,4139.49,Private,0.94,248.37,3891.12,Stable,False
+P0263,0,Female,A+,31.9,2024-12-29,2024-12-30,1,Urgent,N39,Urinary Tract Infection,,,Counseling,4113.93,Medicaid,0.93,287.98,3825.95,Improved,True
+P0264,24,Female,B-,27.0,2023-11-02,2023-11-03,1,Emergency,N39,Urinary Tract Infection,,,IV Fluids,2569.13,Other,0.6,1027.65,1541.48,Improved,False
+P0265,39,Male,O+,23.3,2025-07-28,2025-07-30,2,Elective,R50,Fever,,,Chemotherapy,38434.5,Medicare,0.83,6533.87,31900.64,Recovered,False
+P0266,20,Male,O+,28.4,2025-07-08,2025-07-09,1,Elective,R50,Fever,N39,Urinary Tract Infection,Radiation Therapy,10414.06,Private,0.81,1978.67,8435.39,Recovered,True
+P0267,77,Female,A+,20.5,2025-06-30,2025-07-06,6,Emergency,J44,COPD,,,Radiation Therapy,138762.41,Medicare,0.76,33302.98,105459.43,Recovered,False
+P0268,16,Male,A+,29.4,2023-12-17,2023-12-18,1,Emergency,J18,Pneumonia,J01,Sinusitis,Chemotherapy,14130.24,Private,0.72,3956.47,10173.77,Improved,False
+P0269,36,Female,B+,28.0,2023-11-09,2023-11-13,4,Elective,M54,Back Pain,O80,Normal Delivery,Counseling,27491.85,Other,0.75,6872.96,20618.89,Deceased,False
+P0270,47,Male,A+,24.5,2024-10-24,2024-10-25,1,Emergency,M54,Back Pain,,,Counseling,4210.69,Private,0.9,421.07,3789.62,Improved,False
+P0271,73,Female,A+,21.8,2024-08-20,2024-08-22,2,Emergency,N39,Urinary Tract Infection,,,Chemotherapy,43576.48,Medicare,0.78,9586.83,33989.65,Recovered,False
+P0272,16,Male,A+,21.6,2023-12-28,2023-12-29,1,Elective,G47,Sleep Disorder,,,Surgery,11322.21,Medicaid,0.94,679.33,10642.88,Recovered,False
+P0273,68,Female,O+,28.7,2024-05-19,2024-05-29,10,Maternity,S06,Head Injury,,,Chemotherapy,162346.95,Medicare,0.77,37339.8,125007.15,Improved,False
+P0274,45,Male,O+,32.1,2024-03-22,2024-03-28,6,Elective,E11,Type 2 Diabetes,,,Medication,13378.96,Self-Pay,0.0,13378.96,0.0,Recovered,False
+P0275,25,Female,B+,22.8,2024-03-20,2024-03-23,3,Urgent,N39,Urinary Tract Infection,,,Surgery,41196.41,Other,0.63,15242.67,25953.74,Recovered,False
+P0276,54,Male,O+,28.3,2025-03-10,2025-03-11,1,Emergency,S06,Head Injury,J01,Sinusitis,Observation,2084.46,Medicaid,0.88,250.14,1834.32,Recovered,False
+P0277,48,Female,A+,15.6,2024-12-10,2024-12-13,3,Urgent,O80,Normal Delivery,,,Respiratory Therapy,11165.18,Other,0.68,3572.86,7592.32,Recovered,False
+P0278,32,Female,B+,23.1,2024-01-29,2024-01-30,1,Elective,I25,Coronary Artery Disease,,,Respiratory Therapy,4405.74,Medicare,0.82,793.03,3612.71,Recovered,False
+P0279,46,Male,A+,25.8,2024-11-13,2024-11-15,2,Urgent,F32,Depression,L20,Atopic Dermatitis,Radiation Therapy,30769.3,Medicare,0.81,5846.17,24923.13,Recovered,False
+P0280,37,Male,O+,21.5,2024-03-13,2024-03-15,2,Emergency,J01,Sinusitis,R10,Abdominal Pain,Observation,7012.37,Medicare,0.8,1402.47,5609.9,Recovered,False
+P0281,47,Male,O-,21.3,2024-06-19,2024-06-20,1,Elective,I25,Coronary Artery Disease,,,Respiratory Therapy,6947.95,Medicare,0.78,1528.55,5419.4,Recovered,False
+P0282,58,Female,O+,22.7,2024-12-24,2024-12-26,2,Elective,R50,Fever,E11,Type 2 Diabetes,IV Fluids,9554.2,Private,0.72,2675.18,6879.02,Recovered,True
+P0283,76,Female,A-,27.5,2024-05-20,2024-06-13,24,Emergency,J18,Pneumonia,,,Chemotherapy,466252.14,Self-Pay,0.0,466252.14,0.0,Improved,True
+P0284,20,Female,O+,25.1,2023-11-24,2023-11-30,6,Emergency,M54,Back Pain,,,Observation,21201.16,Private,0.75,5300.29,15900.87,Deceased,False
+P0285,87,Male,A+,15.0,2024-12-04,2024-12-09,5,Emergency,E11,Type 2 Diabetes,,,IV Fluids,28883.02,Medicare,0.79,6065.43,22817.59,Improved,False
+P0286,5,Male,O+,15.4,2025-03-24,2025-03-25,1,Emergency,M54,Back Pain,,,Pain Management,4856.43,Private,0.72,1359.8,3496.63,Recovered,False
+P0287,41,Female,B-,23.0,2023-12-17,2023-12-18,1,Urgent,O80,Normal Delivery,E11,Type 2 Diabetes,Surgery,21165.5,Private,0.8,4233.1,16932.4,Recovered,False
+P0288,56,Female,B+,28.3,2023-10-29,2023-11-01,3,Emergency,M54,Back Pain,I25,Coronary Artery Disease,Physical Therapy,26756.76,Medicaid,0.94,1605.41,25151.35,Recovered,False
+P0289,50,Female,O+,15.0,2025-07-06,2025-07-21,15,Emergency,G47,Sleep Disorder,J18,Pneumonia,Physical Therapy,90419.27,Private,0.75,22604.82,67814.45,Recovered,False
+P0290,32,Male,O+,23.5,2025-03-14,2025-03-15,1,Elective,K21,GERD,,,Physical Therapy,4399.99,Private,0.73,1188.0,3211.99,Improved,False
+P0291,40,Female,A+,23.4,2023-09-23,2023-09-29,6,Emergency,L20,Atopic Dermatitis,,,Pain Management,19866.03,Private,0.72,5562.49,14303.54,Improved,True
+P0292,35,Male,O+,32.9,2023-12-12,2023-12-13,1,Elective,E11,Type 2 Diabetes,,,Medication,3165.72,Private,0.81,601.49,2564.23,Improved,False
+P0293,33,Male,A+,24.1,2024-05-07,2024-05-20,13,Emergency,M54,Back Pain,,,Surgery,75973.42,Self-Pay,0.0,75973.42,0.0,Improved,False
+P0294,61,Female,O+,27.9,2024-02-25,2024-02-28,3,Maternity,S06,Head Injury,G47,Sleep Disorder,Physical Therapy,13517.29,Medicare,0.77,3108.98,10408.31,Recovered,False
+P0295,52,Female,O+,26.7,2024-10-28,2024-11-05,8,Urgent,S06,Head Injury,L20,Atopic Dermatitis,Surgery,134237.61,Medicaid,0.92,10739.01,123498.6,Recovered,False
+P0296,31,Female,O+,15.3,2025-01-17,2025-01-18,1,Urgent,J18,Pneumonia,,,Surgery,15036.61,Private,0.75,3759.15,11277.46,Improved,True
+P0297,62,Male,O+,29.8,2025-01-12,2025-01-18,6,Emergency,I10,Hypertension,,,IV Fluids,76941.87,Medicaid,0.86,10771.86,66170.01,Recovered,True
+P0298,51,Male,AB+,27.1,2024-04-13,2024-04-15,2,Urgent,F32,Depression,,,Counseling,6927.93,Self-Pay,0.0,6927.93,0.0,Recovered,False
+P0299,61,Female,A+,28.5,2024-10-22,2024-10-23,1,Emergency,N39,Urinary Tract Infection,,,Medication,4292.29,Medicaid,0.92,343.38,3948.91,Recovered,False
+P0300,57,Female,O+,45.0,2023-11-07,2023-11-22,15,Emergency,J45,Asthma,,,Chemotherapy,304055.91,Medicaid,0.89,33446.15,270609.76,Recovered,False
+P0301,28,Male,A+,15.6,2024-02-23,2024-03-01,7,Emergency,S06,Head Injury,,,Chemotherapy,47498.88,Self-Pay,0.0,47498.88,0.0,Recovered,False
+P0302,33,Male,B-,34.6,2024-09-30,2024-10-07,7,Elective,L20,Atopic Dermatitis,,,Surgery,58237.69,Medicaid,0.92,4659.02,53578.67,Stable,False
+P0303,59,Male,A+,24.6,2023-09-10,2023-09-15,5,Elective,E11,Type 2 Diabetes,,,Respiratory Therapy,40737.88,Private,0.93,2851.65,37886.23,Stable,False
+P0304,57,Female,A+,27.4,2024-10-11,2024-10-21,10,Elective,S06,Head Injury,,,IV Fluids,50573.76,Medicaid,0.89,5563.11,45010.65,Recovered,False
+P0305,44,Male,O+,25.8,2024-06-05,2024-06-06,1,Emergency,R50,Fever,,,IV Fluids,5123.27,Medicare,0.8,1024.65,4098.62,Recovered,True
+P0306,47,Male,A+,23.9,2024-12-16,2024-12-18,2,Emergency,E11,Type 2 Diabetes,J44,COPD,Respiratory Therapy,8196.12,Private,0.77,1885.11,6311.01,Improved,False
+P0307,70,Male,O+,23.2,2024-06-26,2024-06-28,2,Elective,M17,Osteoarthritis,,,Medication,10608.49,Medicare,0.82,1909.53,8698.96,Recovered,False
+P0308,33,Male,A+,27.6,2024-11-14,2024-11-17,3,Emergency,J45,Asthma,J44,COPD,Observation,7236.65,Self-Pay,0.0,7236.65,0.0,Recovered,False
+P0309,55,Male,A+,18.4,2025-08-21,2025-08-24,3,Elective,M17,Osteoarthritis,,,Pain Management,17854.53,Private,0.8,3570.91,14283.62,Recovered,False
+P0310,40,Female,AB+,29.8,2025-03-30,2025-03-31,1,Emergency,M54,Back Pain,,,Pain Management,3904.29,Medicare,0.82,702.77,3201.52,Recovered,False
+P0311,40,Male,A+,23.9,2025-07-16,2025-07-20,4,Urgent,N39,Urinary Tract Infection,,,Medication,18212.02,Private,0.94,1092.72,17119.3,Improved,False
+P0312,66,Female,A+,20.3,2025-01-18,2025-01-29,11,Elective,S06,Head Injury,,,Observation,92555.82,Private,0.84,14808.93,77746.89,Stable,False
+P0313,61,Male,O+,23.7,2024-02-13,2024-02-16,3,Emergency,M17,Osteoarthritis,O80,Normal Delivery,Pain Management,14311.51,Medicare,0.81,2719.19,11592.32,Recovered,False
+P0314,61,Female,A+,32.3,2024-03-20,2024-03-21,1,Emergency,I10,Hypertension,,,Pain Management,5500.62,Medicare,0.76,1320.15,4180.47,Recovered,False
+P0315,71,Female,O+,23.3,2024-07-07,2024-07-09,2,Elective,G47,Sleep Disorder,J45,Asthma,Medication,9584.89,Medicare,0.77,2204.52,7380.37,Recovered,False
+P0316,45,Female,A+,27.8,2024-04-17,2024-04-18,1,Urgent,K21,GERD,O80,Normal Delivery,IV Fluids,5850.52,Private,0.71,1696.65,4153.87,Recovered,False
+P0317,58,Female,A+,22.3,2023-11-06,2023-11-08,2,Emergency,A09,Gastroenteritis,,,Observation,8375.74,Private,0.89,921.33,7454.41,Deceased,False
+P0318,38,Male,O+,29.8,2025-04-23,2025-04-27,4,Emergency,K21,GERD,,,Respiratory Therapy,25796.06,Private,0.83,4385.33,21410.73,Improved,False
+P0319,51,Male,A+,29.4,2025-03-16,2025-03-21,5,Urgent,I25,Coronary Artery Disease,O80,Normal Delivery,Counseling,21537.1,Private,0.92,1722.97,19814.13,Improved,False
+P0320,42,Female,A+,35.2,2023-11-09,2023-11-14,5,Elective,M54,Back Pain,,,Observation,15267.66,Private,0.74,3969.59,11298.07,Improved,False
+P0321,46,Female,A-,25.1,2024-07-25,2024-07-27,2,Emergency,J18,Pneumonia,M17,Osteoarthritis,Counseling,9002.96,Private,0.68,2880.95,6122.01,Stable,False
+P0322,56,Female,A+,29.3,2023-11-05,2023-11-15,10,Elective,J45,Asthma,,,Counseling,34709.77,Private,0.78,7636.15,27073.62,Stable,False
+P0323,28,Female,O+,26.5,2023-10-29,2023-10-30,1,Emergency,J18,Pneumonia,,,Respiratory Therapy,3332.6,Medicaid,0.86,466.56,2866.04,Recovered,False
+P0324,86,Female,A+,32.5,2025-04-28,2025-05-04,6,Elective,E11,Type 2 Diabetes,,,Observation,61204.15,Self-Pay,0.0,61204.15,0.0,Recovered,False
+P0325,24,Male,O+,22.4,2025-01-08,2025-01-12,4,Emergency,F32,Depression,,,Medication,25469.31,Private,0.76,6112.63,19356.68,Recovered,False
+P0326,20,Male,O+,29.7,2025-02-03,2025-02-04,1,Maternity,K21,GERD,R10,Abdominal Pain,Counseling,2680.61,Private,0.86,375.29,2305.32,Recovered,False
+P0327,68,Female,B+,25.0,2025-03-04,2025-03-05,1,Elective,S06,Head Injury,,,Respiratory Therapy,7482.16,Private,0.75,1870.54,5611.62,Deceased,False
+P0328,60,Female,O+,25.7,2024-02-16,2024-02-29,13,Elective,S06,Head Injury,G47,Sleep Disorder,IV Fluids,44164.63,Medicare,0.77,10157.86,34006.77,Improved,False
+P0329,57,Male,A-,26.5,2023-11-05,2023-11-08,3,Elective,I25,Coronary Artery Disease,,,Counseling,9022.26,Private,0.79,1894.67,7127.59,Deteriorated,True
+P0330,57,Female,O-,27.3,2025-02-09,2025-02-15,6,Observation,M17,Osteoarthritis,,,Pain Management,18933.24,Medicaid,0.94,1135.99,17797.25,Recovered,True
+P0331,44,Male,A+,25.4,2023-11-29,2023-11-30,1,Urgent,J44,COPD,,,Observation,3259.54,Private,0.9,325.95,2933.59,Stable,False
+P0332,27,Female,O+,27.1,2024-03-16,2024-03-19,3,Elective,N39,Urinary Tract Infection,,,Medication,7115.35,Medicaid,0.91,640.38,6474.97,Recovered,False
+P0333,46,Male,B-,33.9,2023-11-17,2023-11-18,1,Elective,K21,GERD,,,Chemotherapy,16390.31,Private,0.74,4261.48,12128.83,Deceased,False
+P0334,31,Male,A-,30.9,2025-05-09,2025-05-10,1,Elective,S06,Head Injury,,,Medication,6915.0,Private,0.74,1797.9,5117.1,Recovered,False
+P0335,64,Female,O+,30.3,2023-11-16,2023-11-22,6,Elective,J18,Pneumonia,J44,COPD,Radiation Therapy,51703.87,Private,0.75,12925.97,38777.9,Improved,False
+P0336,42,Male,O+,23.7,2025-07-30,2025-07-31,1,Emergency,M17,Osteoarthritis,,,Counseling,4394.48,Medicare,0.81,834.95,3559.53,Improved,False
+P0337,28,Female,A+,21.6,2024-05-05,2024-05-06,1,Elective,N39,Urinary Tract Infection,,,Observation,2481.35,Other,0.62,942.91,1538.44,Recovered,False
+P0338,38,Female,A+,30.8,2024-10-25,2024-10-26,1,Emergency,O80,Normal Delivery,J45,Asthma,Pain Management,7057.38,Private,0.77,1623.2,5434.18,Recovered,False
+P0339,53,Female,O+,30.4,2024-01-08,2024-01-09,1,Observation,R10,Abdominal Pain,A09,Gastroenteritis,Surgery,10390.74,Private,0.97,311.72,10079.02,Deceased,False
+P0340,33,Male,O+,33.4,2025-04-13,2025-04-14,1,Emergency,I10,Hypertension,,,Medication,7020.57,Medicaid,0.9,702.06,6318.51,Recovered,False
+P0341,28,Male,O-,23.0,2024-05-17,2024-05-18,1,Maternity,F32,Depression,,,Counseling,2040.05,Private,0.77,469.21,1570.84,Recovered,False
+P0342,49,Male,O+,24.9,2025-04-22,2025-05-04,12,Elective,K21,GERD,R50,Fever,Counseling,32737.27,Medicare,0.77,7529.57,25207.7,Recovered,False
+P0343,49,Female,O-,17.8,2025-05-08,2025-05-09,1,Elective,J45,Asthma,,,Physical Therapy,3420.01,Private,0.74,889.2,2530.81,Stable,False
+P0344,34,Female,O+,24.0,2023-10-18,2023-10-20,2,Elective,M54,Back Pain,,,Pain Management,12068.85,Medicare,0.83,2051.7,10017.15,Improved,False
+P0345,35,Female,A+,31.0,2025-06-03,2025-06-04,1,Emergency,I10,Hypertension,,,Observation,3925.79,Private,0.71,1138.48,2787.31,Recovered,False
+P0346,49,Female,A+,23.7,2023-11-30,2023-12-01,1,Emergency,R07,Chest Pain,R10,Abdominal Pain,Chemotherapy,15612.91,Private,0.81,2966.45,12646.46,Recovered,False
+P0347,16,Female,O+,29.2,2024-11-10,2024-11-14,4,Emergency,K21,GERD,,,Pain Management,20232.56,Medicaid,0.91,1820.93,18411.63,Recovered,False
+P0348,16,Female,O+,25.0,2025-07-12,2025-07-13,1,Elective,J44,COPD,O80,Normal Delivery,Radiation Therapy,3704.01,Medicaid,0.9,370.4,3333.61,Recovered,False
+P0349,30,Male,A+,27.6,2025-04-27,2025-05-07,10,Emergency,M54,Back Pain,,,Pain Management,63950.46,Self-Pay,0.0,63950.46,0.0,Recovered,True
+P0350,40,Female,A-,20.3,2025-04-08,2025-04-09,1,Urgent,S06,Head Injury,G47,Sleep Disorder,Chemotherapy,19070.15,Medicare,0.77,4386.13,14684.02,Improved,True
+P0351,51,Male,O-,26.4,2025-02-24,2025-03-03,7,Emergency,J18,Pneumonia,,,Medication,104339.32,Private,0.76,25041.44,79297.88,Recovered,False
+P0352,74,Female,B-,15.0,2024-07-27,2024-08-01,5,Emergency,M17,Osteoarthritis,,,Pain Management,27230.65,Medicare,0.83,4629.21,22601.44,Recovered,False
+P0353,62,Female,B+,25.1,2024-06-01,2024-06-14,13,Emergency,F32,Depression,A09,Gastroenteritis,Counseling,35909.03,Medicare,0.78,7899.99,28009.04,Improved,False
+P0354,41,Female,B+,17.8,2024-04-04,2024-04-08,4,Observation,O80,Normal Delivery,,,IV Fluids,26552.9,Medicare,0.77,6107.17,20445.73,Recovered,False
+P0355,44,Male,A+,32.0,2025-07-24,2025-07-27,3,Elective,I25,Coronary Artery Disease,,,Physical Therapy,14775.82,Private,0.72,4137.23,10638.59,Recovered,False
+P0356,24,Male,A-,29.9,2024-07-25,2024-07-26,1,Emergency,M54,Back Pain,,,Medication,8010.5,Medicaid,0.92,640.84,7369.66,Improved,False
+P0357,44,Male,A-,28.3,2024-05-09,2024-05-10,1,Elective,J45,Asthma,,,Surgery,11421.63,Self-Pay,0.0,11421.63,0.0,Improved,False
+P0358,39,Male,A+,33.6,2024-06-05,2024-06-15,10,Emergency,I25,Coronary Artery Disease,,,Chemotherapy,134697.12,Private,0.89,14816.68,119880.44,Improved,False
+P0359,51,Male,O+,21.3,2024-10-17,2024-10-19,2,Maternity,M17,Osteoarthritis,I25,Coronary Artery Disease,IV Fluids,15370.67,Medicare,0.83,2613.01,12757.66,Improved,False
+P0360,28,Female,B+,34.7,2024-01-20,2024-01-21,1,Elective,O80,Normal Delivery,,,Radiation Therapy,14161.5,Private,0.69,4390.07,9771.44,Recovered,False
+P0361,55,Female,O+,30.7,2025-07-26,2025-08-03,8,Emergency,N39,Urinary Tract Infection,,,Respiratory Therapy,84717.3,Medicare,0.77,19484.98,65232.32,Recovered,False
+P0362,75,Male,O+,24.8,2025-06-29,2025-07-03,4,Elective,J45,Asthma,,,Respiratory Therapy,22890.17,Medicare,0.83,3891.33,18998.84,Recovered,False
+P0363,42,Male,A+,31.7,2024-07-11,2024-07-24,13,Emergency,S06,Head Injury,E11,Type 2 Diabetes,IV Fluids,107673.33,Medicare,0.82,19381.2,88292.13,Recovered,False
+P0364,53,Male,O+,20.5,2024-12-19,2024-12-26,7,Maternity,I10,Hypertension,I25,Coronary Artery Disease,Physical Therapy,22535.85,Medicaid,0.91,2028.23,20507.62,Deteriorated,False
+P0365,58,Female,B+,21.9,2024-07-27,2024-08-01,5,Emergency,M54,Back Pain,,,Pain Management,15344.09,Private,0.7,4603.23,10740.86,Recovered,False
+P0366,36,Female,O+,23.0,2023-11-21,2023-11-28,7,Elective,J01,Sinusitis,,,Chemotherapy,159089.33,Other,0.59,65226.63,93862.7,Recovered,False
+P0367,49,Female,A+,23.4,2023-09-17,2023-09-18,1,Emergency,L20,Atopic Dermatitis,F32,Depression,Chemotherapy,13591.8,Medicaid,0.88,1631.02,11960.78,Recovered,False
+P0368,45,Female,O+,20.7,2024-12-20,2024-12-21,1,Elective,I10,Hypertension,,,Medication,7116.47,Private,0.73,1921.45,5195.02,Improved,False
+P0369,46,Female,O+,32.1,2025-06-05,2025-06-08,3,Urgent,G47,Sleep Disorder,J18,Pneumonia,Radiation Therapy,41771.12,Medicare,0.78,9189.65,32581.47,Improved,True
+P0370,29,Female,A+,24.7,2025-04-06,2025-04-07,1,Elective,R07,Chest Pain,G47,Sleep Disorder,Medication,4948.2,Private,0.78,1088.6,3859.6,Recovered,False
+P0371,45,Male,A+,27.8,2023-12-19,2023-12-25,6,Elective,R07,Chest Pain,O80,Normal Delivery,Respiratory Therapy,24579.69,Private,0.91,2212.17,22367.52,Stable,True
+P0372,54,Female,O+,23.1,2023-11-22,2023-12-06,14,Urgent,J01,Sinusitis,,,Physical Therapy,76463.23,Medicare,0.83,12998.75,63464.48,Recovered,False
+P0373,74,Male,O+,16.9,2025-03-11,2025-03-15,4,Emergency,I25,Coronary Artery Disease,S06,Head Injury,Surgery,106234.17,Medicare,0.8,21246.83,84987.34,Recovered,False
+P0374,64,Female,A+,27.4,2024-04-13,2024-04-16,3,Emergency,I10,Hypertension,O80,Normal Delivery,IV Fluids,17626.63,Medicare,0.84,2820.26,14806.37,Recovered,False
+P0375,88,Male,O+,16.4,2025-02-07,2025-03-08,29,Emergency,J45,Asthma,,,Radiation Therapy,484860.64,Medicare,0.83,82426.31,402434.33,Improved,False
+P0376,29,Female,A-,25.7,2024-06-05,2024-06-06,1,Maternity,I25,Coronary Artery Disease,,,Surgery,19565.46,Medicare,0.81,3717.44,15848.02,Improved,False
+P0377,62,Female,O+,19.2,2024-01-21,2024-01-25,4,Emergency,S06,Head Injury,,,Surgery,39843.03,Private,0.92,3187.44,36655.59,Improved,True
+P0378,48,Female,A+,35.9,2024-08-30,2024-09-01,2,Elective,N39,Urinary Tract Infection,,,IV Fluids,16334.08,Other,0.58,6860.31,9473.77,Improved,False
+P0379,88,Female,O+,30.6,2023-11-17,2023-12-09,22,Elective,I25,Coronary Artery Disease,,,Medication,101508.3,Medicare,0.81,19286.58,82221.72,Deteriorated,False
+P0380,28,Male,A+,26.5,2024-05-15,2024-05-17,2,Emergency,R10,Abdominal Pain,,,Chemotherapy,22933.58,Private,0.9,2293.36,20640.22,Stable,False
+P0381,28,Male,A-,32.3,2024-09-20,2024-09-24,4,Emergency,G47,Sleep Disorder,,,Counseling,38934.01,Private,0.73,10512.18,28421.83,Improved,False
+P0382,33,Male,A+,21.8,2024-06-25,2024-06-30,5,Emergency,J45,Asthma,,,Respiratory Therapy,39870.34,Self-Pay,0.0,39870.34,0.0,Improved,False
+P0383,2,Male,A+,28.7,2024-02-16,2024-02-17,1,Emergency,J18,Pneumonia,,,Respiratory Therapy,4705.32,Private,0.84,752.85,3952.47,Recovered,False
+P0384,34,Female,AB+,27.0,2024-11-29,2024-12-01,2,Emergency,R50,Fever,M54,Back Pain,Pain Management,12999.04,Private,0.9,1299.9,11699.14,Improved,False
+P0385,29,Male,A+,27.3,2025-03-17,2025-03-22,5,Emergency,L20,Atopic Dermatitis,R07,Chest Pain,Medication,24597.44,Medicaid,0.88,2951.69,21645.75,Stable,True
+P0386,48,Female,O+,32.4,2025-08-28,2025-08-30,2,Urgent,E11,Type 2 Diabetes,,,Medication,20484.63,Medicare,0.83,3482.39,17002.24,Recovered,False
+P0387,51,Female,A+,29.7,2024-07-13,2024-07-21,8,Maternity,N39,Urinary Tract Infection,,,Physical Therapy,45664.29,Medicare,0.8,9132.86,36531.43,Improved,False
+P0388,82,Female,A-,27.4,2025-05-26,2025-06-19,24,Emergency,L20,Atopic Dermatitis,,,Surgery,770949.28,Medicare,0.76,185027.83,585921.45,Deceased,False
+P0389,64,Male,A+,17.7,2025-07-08,2025-07-14,6,Emergency,E11,Type 2 Diabetes,R07,Chest Pain,Medication,17538.57,Medicare,0.8,3507.71,14030.86,Recovered,False
+P0390,33,Female,A+,21.2,2025-03-02,2025-03-06,4,Emergency,J45,Asthma,J01,Sinusitis,Radiation Therapy,44636.71,Private,0.76,10712.81,33923.9,Improved,False
+P0391,27,Female,A+,25.4,2023-09-16,2023-09-20,4,Elective,O80,Normal Delivery,N39,Urinary Tract Infection,Counseling,12180.99,Medicaid,0.91,1096.29,11084.7,Recovered,False
+P0392,54,Female,B+,26.5,2025-07-22,2025-08-01,10,Urgent,I10,Hypertension,,,Respiratory Therapy,50071.09,Private,0.77,11516.35,38554.74,Deteriorated,True
+P0393,18,Female,B-,20.3,2025-03-28,2025-03-29,1,Emergency,J18,Pneumonia,A09,Gastroenteritis,Chemotherapy,11260.27,Medicare,0.77,2589.86,8670.41,Improved,False
+P0394,81,Female,B+,38.1,2024-07-10,2024-07-11,1,Emergency,M17,Osteoarthritis,,,Pain Management,4070.8,Medicare,0.82,732.74,3338.06,Recovered,False
+P0395,68,Male,AB+,33.6,2025-07-18,2025-07-22,4,Urgent,F32,Depression,A09,Gastroenteritis,Physical Therapy,45119.94,Medicare,0.83,7670.39,37449.55,Recovered,False
+P0396,35,Female,O+,29.0,2023-12-23,2023-12-27,4,Elective,I10,Hypertension,,,Medication,36683.74,Medicare,0.83,6236.24,30447.5,Improved,False
+P0397,10,Male,A+,26.4,2024-01-23,2024-01-24,1,Emergency,J18,Pneumonia,S06,Head Injury,Respiratory Therapy,6982.71,Medicaid,0.89,768.1,6214.61,Recovered,False
+P0398,72,Male,B+,24.9,2024-06-04,2024-06-14,10,Elective,I25,Coronary Artery Disease,,,Medication,41850.18,Medicare,0.79,8788.54,33061.64,Recovered,False
+P0399,42,Male,O-,21.2,2024-01-04,2024-01-06,2,Emergency,N39,Urinary Tract Infection,R50,Fever,Medication,8103.38,Medicare,0.76,1944.81,6158.57,Improved,False
+P0400,69,Male,AB+,26.4,2023-12-26,2024-01-03,8,Emergency,N39,Urinary Tract Infection,O80,Normal Delivery,Chemotherapy,153448.47,Medicaid,0.91,13810.36,139638.11,Recovered,False
+P0401,13,Male,O+,27.3,2025-03-27,2025-03-28,1,Urgent,R10,Abdominal Pain,,,Observation,4120.51,Medicare,0.8,824.1,3296.41,Recovered,False
+P0402,33,Male,A+,19.8,2024-02-14,2024-02-18,4,Urgent,R50,Fever,,,IV Fluids,18811.83,Self-Pay,0.0,18811.83,0.0,Stable,False
+P0403,45,Female,O+,27.7,2024-06-12,2024-06-15,3,Emergency,N39,Urinary Tract Infection,I25,Coronary Artery Disease,Medication,17395.21,Self-Pay,0.0,17395.21,0.0,Stable,False
+P0404,45,Female,O+,25.2,2024-06-22,2024-06-23,1,Observation,G47,Sleep Disorder,,,Pain Management,9087.9,Private,0.71,2635.49,6452.41,Improved,False
+P0405,35,Female,AB+,16.5,2025-05-19,2025-05-20,1,Emergency,O80,Normal Delivery,,,IV Fluids,5301.87,Private,0.7,1590.56,3711.31,Stable,False
+P0406,57,Male,O-,21.7,2024-04-10,2024-04-17,7,Urgent,L20,Atopic Dermatitis,,,Respiratory Therapy,33552.69,Self-Pay,0.0,33552.69,0.0,Recovered,False
+P0407,23,Male,A+,23.9,2024-08-24,2024-08-25,1,Elective,J45,Asthma,,,Pain Management,3590.7,Self-Pay,0.0,3590.7,0.0,Recovered,False
+P0408,42,Female,A+,35.4,2024-04-03,2024-04-04,1,Urgent,I25,Coronary Artery Disease,,,Radiation Therapy,13349.5,Other,0.58,5606.79,7742.71,Recovered,False
+P0409,47,Male,O+,28.8,2025-08-11,2025-08-27,16,Observation,J18,Pneumonia,,,Surgery,510217.13,Medicare,0.82,91839.08,418378.05,Improved,False
+P0410,55,Male,O+,19.3,2025-06-18,2025-06-25,7,Emergency,F32,Depression,,,Counseling,18654.27,Medicare,0.78,4103.94,14550.33,Deteriorated,False
+P0411,59,Female,A+,28.4,2024-06-04,2024-06-22,18,Observation,J01,Sinusitis,,,Counseling,113792.8,Private,0.86,15930.99,97861.81,Improved,False
+P0412,22,Male,A+,18.3,2025-02-06,2025-02-07,1,Urgent,K21,GERD,M54,Back Pain,Counseling,2984.48,Private,0.86,417.83,2566.65,Stable,False
+P0413,14,Female,A+,31.4,2025-01-20,2025-01-21,1,Urgent,J45,Asthma,M17,Osteoarthritis,Counseling,3512.77,Medicare,0.76,843.06,2669.71,Improved,False
+P0414,70,Female,A+,23.6,2024-05-22,2024-06-07,16,Emergency,G47,Sleep Disorder,E11,Type 2 Diabetes,Observation,76769.77,Medicare,0.8,15353.95,61415.82,Recovered,False
+P0415,51,Male,O+,25.5,2023-10-30,2023-11-03,4,Urgent,E11,Type 2 Diabetes,,,Pain Management,20424.84,Self-Pay,0.0,20424.84,0.0,Recovered,False
+P0416,30,Male,AB+,32.6,2023-12-11,2023-12-15,4,Urgent,M17,Osteoarthritis,I10,Hypertension,Pain Management,27996.38,Self-Pay,0.0,27996.38,0.0,Recovered,False
+P0417,76,Female,A-,19.6,2025-06-18,2025-06-21,3,Emergency,M17,Osteoarthritis,,,Pain Management,20542.93,Medicare,0.78,4519.44,16023.49,Recovered,False
+P0418,47,Male,A-,19.0,2024-11-14,2024-11-16,2,Maternity,K21,GERD,,,Observation,5270.52,Self-Pay,0.0,5270.52,0.0,Improved,False
+P0419,68,Male,A+,23.1,2024-06-17,2024-06-18,1,Emergency,L20,Atopic Dermatitis,J01,Sinusitis,Medication,6511.44,Medicare,0.81,1237.17,5274.27,Recovered,False
+P0420,46,Female,A+,31.2,2023-10-23,2023-10-24,1,Emergency,S06,Head Injury,G47,Sleep Disorder,Physical Therapy,5426.31,Private,0.88,651.16,4775.15,Improved,False
+P0421,86,Male,O+,18.4,2023-09-11,2023-09-12,1,Elective,L20,Atopic Dermatitis,M17,Osteoarthritis,Chemotherapy,8143.56,Medicare,0.77,1873.02,6270.54,Improved,False
+P0422,80,Female,O-,15.0,2024-08-14,2024-08-15,1,Elective,I10,Hypertension,E11,Type 2 Diabetes,Pain Management,4032.2,Medicare,0.79,846.76,3185.44,Recovered,False
+P0423,40,Female,O+,23.7,2024-01-19,2024-02-03,15,Elective,M54,Back Pain,,,Counseling,18094.67,Medicaid,0.88,2171.36,15923.31,Recovered,False
+P0424,64,Male,A+,28.8,2025-06-21,2025-06-23,2,Emergency,M17,Osteoarthritis,,,Pain Management,13127.11,Medicaid,0.88,1575.25,11551.86,Recovered,False
+P0425,57,Male,O+,32.0,2024-06-02,2024-06-08,6,Maternity,S06,Head Injury,J01,Sinusitis,Surgery,158154.91,Private,0.73,42701.83,115453.08,Recovered,False
+P0426,72,Male,O+,23.7,2024-02-20,2024-03-05,14,Emergency,R10,Abdominal Pain,,,Physical Therapy,52982.83,Medicare,0.77,12186.05,40796.78,Stable,False
+P0427,25,Male,O+,23.9,2024-12-03,2024-12-05,2,Emergency,J18,Pneumonia,,,IV Fluids,14455.13,Other,0.75,3613.78,10841.35,Recovered,False
+P0428,58,Male,B+,31.8,2025-03-25,2025-03-26,1,Emergency,J45,Asthma,E11,Type 2 Diabetes,Surgery,16995.05,Medicare,0.78,3738.91,13256.14,Improved,True
+P0429,66,Female,A-,16.7,2025-08-30,2025-09-08,9,Elective,F32,Depression,N39,Urinary Tract Infection,Physical Therapy,36676.63,Medicare,0.78,8068.86,28607.77,Stable,False
+P0430,9,Male,A+,24.1,2024-11-18,2024-11-19,1,Observation,J01,Sinusitis,,,Physical Therapy,9886.92,Private,0.96,395.48,9491.44,Recovered,False
+P0431,21,Female,A+,27.0,2025-04-04,2025-04-06,2,Elective,I25,Coronary Artery Disease,S06,Head Injury,Physical Therapy,10334.91,Private,0.86,1446.89,8888.02,Recovered,False
+P0432,4,Female,A+,28.2,2023-09-17,2023-09-18,1,Urgent,J44,COPD,I25,Coronary Artery Disease,Respiratory Therapy,15430.35,Medicaid,0.93,1080.12,14350.23,Recovered,False
+P0433,39,Female,A+,23.5,2023-12-31,2024-01-14,14,Emergency,O80,Normal Delivery,F32,Depression,Radiation Therapy,84750.07,Private,0.78,18645.02,66105.05,Recovered,False
+P0434,59,Female,B+,26.2,2023-11-24,2023-11-29,5,Elective,J45,Asthma,,,Counseling,16616.47,Private,0.87,2160.14,14456.33,Recovered,False
+P0435,75,Male,O+,15.0,2025-08-15,2025-08-19,4,Elective,J44,COPD,,,Medication,20251.85,Medicare,0.82,3645.33,16606.52,Recovered,False
+P0436,46,Female,B+,22.7,2024-02-07,2024-02-12,5,Elective,J44,COPD,,,IV Fluids,24069.08,Private,0.96,962.76,23106.32,Stable,True
+P0437,77,Female,A+,28.3,2025-03-19,2025-03-20,1,Emergency,J18,Pneumonia,,,Chemotherapy,19374.92,Medicare,0.78,4262.48,15112.44,Improved,False
+P0438,17,Male,O-,21.1,2023-10-14,2023-10-18,4,Elective,L20,Atopic Dermatitis,,,Respiratory Therapy,95944.94,Private,0.77,22067.34,73877.6,Recovered,True
+P0439,10,Male,O-,26.3,2024-09-20,2024-09-21,1,Elective,R07,Chest Pain,,,IV Fluids,5885.65,Self-Pay,0.0,5885.65,0.0,Recovered,False
+P0440,43,Female,O+,28.2,2025-04-26,2025-04-27,1,Urgent,O80,Normal Delivery,,,Physical Therapy,6452.8,Medicare,0.77,1484.14,4968.66,Recovered,False
+P0441,52,Male,O-,24.3,2025-03-26,2025-04-04,9,Elective,F32,Depression,L20,Atopic Dermatitis,Pain Management,31769.62,Medicaid,0.93,2223.87,29545.75,Improved,False
+P0442,44,Male,AB-,26.9,2024-02-06,2024-02-10,4,Emergency,J01,Sinusitis,,,Respiratory Therapy,12123.71,Self-Pay,0.0,12123.71,0.0,Improved,False
+P0443,3,Male,O-,21.2,2024-11-21,2024-11-22,1,Elective,J44,COPD,K21,GERD,Radiation Therapy,18735.08,Medicaid,0.89,2060.86,16674.22,Stable,False
+P0444,43,Male,A+,25.0,2024-01-16,2024-01-19,3,Emergency,I25,Coronary Artery Disease,L20,Atopic Dermatitis,Medication,10817.51,Medicaid,0.86,1514.45,9303.06,Deteriorated,True
+P0445,18,Female,A-,29.1,2023-10-20,2023-10-23,3,Urgent,S06,Head Injury,,,Observation,26616.14,Other,0.62,10114.13,16502.01,Recovered,False
+P0446,58,Female,A+,26.8,2024-07-19,2024-07-22,3,Elective,R10,Abdominal Pain,J44,COPD,IV Fluids,21188.24,Medicare,0.76,5085.18,16103.06,Recovered,False
+P0447,52,Female,A+,23.1,2024-09-15,2024-09-26,11,Emergency,M17,Osteoarthritis,,,Physical Therapy,67996.74,Medicare,0.79,14279.32,53717.42,Recovered,False
+P0448,26,Male,A+,27.1,2023-10-18,2023-10-19,1,Maternity,M17,Osteoarthritis,,,Physical Therapy,7264.63,Self-Pay,0.0,7264.63,0.0,Recovered,False
+P0449,34,Male,O+,29.6,2024-09-08,2024-09-13,5,Elective,N39,Urinary Tract Infection,S06,Head Injury,Pain Management,34560.24,Self-Pay,0.0,34560.24,0.0,Stable,False
+P0450,23,Female,O+,15.8,2024-04-10,2024-04-14,4,Emergency,I10,Hypertension,,,Respiratory Therapy,18749.19,Medicaid,0.87,2437.39,16311.8,Recovered,False
+P0451,43,Male,O+,31.8,2025-08-06,2025-08-07,1,Elective,M54,Back Pain,G47,Sleep Disorder,Pain Management,2879.18,Private,0.79,604.63,2274.55,Improved,False
+P0452,64,Male,A+,24.3,2024-05-20,2024-05-23,3,Emergency,E11,Type 2 Diabetes,,,Surgery,38532.52,Private,0.79,8091.83,30440.69,Recovered,False
+P0453,25,Female,O+,28.1,2025-07-21,2025-07-22,1,Urgent,F32,Depression,N39,Urinary Tract Infection,Counseling,4223.69,Private,0.82,760.26,3463.43,Recovered,False
+P0454,55,Male,O+,32.0,2023-12-22,2023-12-29,7,Urgent,A09,Gastroenteritis,,,Radiation Therapy,69237.98,Medicare,0.78,15232.36,54005.62,Recovered,False
+P0455,34,Female,A-,19.1,2024-09-04,2024-09-06,2,Maternity,F32,Depression,J45,Asthma,Medication,6328.6,Medicare,0.8,1265.72,5062.88,Improved,False
+P0456,29,Male,O+,22.5,2025-04-03,2025-04-06,3,Elective,I25,Coronary Artery Disease,,,Respiratory Therapy,13697.32,Medicaid,0.88,1643.68,12053.64,Recovered,False
+P0457,42,Male,A+,24.6,2024-10-28,2024-10-29,1,Elective,G47,Sleep Disorder,I10,Hypertension,Observation,5082.47,Self-Pay,0.0,5082.47,0.0,Recovered,False
+P0458,24,Male,A-,22.1,2025-06-04,2025-06-05,1,Urgent,J18,Pneumonia,J01,Sinusitis,Physical Therapy,8136.27,Self-Pay,0.0,8136.27,0.0,Improved,False
+P0459,33,Female,O+,34.7,2024-02-13,2024-02-14,1,Emergency,J45,Asthma,,,Chemotherapy,15102.38,Other,0.76,3624.57,11477.81,Stable,True
+P0460,21,Female,A+,21.7,2024-05-07,2024-05-08,1,Elective,E11,Type 2 Diabetes,J45,Asthma,Respiratory Therapy,8050.88,Self-Pay,0.0,8050.88,0.0,Recovered,False
+P0461,84,Female,B+,23.2,2024-02-21,2024-02-29,8,Elective,M54,Back Pain,,,Counseling,19603.36,Private,0.77,4508.77,15094.59,Improved,False
+P0462,45,Female,O+,27.0,2024-03-07,2024-03-16,9,Emergency,A09,Gastroenteritis,L20,Atopic Dermatitis,Pain Management,42368.93,Medicaid,0.87,5507.96,36860.97,Recovered,False
+P0463,31,Male,O+,20.0,2024-11-03,2024-11-06,3,Emergency,N39,Urinary Tract Infection,,,IV Fluids,19546.96,Private,0.93,1368.29,18178.67,Improved,False
+P0464,49,Female,A+,24.0,2023-10-03,2023-10-05,2,Urgent,S06,Head Injury,R10,Abdominal Pain,Medication,6491.54,Private,0.82,1168.48,5323.06,Improved,False
+P0465,42,Male,A+,27.6,2024-03-09,2024-03-22,13,Urgent,R50,Fever,N39,Urinary Tract Infection,Observation,48829.47,Private,0.72,13672.25,35157.22,Deceased,False
+P0466,40,Female,A+,24.3,2024-08-13,2024-08-18,5,Emergency,S06,Head Injury,,,IV Fluids,15561.49,Medicare,0.82,2801.07,12760.42,Recovered,False
+P0467,57,Male,O+,25.5,2024-11-02,2024-11-17,15,Emergency,J01,Sinusitis,,,Pain Management,42073.85,Self-Pay,0.0,42073.85,0.0,Recovered,False
+P0468,60,Female,B+,23.4,2025-07-24,2025-07-28,4,Emergency,N39,Urinary Tract Infection,,,Respiratory Therapy,33293.99,Medicaid,0.88,3995.28,29298.71,Recovered,False
+P0469,34,Male,A+,18.4,2024-05-19,2024-05-20,1,Urgent,I10,Hypertension,K21,GERD,Pain Management,8721.48,Medicaid,0.92,697.72,8023.76,Recovered,False
+P0470,33,Male,O-,27.6,2024-06-07,2024-06-08,1,Emergency,R50,Fever,,,Surgery,10348.45,Private,0.79,2173.17,8175.28,Improved,False
+P0471,39,Female,AB+,34.8,2024-02-18,2024-02-23,5,Elective,G47,Sleep Disorder,,,Radiation Therapy,35546.59,Private,0.81,6753.85,28792.74,Stable,False
+P0472,0,Male,A+,26.1,2025-08-26,2025-08-27,1,Emergency,J45,Asthma,M54,Back Pain,Pain Management,2369.44,Medicare,0.82,426.5,1942.94,Recovered,False
+P0473,14,Male,B-,27.1,2023-12-27,2023-12-28,1,Elective,R07,Chest Pain,,,Physical Therapy,12519.93,Private,0.88,1502.39,11017.54,Recovered,False
+P0474,72,Male,O+,29.5,2024-10-03,2024-10-08,5,Emergency,I25,Coronary Artery Disease,E11,Type 2 Diabetes,Medication,23504.25,Medicare,0.83,3995.72,19508.53,Recovered,False
+P0475,77,Male,A+,19.7,2023-10-17,2023-10-24,7,Urgent,M17,Osteoarthritis,,,Pain Management,30267.35,Medicare,0.8,6053.47,24213.88,Recovered,False
+P0476,40,Female,A+,34.5,2025-01-01,2025-01-05,4,Emergency,L20,Atopic Dermatitis,,,Pain Management,21984.7,Medicaid,0.92,1758.78,20225.92,Recovered,False
+P0477,56,Female,O+,27.0,2024-04-22,2024-04-23,1,Elective,G47,Sleep Disorder,L20,Atopic Dermatitis,Surgery,7007.83,Private,0.91,630.7,6377.13,Recovered,False
+P0478,51,Female,B+,34.2,2024-03-30,2024-04-02,3,Emergency,A09,Gastroenteritis,,,Pain Management,24713.95,Other,0.73,6672.77,18041.18,Improved,False
+P0479,100,Female,AB-,22.3,2024-12-22,2025-01-01,10,Elective,I25,Coronary Artery Disease,,,Respiratory Therapy,156384.86,Medicare,0.77,35968.52,120416.34,Recovered,True
+P0480,67,Male,B+,35.1,2024-08-31,2024-09-24,24,Urgent,F32,Depression,E11,Type 2 Diabetes,Counseling,67228.02,Medicare,0.81,12773.32,54454.7,Improved,False
+P0481,42,Female,A+,29.9,2024-07-16,2024-07-21,5,Emergency,N39,Urinary Tract Infection,,,Pain Management,73428.76,Medicare,0.83,12482.89,60945.87,Improved,False
+P0482,25,Male,A+,28.8,2024-04-28,2024-05-04,6,Urgent,L20,Atopic Dermatitis,J18,Pneumonia,Chemotherapy,84460.25,Medicare,0.83,14358.24,70102.01,Recovered,False
+P0483,12,Male,B+,27.2,2024-04-23,2024-04-24,1,Elective,J18,Pneumonia,J44,COPD,Medication,10527.63,Private,0.86,1473.87,9053.76,Improved,True
+P0484,49,Female,A+,24.8,2023-10-02,2023-10-06,4,Emergency,G47,Sleep Disorder,,,Physical Therapy,27367.25,Medicare,0.79,5747.12,21620.13,Improved,False
+P0485,29,Male,A+,32.0,2025-07-14,2025-07-15,1,Emergency,L20,Atopic Dermatitis,,,Counseling,4706.32,Private,0.93,329.44,4376.88,Recovered,False
+P0486,16,Female,O+,26.7,2024-03-23,2024-03-24,1,Emergency,J45,Asthma,N39,Urinary Tract Infection,Counseling,8684.07,Private,0.89,955.25,7728.82,Recovered,False
+P0487,32,Male,O-,16.2,2024-10-20,2024-10-23,3,Elective,S06,Head Injury,,,Pain Management,23497.67,Other,0.68,7519.25,15978.42,Recovered,False
+P0488,23,Female,O+,20.4,2024-08-09,2024-08-11,2,Urgent,G47,Sleep Disorder,,,IV Fluids,12748.15,Medicare,0.84,2039.7,10708.45,Recovered,False
+P0489,78,Female,O+,25.1,2024-06-19,2024-06-25,6,Emergency,J01,Sinusitis,O80,Normal Delivery,Counseling,11574.59,Medicaid,0.91,1041.71,10532.88,Improved,True
+P0490,62,Female,A+,27.5,2023-11-18,2023-11-22,4,Elective,I10,Hypertension,,,IV Fluids,12279.09,Private,0.89,1350.7,10928.39,Recovered,False
+P0491,44,Female,O-,25.7,2024-06-19,2024-06-21,2,Urgent,M54,Back Pain,K21,GERD,Physical Therapy,12813.09,Medicare,0.81,2434.49,10378.6,Recovered,False
+P0492,74,Female,A+,32.1,2024-09-01,2024-09-06,5,Observation,M17,Osteoarthritis,,,Medication,42759.52,Medicare,0.82,7696.71,35062.81,Recovered,False
+P0493,46,Male,O-,16.2,2025-06-25,2025-06-26,1,Elective,J18,Pneumonia,,,IV Fluids,5286.6,Medicaid,0.92,422.93,4863.67,Recovered,False
+P0494,27,Female,O-,26.7,2025-02-10,2025-02-14,4,Maternity,N39,Urinary Tract Infection,,,Medication,14689.5,Medicaid,0.94,881.37,13808.13,Recovered,False
+P0495,75,Male,O+,16.9,2024-10-21,2024-10-24,3,Elective,S06,Head Injury,F32,Depression,Physical Therapy,9165.88,Medicare,0.76,2199.81,6966.07,Recovered,False
+P0496,55,Female,O-,29.8,2025-08-03,2025-08-04,1,Emergency,N39,Urinary Tract Infection,I10,Hypertension,Respiratory Therapy,4237.53,Medicare,0.76,1017.01,3220.52,Recovered,False
+P0497,24,Female,O+,25.5,2025-03-10,2025-03-11,1,Urgent,N39,Urinary Tract Infection,L20,Atopic Dermatitis,Chemotherapy,13688.9,Private,0.78,3011.56,10677.34,Recovered,False
+P0498,41,Female,A+,28.1,2024-08-12,2024-08-16,4,Elective,J44,COPD,,,Pain Management,16110.12,Medicaid,0.94,966.61,15143.51,Recovered,False
+P0499,27,Male,B+,21.7,2023-10-06,2023-10-07,1,Elective,A09,Gastroenteritis,,,Physical Therapy,4103.73,Medicare,0.78,902.82,3200.91,Recovered,False
+P0500,17,Male,O+,32.4,2024-01-04,2024-01-05,1,Elective,J45,Asthma,,,Medication,4848.14,Medicaid,0.9,484.81,4363.33,Recovered,False
+P0501,63,Female,A+,31.2,2024-06-01,2024-06-07,6,Urgent,J18,Pneumonia,,,Physical Therapy,59602.33,Medicare,0.76,14304.56,45297.77,Recovered,False
+P0502,83,Male,O+,28.9,2024-03-08,2024-03-12,4,Urgent,J18,Pneumonia,,,Respiratory Therapy,31352.01,Medicare,0.8,6270.4,25081.61,Improved,False
+P0503,17,Male,O-,25.4,2025-04-24,2025-04-28,4,Emergency,R50,Fever,M54,Back Pain,Radiation Therapy,52201.02,Medicare,0.79,10962.21,41238.81,Recovered,False
+P0504,56,Male,A+,28.9,2024-06-05,2024-06-19,14,Emergency,G47,Sleep Disorder,,,Counseling,59386.02,Private,0.7,17815.81,41570.21,Recovered,False
+P0505,31,Female,O+,22.5,2023-10-17,2023-10-19,2,Elective,R10,Abdominal Pain,J18,Pneumonia,Pain Management,14031.99,Private,0.84,2245.12,11786.87,Recovered,False
+P0506,35,Female,O+,30.3,2023-12-28,2023-12-29,1,Elective,J18,Pneumonia,,,Pain Management,6148.77,Private,0.76,1475.7,4673.07,Improved,True
+P0507,33,Male,O-,34.2,2025-05-10,2025-05-14,4,Emergency,J44,COPD,M54,Back Pain,Surgery,49673.2,Private,0.97,1490.2,48183.0,Deteriorated,False
+P0508,27,Male,O-,31.4,2024-11-25,2024-11-26,1,Urgent,J01,Sinusitis,,,Chemotherapy,16856.94,Medicaid,0.94,1011.42,15845.52,Recovered,False
+P0509,45,Male,AB+,22.4,2024-08-26,2024-08-29,3,Elective,I10,Hypertension,,,Radiation Therapy,35227.35,Private,0.94,2113.64,33113.71,Recovered,False
+P0510,28,Female,O-,27.8,2024-07-25,2024-07-26,1,Emergency,N39,Urinary Tract Infection,,,Observation,2065.35,Private,0.84,330.46,1734.89,Recovered,False
+P0511,50,Female,O+,19.5,2024-11-27,2024-12-10,13,Emergency,I25,Coronary Artery Disease,,,Observation,82111.26,Medicaid,0.89,9032.24,73079.02,Recovered,False
+P0512,43,Male,A+,28.9,2025-05-20,2025-05-21,1,Emergency,I25,Coronary Artery Disease,,,Surgery,6671.23,Private,0.9,667.12,6004.11,Improved,False
+P0513,40,Male,B+,28.3,2025-02-12,2025-02-16,4,Observation,F32,Depression,,,Counseling,29276.18,Medicaid,0.92,2342.09,26934.09,Improved,False
+P0514,26,Male,O+,16.7,2024-01-04,2024-01-07,3,Emergency,K21,GERD,,,Radiation Therapy,47595.14,Medicaid,0.92,3807.61,43787.53,Recovered,False
+P0515,33,Female,A+,20.2,2024-10-06,2024-10-08,2,Emergency,L20,Atopic Dermatitis,S06,Head Injury,Medication,7241.77,Private,0.79,1520.77,5721.0,Stable,False
+P0516,60,Female,O+,24.6,2025-04-20,2025-04-21,1,Elective,E11,Type 2 Diabetes,J44,COPD,Medication,4725.59,Medicare,0.8,945.12,3780.47,Improved,False
+P0517,55,Male,O+,24.5,2024-03-20,2024-04-08,19,Emergency,G47,Sleep Disorder,L20,Atopic Dermatitis,Chemotherapy,212974.28,Medicaid,0.87,27686.66,185287.62,Improved,False
+P0518,25,Male,A+,20.0,2024-05-25,2024-05-27,2,Emergency,I25,Coronary Artery Disease,,,Chemotherapy,37747.88,Medicare,0.83,6417.14,31330.74,Recovered,False
+P0519,46,Male,O+,27.9,2023-10-23,2023-10-27,4,Emergency,N39,Urinary Tract Infection,I10,Hypertension,Medication,29244.53,Medicaid,0.89,3216.9,26027.63,Stable,False
+P0520,60,Female,O+,27.3,2025-09-02,2025-09-04,2,Elective,J01,Sinusitis,,,Respiratory Therapy,16601.94,Medicare,0.82,2988.35,13613.59,Deteriorated,True
+P0521,11,Male,B-,25.0,2024-11-27,2024-11-28,1,Elective,L20,Atopic Dermatitis,,,Physical Therapy,7297.52,Private,0.83,1240.58,6056.94,Recovered,False
+P0522,55,Female,A+,22.2,2023-09-09,2023-09-12,3,Emergency,R07,Chest Pain,,,Counseling,10436.57,Private,0.91,939.29,9497.28,Recovered,False
+P0523,31,Female,A+,31.2,2025-02-21,2025-02-22,1,Emergency,K21,GERD,,,Radiation Therapy,24836.32,Private,0.77,5712.35,19123.97,Recovered,False
+P0524,56,Male,A-,34.3,2025-03-12,2025-03-13,1,Maternity,R10,Abdominal Pain,,,Surgery,22161.49,Medicaid,0.94,1329.69,20831.8,Improved,False
+P0525,29,Male,O+,23.6,2025-08-11,2025-08-16,5,Emergency,K21,GERD,,,Chemotherapy,55098.86,Other,0.53,25896.46,29202.4,Improved,False
+P0526,8,Male,A+,22.9,2025-07-25,2025-07-26,1,Emergency,J01,Sinusitis,,,Physical Therapy,7583.64,Private,0.8,1516.73,6066.91,Recovered,False
+P0527,12,Female,O+,28.5,2024-03-27,2024-03-28,1,Emergency,L20,Atopic Dermatitis,J01,Sinusitis,Counseling,5394.49,Medicaid,0.94,323.67,5070.82,Stable,True
+P0528,45,Female,A+,24.2,2024-09-14,2024-09-17,3,Elective,I10,Hypertension,L20,Atopic Dermatitis,Medication,14483.9,Private,0.74,3765.81,10718.09,Recovered,False
+P0529,50,Female,A+,25.3,2024-11-22,2024-11-30,8,Urgent,R07,Chest Pain,J01,Sinusitis,Counseling,30203.45,Private,0.91,2718.31,27485.14,Improved,False
+P0530,26,Female,O+,29.7,2023-11-18,2023-11-19,1,Emergency,L20,Atopic Dermatitis,O80,Normal Delivery,Surgery,23368.57,Private,0.84,3738.97,19629.6,Recovered,False
+P0531,57,Male,O+,16.5,2025-07-19,2025-07-24,5,Elective,J45,Asthma,,,Respiratory Therapy,32387.69,Medicare,0.82,5829.78,26557.91,Recovered,False
+P0532,11,Female,A+,32.6,2024-08-11,2024-08-12,1,Emergency,M54,Back Pain,S06,Head Injury,Pain Management,7010.89,Medicaid,0.93,490.76,6520.13,Recovered,False
+P0533,43,Female,B+,26.4,2025-06-07,2025-06-08,1,Emergency,J44,COPD,J01,Sinusitis,Medication,7949.38,Self-Pay,0.0,7949.38,0.0,Recovered,False
+P0534,20,Male,A+,23.9,2024-07-25,2024-07-26,1,Urgent,S06,Head Injury,,,Chemotherapy,39346.68,Private,0.83,6688.94,32657.74,Improved,True
+P0535,31,Female,B+,25.6,2025-07-18,2025-07-23,5,Emergency,R10,Abdominal Pain,,,Medication,19543.31,Private,0.77,4494.96,15048.35,Improved,False
+P0536,45,Female,O+,25.8,2024-01-13,2024-01-14,1,Elective,I25,Coronary Artery Disease,R07,Chest Pain,Respiratory Therapy,5505.13,Private,0.76,1321.23,4183.9,Recovered,False
+P0537,27,Female,A+,17.3,2024-07-11,2024-07-12,1,Emergency,K21,GERD,,,Physical Therapy,5956.76,Private,0.71,1727.46,4229.3,Recovered,False
+P0538,37,Female,A+,33.5,2025-02-08,2025-02-10,2,Elective,L20,Atopic Dermatitis,M17,Osteoarthritis,Counseling,7480.66,Medicare,0.76,1795.36,5685.3,Recovered,False
+P0539,65,Female,A-,26.2,2024-07-20,2024-08-02,13,Emergency,R10,Abdominal Pain,,,Counseling,61739.85,Private,0.83,10495.77,51244.08,Improved,False
+P0540,33,Female,O+,28.2,2025-07-21,2025-07-22,1,Urgent,E11,Type 2 Diabetes,,,Observation,2687.96,Medicare,0.78,591.35,2096.61,Improved,False
+P0541,61,Male,O-,30.8,2024-10-30,2024-11-02,3,Emergency,J44,COPD,,,Counseling,6840.0,Private,0.69,2120.4,4719.6,Recovered,False
+P0542,22,Male,A+,20.9,2024-08-07,2024-08-08,1,Urgent,J18,Pneumonia,,,Respiratory Therapy,11909.42,Private,0.77,2739.17,9170.25,Improved,False
+P0543,55,Female,O+,28.4,2024-10-24,2024-10-27,3,Emergency,I10,Hypertension,N39,Urinary Tract Infection,Medication,20208.13,Medicare,0.84,3233.3,16974.83,Recovered,False
+P0544,73,Male,A-,24.7,2025-08-21,2025-08-28,7,Elective,E11,Type 2 Diabetes,K21,GERD,Observation,20343.34,Medicare,0.83,3458.37,16884.97,Stable,False
+P0545,0,Male,A-,30.2,2024-07-06,2024-07-07,1,Emergency,R50,Fever,,,IV Fluids,6532.09,Medicaid,0.93,457.25,6074.84,Stable,False
+P0546,29,Male,O+,15.4,2025-03-28,2025-03-29,1,Observation,J01,Sinusitis,,,Physical Therapy,12447.72,Medicare,0.77,2862.98,9584.74,Recovered,False
+P0547,56,Male,O+,25.5,2024-01-16,2024-01-18,2,Emergency,M54,Back Pain,K21,GERD,Pain Management,8452.32,Medicaid,0.88,1014.28,7438.04,Deteriorated,False
+P0548,40,Female,O-,23.0,2024-03-22,2024-03-23,1,Emergency,E11,Type 2 Diabetes,G47,Sleep Disorder,Surgery,15057.06,Medicare,0.77,3463.12,11593.94,Stable,False
+P0549,52,Female,O+,28.2,2024-11-11,2024-11-14,3,Elective,I10,Hypertension,,,Pain Management,10645.05,Medicaid,0.93,745.15,9899.9,Stable,False
+P0550,32,Male,A-,28.4,2025-07-19,2025-07-20,1,Emergency,M54,Back Pain,,,Pain Management,5205.48,Medicaid,0.86,728.77,4476.71,Improved,False
+P0551,46,Male,O+,22.5,2024-09-30,2024-10-07,7,Emergency,J18,Pneumonia,F32,Depression,Medication,40538.54,Private,0.82,7296.94,33241.6,Recovered,False
+P0552,41,Male,A+,22.4,2025-08-01,2025-08-14,13,Observation,M17,Osteoarthritis,R10,Abdominal Pain,Pain Management,51151.72,Private,0.8,10230.34,40921.38,Recovered,False
+P0553,68,Female,O+,25.4,2024-03-04,2024-03-28,24,Maternity,N39,Urinary Tract Infection,,,Physical Therapy,123685.57,Medicare,0.82,22263.4,101422.17,Recovered,False
+P0554,50,Female,A-,21.5,2025-05-30,2025-06-10,11,Emergency,O80,Normal Delivery,,,Physical Therapy,85885.97,Medicare,0.83,14600.61,71285.36,Improved,False
+P0555,51,Male,O+,30.2,2025-04-12,2025-04-17,5,Observation,M17,Osteoarthritis,E11,Type 2 Diabetes,Physical Therapy,37140.85,Self-Pay,0.0,37140.85,0.0,Recovered,False
+P0556,36,Female,A+,24.2,2024-07-12,2024-07-17,5,Elective,M54,Back Pain,J01,Sinusitis,Pain Management,18370.94,Private,0.93,1285.97,17084.97,Recovered,False
+P0557,35,Female,A+,15.0,2024-10-27,2024-10-28,1,Emergency,N39,Urinary Tract Infection,,,Physical Therapy,7134.52,Medicare,0.84,1141.52,5993.0,Recovered,False
+P0558,36,Female,O+,24.1,2025-03-22,2025-03-25,3,Elective,O80,Normal Delivery,,,Medication,18891.86,Private,0.78,4156.21,14735.65,Recovered,False
+P0559,52,Female,A+,20.8,2023-09-08,2023-09-12,4,Elective,R10,Abdominal Pain,M17,Osteoarthritis,IV Fluids,23231.6,Medicare,0.82,4181.69,19049.91,Improved,False
+P0560,36,Male,B-,17.8,2024-07-15,2024-07-17,2,Maternity,E11,Type 2 Diabetes,,,Medication,15848.07,Private,0.83,2694.17,13153.9,Deteriorated,False
+P0561,50,Female,A+,19.8,2024-06-27,2024-07-05,8,Emergency,R10,Abdominal Pain,,,Surgery,89313.93,Medicaid,0.94,5358.84,83955.09,Improved,True
+P0562,86,Male,A+,26.5,2024-04-10,2024-04-13,3,Elective,M17,Osteoarthritis,,,Physical Therapy,20125.59,Medicare,0.8,4025.12,16100.47,Improved,False
+P0563,62,Female,A+,32.6,2024-11-21,2024-11-23,2,Emergency,J18,Pneumonia,,,Chemotherapy,17055.17,Self-Pay,0.0,17055.17,0.0,Improved,False
+P0564,38,Female,A+,27.6,2025-04-23,2025-05-02,9,Emergency,J44,COPD,R07,Chest Pain,Chemotherapy,62775.81,Medicaid,0.9,6277.58,56498.23,Recovered,False
+P0565,69,Female,O+,23.0,2025-05-21,2025-05-22,1,Emergency,M17,Osteoarthritis,,,Medication,7368.72,Medicare,0.83,1252.68,6116.04,Recovered,True
+P0566,36,Female,A+,28.3,2025-07-09,2025-07-11,2,Maternity,O80,Normal Delivery,R10,Abdominal Pain,Observation,7373.25,Self-Pay,0.0,7373.25,0.0,Stable,True
+P0567,4,Male,O-,23.7,2024-08-02,2024-08-03,1,Urgent,N39,Urinary Tract Infection,,,IV Fluids,4190.26,Self-Pay,0.0,4190.26,0.0,Improved,False
+P0568,24,Female,O+,22.5,2024-12-27,2024-12-29,2,Urgent,N39,Urinary Tract Infection,,,Radiation Therapy,14461.68,Private,0.8,2892.34,11569.34,Improved,False
+P0569,7,Female,B+,20.2,2024-12-03,2024-12-04,1,Elective,I25,Coronary Artery Disease,,,Physical Therapy,7459.66,Medicaid,0.93,522.18,6937.48,Recovered,False
+P0570,37,Female,O+,17.2,2024-12-03,2024-12-04,1,Emergency,F32,Depression,J44,COPD,Counseling,2040.82,Medicare,0.79,428.57,1612.25,Recovered,False
+P0571,45,Male,AB+,24.1,2025-07-30,2025-08-01,2,Emergency,F32,Depression,R10,Abdominal Pain,Counseling,10795.4,Private,0.84,1727.26,9068.14,Recovered,False
+P0572,78,Male,O+,26.8,2024-04-13,2024-04-28,15,Emergency,S06,Head Injury,,,Surgery,266653.92,Medicare,0.76,63996.94,202656.98,Recovered,False
+P0573,51,Male,A+,25.5,2025-02-12,2025-02-17,5,Emergency,J45,Asthma,A09,Gastroenteritis,Surgery,44094.29,Medicare,0.77,10141.69,33952.6,Recovered,False
+P0574,40,Female,A-,23.9,2025-01-04,2025-01-07,3,Urgent,N39,Urinary Tract Infection,E11,Type 2 Diabetes,Pain Management,19488.53,Private,0.78,4287.48,15201.05,Recovered,False
+P0575,61,Female,O+,21.3,2024-02-28,2024-02-29,1,Elective,N39,Urinary Tract Infection,O80,Normal Delivery,Physical Therapy,16078.72,Medicare,0.79,3376.53,12702.19,Recovered,False
+P0576,0,Male,O-,29.0,2025-07-13,2025-07-14,1,Emergency,J45,Asthma,,,Radiation Therapy,19374.49,Medicare,0.84,3099.92,16274.57,Improved,False
+P0577,49,Female,O+,19.4,2023-12-03,2023-12-19,16,Emergency,N39,Urinary Tract Infection,L20,Atopic Dermatitis,Pain Management,67865.09,Medicaid,0.93,4750.56,63114.53,Stable,True
+P0578,60,Female,B+,29.9,2024-06-24,2024-06-27,3,Emergency,R07,Chest Pain,,,Respiratory Therapy,27115.25,Medicare,0.83,4609.59,22505.66,Recovered,False
+P0579,15,Female,O+,21.0,2025-02-16,2025-02-17,1,Emergency,R50,Fever,,,Radiation Therapy,7446.87,Medicare,0.83,1265.97,6180.9,Recovered,False
+P0580,67,Female,B+,22.2,2025-07-18,2025-07-19,1,Observation,N39,Urinary Tract Infection,I25,Coronary Artery Disease,Respiratory Therapy,3994.2,Medicare,0.79,838.78,3155.42,Recovered,False
+P0581,51,Female,B-,18.7,2025-06-17,2025-06-23,6,Elective,L20,Atopic Dermatitis,,,Medication,28758.38,Medicare,0.78,6326.84,22431.54,Recovered,False
+P0582,36,Female,A+,23.5,2025-06-03,2025-06-13,10,Urgent,I25,Coronary Artery Disease,,,Respiratory Therapy,82762.42,Private,0.78,18207.73,64554.69,Recovered,False
+P0583,57,Male,O+,30.9,2024-08-16,2024-08-21,5,Elective,S06,Head Injury,,,Chemotherapy,87795.88,Private,0.85,13169.38,74626.5,Improved,False
+P0584,90,Female,A+,28.6,2023-12-12,2023-12-13,1,Emergency,E11,Type 2 Diabetes,I25,Coronary Artery Disease,IV Fluids,7618.67,Medicare,0.79,1599.92,6018.75,Recovered,False
+P0585,48,Female,A+,30.9,2024-05-05,2024-05-09,4,Emergency,J18,Pneumonia,M54,Back Pain,Observation,15929.86,Private,0.83,2708.08,13221.78,Improved,True
+P0586,49,Female,O+,28.6,2025-07-27,2025-08-03,7,Urgent,F32,Depression,,,Pain Management,21351.65,Medicare,0.83,3629.78,17721.87,Improved,False
+P0587,35,Female,A+,20.5,2024-07-21,2024-07-23,2,Urgent,O80,Normal Delivery,J44,COPD,Observation,6895.03,Medicare,0.79,1447.96,5447.07,Improved,False
+P0588,28,Female,A+,24.3,2024-04-25,2024-05-01,6,Emergency,A09,Gastroenteritis,,,Counseling,33066.14,Medicare,0.83,5621.24,27444.9,Improved,False
+P0589,61,Male,A+,22.1,2024-03-29,2024-04-05,7,Elective,L20,Atopic Dermatitis,,,Radiation Therapy,93497.19,Private,0.83,15894.52,77602.67,Deteriorated,True
+P0590,27,Male,O-,32.7,2024-02-05,2024-02-11,6,Elective,M54,Back Pain,A09,Gastroenteritis,Chemotherapy,80108.11,Private,0.97,2403.24,77704.87,Recovered,False
+P0591,46,Male,B-,20.0,2023-10-03,2023-10-07,4,Elective,K21,GERD,,,Respiratory Therapy,26367.85,Private,0.69,8174.03,18193.82,Recovered,False
+P0592,35,Male,B+,30.5,2023-10-25,2023-10-26,1,Observation,J01,Sinusitis,,,Pain Management,6025.9,Medicaid,0.9,602.59,5423.31,Improved,False
+P0593,54,Female,O+,30.5,2024-05-15,2024-05-17,2,Elective,R10,Abdominal Pain,,,Physical Therapy,4956.11,Medicare,0.79,1040.78,3915.33,Improved,False
+P0594,51,Female,O+,35.1,2025-01-06,2025-01-08,2,Elective,J44,COPD,O80,Normal Delivery,Pain Management,17746.02,Private,0.9,1774.6,15971.42,Recovered,False
+P0595,65,Male,A+,24.0,2025-05-25,2025-06-09,15,Emergency,S06,Head Injury,,,Pain Management,79920.55,Medicare,0.77,18381.73,61538.82,Recovered,False
+P0596,34,Male,O+,29.6,2023-11-21,2023-11-26,5,Emergency,J18,Pneumonia,E11,Type 2 Diabetes,Observation,25051.88,Private,0.79,5260.89,19790.99,Recovered,False
+P0597,39,Female,O+,37.4,2024-12-17,2024-12-21,4,Emergency,F32,Depression,L20,Atopic Dermatitis,Pain Management,9016.27,Private,0.97,270.49,8745.78,Recovered,False
+P0598,25,Male,O+,22.9,2024-11-05,2024-11-06,1,Emergency,A09,Gastroenteritis,,,Physical Therapy,10607.11,Private,0.79,2227.49,8379.62,Recovered,False
+P0599,36,Female,A+,18.3,2025-06-13,2025-06-14,1,Elective,N39,Urinary Tract Infection,M54,Back Pain,Surgery,9368.6,Self-Pay,0.0,9368.6,0.0,Deteriorated,True
+P0600,52,Female,O+,16.6,2025-04-19,2025-04-27,8,Elective,G47,Sleep Disorder,,,Surgery,349317.02,Self-Pay,0.0,349317.02,0.0,Improved,False
+P0601,60,Female,AB+,29.6,2024-03-25,2024-03-29,4,Emergency,F32,Depression,,,Medication,47523.67,Private,0.82,8554.26,38969.41,Recovered,False
+P0602,26,Male,A+,16.6,2025-08-21,2025-08-22,1,Urgent,J01,Sinusitis,S06,Head Injury,Respiratory Therapy,3607.46,Private,0.95,180.37,3427.09,Recovered,False
+P0603,62,Male,B+,24.1,2024-10-05,2024-10-11,6,Emergency,J01,Sinusitis,R10,Abdominal Pain,Pain Management,49669.36,Medicare,0.81,9437.18,40232.18,Stable,True
+P0604,72,Female,A+,28.2,2025-01-26,2025-01-27,1,Emergency,J45,Asthma,,,Pain Management,4094.95,Medicare,0.78,900.89,3194.06,Recovered,True
+P0605,53,Female,A+,26.9,2024-10-21,2024-10-23,2,Emergency,J01,Sinusitis,,,Respiratory Therapy,10346.05,Medicaid,0.91,931.14,9414.91,Recovered,True
+P0606,82,Male,O+,28.1,2024-05-14,2024-05-20,6,Emergency,N39,Urinary Tract Infection,,,Medication,23808.35,Medicare,0.8,4761.67,19046.68,Improved,False
+P0607,29,Female,A+,27.1,2024-02-06,2024-02-07,1,Emergency,A09,Gastroenteritis,,,Surgery,18945.57,Medicaid,0.88,2273.47,16672.1,Improved,False
+P0608,20,Male,B+,32.4,2025-07-10,2025-07-18,8,Elective,I10,Hypertension,,,Medication,48084.05,Medicare,0.77,11059.33,37024.72,Recovered,False
+P0609,9,Female,AB+,21.2,2025-08-12,2025-08-13,1,Emergency,S06,Head Injury,,,Radiation Therapy,7718.06,Private,0.74,2006.7,5711.36,Recovered,False
+P0610,74,Male,A+,22.6,2023-09-13,2023-09-14,1,Maternity,F32,Depression,N39,Urinary Tract Infection,Counseling,4622.58,Medicare,0.8,924.52,3698.06,Recovered,True
+P0611,58,Female,O-,22.1,2023-12-26,2023-12-28,2,Emergency,J45,Asthma,,,Medication,9315.4,Medicaid,0.91,838.39,8477.01,Recovered,False
+P0612,43,Male,A+,30.2,2024-11-16,2024-11-22,6,Emergency,M54,Back Pain,,,Physical Therapy,18170.58,Medicare,0.81,3452.41,14718.17,Recovered,False
+P0613,50,Male,A+,30.5,2024-04-19,2024-04-22,3,Emergency,G47,Sleep Disorder,J44,COPD,Surgery,33506.89,Self-Pay,0.0,33506.89,0.0,Recovered,False
+P0614,22,Male,A+,28.3,2024-03-06,2024-03-08,2,Elective,J18,Pneumonia,I25,Coronary Artery Disease,Respiratory Therapy,27269.83,Private,0.83,4635.87,22633.96,Recovered,False
+P0615,93,Male,A+,31.9,2025-08-20,2025-08-21,1,Emergency,M54,Back Pain,,,Radiation Therapy,9805.09,Medicare,0.8,1961.02,7844.07,Deteriorated,False
+P0616,47,Female,A+,20.1,2025-02-19,2025-02-20,1,Urgent,A09,Gastroenteritis,,,Chemotherapy,6564.53,Medicaid,0.94,393.87,6170.66,Recovered,False
+P0617,47,Female,O+,34.3,2024-12-26,2024-12-28,2,Elective,J44,COPD,F32,Depression,Radiation Therapy,36570.33,Private,0.82,6582.66,29987.67,Deteriorated,False
+P0618,59,Male,O-,33.6,2023-10-29,2023-11-08,10,Elective,G47,Sleep Disorder,,,Observation,22434.25,Medicaid,0.86,3140.8,19293.45,Stable,True
+P0619,54,Male,A+,29.7,2025-03-31,2025-04-11,11,Elective,R50,Fever,,,Physical Therapy,70356.94,Medicare,0.81,13367.82,56989.12,Recovered,False
+P0620,49,Female,O+,34.9,2024-05-20,2024-05-21,1,Emergency,J18,Pneumonia,A09,Gastroenteritis,Respiratory Therapy,5526.15,Medicare,0.83,939.45,4586.7,Improved,True
+P0621,29,Female,O+,17.7,2024-01-10,2024-01-12,2,Emergency,J45,Asthma,,,IV Fluids,21416.51,Medicaid,0.94,1284.99,20131.52,Recovered,False
+P0622,54,Female,O+,23.4,2024-12-18,2025-01-01,14,Emergency,N39,Urinary Tract Infection,,,Counseling,48081.29,Medicare,0.84,7693.01,40388.28,Improved,False
+P0623,82,Male,B+,22.3,2024-01-22,2024-01-26,4,Elective,J44,COPD,,,Pain Management,14517.74,Other,0.59,5952.27,8565.47,Recovered,False
+P0624,71,Male,A+,29.6,2024-12-26,2025-01-07,12,Emergency,J45,Asthma,,,Radiation Therapy,119136.53,Medicare,0.8,23827.31,95309.22,Improved,True
+P0625,76,Female,A+,20.7,2025-07-22,2025-07-23,1,Emergency,L20,Atopic Dermatitis,,,Chemotherapy,9248.13,Medicare,0.81,1757.14,7490.99,Recovered,False
+P0626,34,Male,O+,29.8,2025-03-04,2025-03-13,9,Maternity,R10,Abdominal Pain,F32,Depression,Medication,44707.0,Medicaid,0.87,5811.91,38895.09,Stable,False
+P0627,25,Female,O+,32.9,2025-04-02,2025-04-05,3,Emergency,J45,Asthma,,,Respiratory Therapy,35908.18,Medicaid,0.93,2513.57,33394.61,Recovered,False
+P0628,42,Male,A+,29.5,2025-05-09,2025-05-21,12,Urgent,S06,Head Injury,,,Physical Therapy,121883.1,Private,0.92,9750.65,112132.45,Recovered,False
+P0629,46,Female,A-,27.4,2024-07-28,2024-08-02,5,Urgent,L20,Atopic Dermatitis,,,Surgery,151842.53,Medicare,0.78,33405.36,118437.17,Recovered,False
+P0630,66,Male,O+,21.1,2024-12-04,2024-12-07,3,Emergency,M54,Back Pain,A09,Gastroenteritis,Counseling,12945.39,Medicare,0.77,2977.44,9967.95,Recovered,False
+P0631,11,Female,O+,21.8,2025-05-27,2025-05-30,3,Emergency,N39,Urinary Tract Infection,,,Counseling,11504.41,Medicaid,0.92,920.35,10584.06,Improved,False
+P0632,75,Female,O-,32.2,2025-02-05,2025-02-08,3,Emergency,G47,Sleep Disorder,,,Medication,10810.9,Private,0.81,2054.07,8756.83,Recovered,False
+P0633,41,Female,O+,29.9,2024-11-17,2024-11-19,2,Elective,J01,Sinusitis,N39,Urinary Tract Infection,Respiratory Therapy,15488.89,Private,0.88,1858.67,13630.22,Improved,False
+P0634,36,Male,A-,25.8,2025-03-22,2025-03-27,5,Elective,G47,Sleep Disorder,,,Respiratory Therapy,28466.68,Self-Pay,0.0,28466.68,0.0,Recovered,False
+P0635,24,Female,O+,23.9,2024-12-07,2024-12-10,3,Urgent,N39,Urinary Tract Infection,,,Surgery,56309.12,Private,0.74,14640.37,41668.75,Recovered,False
+P0636,11,Female,O+,15.9,2024-02-17,2024-02-20,3,Observation,J45,Asthma,,,Chemotherapy,24985.27,Private,0.9,2498.53,22486.74,Improved,False
+P0637,61,Female,A+,20.6,2025-01-06,2025-01-08,2,Elective,R07,Chest Pain,,,IV Fluids,11077.1,Medicaid,0.9,1107.71,9969.39,Recovered,False
+P0638,46,Female,AB-,35.6,2024-12-11,2024-12-18,7,Emergency,J01,Sinusitis,,,Counseling,14871.66,Private,0.84,2379.47,12492.19,Improved,False
+P0639,19,Female,O+,19.6,2024-05-30,2024-06-01,2,Emergency,I25,Coronary Artery Disease,I10,Hypertension,Radiation Therapy,26560.79,Private,0.88,3187.29,23373.5,Recovered,False
+P0640,19,Female,A+,26.9,2024-05-18,2024-05-19,1,Urgent,J18,Pneumonia,,,Radiation Therapy,16926.61,Self-Pay,0.0,16926.61,0.0,Recovered,False
+P0641,38,Male,O+,31.0,2025-06-21,2025-06-23,2,Emergency,S06,Head Injury,,,Respiratory Therapy,6425.78,Medicare,0.82,1156.64,5269.14,Improved,True
+P0642,78,Female,O+,19.7,2024-06-17,2024-06-20,3,Emergency,S06,Head Injury,,,Observation,6549.13,Medicaid,0.88,785.9,5763.23,Recovered,False
+P0643,39,Female,O-,26.9,2025-02-22,2025-02-23,1,Elective,K21,GERD,,,Respiratory Therapy,3923.88,Private,0.99,39.24,3884.64,Improved,False
+P0644,14,Male,A+,30.7,2025-01-16,2025-01-21,5,Emergency,J45,Asthma,,,Medication,22597.09,Medicaid,0.86,3163.59,19433.5,Recovered,False
+P0645,40,Male,A+,26.1,2025-06-10,2025-06-14,4,Observation,G47,Sleep Disorder,M54,Back Pain,Chemotherapy,33299.03,Medicaid,0.94,1997.94,31301.09,Improved,False
+P0646,39,Male,O+,40.3,2024-05-09,2024-05-14,5,Elective,J44,COPD,,,Pain Management,54436.97,Medicaid,0.88,6532.44,47904.53,Deteriorated,False
+P0647,0,Female,A+,17.7,2024-06-15,2024-06-16,1,Emergency,R50,Fever,L20,Atopic Dermatitis,Medication,5606.34,Private,0.86,784.89,4821.45,Recovered,False
+P0648,43,Female,O+,31.3,2024-12-01,2024-12-03,2,Observation,M54,Back Pain,,,Observation,8463.4,Other,0.76,2031.22,6432.18,Improved,False
+P0649,40,Female,O+,25.1,2023-11-26,2023-12-03,7,Emergency,F32,Depression,,,Observation,13866.25,Medicaid,0.9,1386.62,12479.62,Recovered,False
+P0650,58,Female,A+,29.9,2025-09-07,2025-09-10,3,Emergency,K21,GERD,,,Medication,23074.37,Medicare,0.79,4845.62,18228.75,Recovered,False
+P0651,81,Male,AB+,28.2,2024-06-26,2024-07-13,17,Emergency,M54,Back Pain,,,Pain Management,118106.42,Medicare,0.79,24802.35,93304.07,Recovered,False
+P0652,67,Male,B-,22.3,2024-05-05,2024-05-06,1,Emergency,R07,Chest Pain,,,Radiation Therapy,9266.13,Medicare,0.81,1760.56,7505.57,Recovered,False
+P0653,39,Male,A-,27.1,2024-06-12,2024-06-23,11,Elective,K21,GERD,,,Pain Management,37123.55,Private,0.75,9280.89,27842.66,Recovered,False
+P0654,22,Male,O-,16.7,2024-08-16,2024-08-17,1,Emergency,I25,Coronary Artery Disease,R10,Abdominal Pain,Radiation Therapy,12565.98,Private,0.97,376.98,12189.0,Recovered,False
+P0655,96,Male,O+,29.0,2024-07-31,2024-08-03,3,Emergency,I25,Coronary Artery Disease,,,Radiation Therapy,33153.44,Medicare,0.83,5636.08,27517.36,Recovered,False
+P0656,46,Male,O+,27.5,2025-03-14,2025-03-21,7,Emergency,G47,Sleep Disorder,,,Respiratory Therapy,37984.06,Private,0.78,8356.49,29627.57,Recovered,True
+P0657,45,Female,O+,29.2,2023-11-29,2023-12-01,2,Urgent,I25,Coronary Artery Disease,,,Respiratory Therapy,8865.93,Private,0.79,1861.85,7004.08,Improved,False
+P0658,44,Female,B+,31.3,2024-01-27,2024-01-31,4,Urgent,L20,Atopic Dermatitis,,,Medication,26700.86,Medicare,0.84,4272.14,22428.72,Stable,True
+P0659,48,Female,O+,27.8,2024-02-09,2024-02-11,2,Emergency,J01,Sinusitis,,,Counseling,2933.52,Medicaid,0.87,381.36,2552.16,Recovered,False
+P0660,42,Female,O+,26.7,2024-05-01,2024-05-06,5,Emergency,A09,Gastroenteritis,,,Surgery,119992.95,Other,0.74,31198.17,88794.78,Recovered,False
+P0661,33,Female,O+,21.6,2024-10-04,2024-10-05,1,Emergency,O80,Normal Delivery,,,Radiation Therapy,17117.0,Medicaid,0.93,1198.19,15918.81,Recovered,False
+P0662,34,Male,O+,22.4,2025-08-18,2025-08-19,1,Emergency,S06,Head Injury,K21,GERD,Radiation Therapy,12063.41,Private,0.7,3619.02,8444.39,Stable,False
+P0663,44,Female,A+,31.9,2024-02-11,2024-02-12,1,Urgent,O80,Normal Delivery,J18,Pneumonia,Chemotherapy,13233.97,Medicaid,0.92,1058.72,12175.25,Improved,False
+P0664,34,Female,O+,33.2,2025-08-31,2025-09-02,2,Elective,J45,Asthma,,,Radiation Therapy,40829.48,Private,0.79,8574.19,32255.29,Recovered,True
+P0665,30,Male,A+,24.8,2024-04-14,2024-04-15,1,Emergency,J44,COPD,,,Medication,4997.33,Private,0.81,949.49,4047.84,Recovered,False
+P0666,47,Male,A-,26.2,2023-11-12,2023-11-14,2,Emergency,J45,Asthma,A09,Gastroenteritis,Surgery,28924.0,Private,0.93,2024.68,26899.32,Recovered,False
+P0667,39,Female,A+,21.5,2024-11-05,2024-11-07,2,Emergency,O80,Normal Delivery,,,Medication,14145.96,Self-Pay,0.0,14145.96,0.0,Recovered,False
+P0668,75,Male,O-,31.9,2024-10-29,2024-10-30,1,Elective,R50,Fever,,,Chemotherapy,34354.71,Self-Pay,0.0,34354.71,0.0,Deteriorated,True
+P0669,0,Female,O+,29.3,2024-08-11,2024-08-12,1,Emergency,S06,Head Injury,,,Observation,2479.57,Private,0.83,421.53,2058.04,Recovered,False
+P0670,66,Female,O+,35.7,2025-03-16,2025-03-30,14,Maternity,E11,Type 2 Diabetes,,,Medication,78520.71,Medicare,0.78,17274.56,61246.15,Recovered,False
+P0671,69,Male,O+,21.6,2024-12-28,2024-12-29,1,Urgent,S06,Head Injury,,,Observation,2438.78,Medicare,0.8,487.76,1951.02,Improved,False
+P0672,3,Male,O+,24.1,2024-11-06,2024-11-07,1,Emergency,N39,Urinary Tract Infection,,,IV Fluids,6327.29,Private,0.8,1265.46,5061.83,Recovered,False
+P0673,38,Male,O-,27.2,2023-11-10,2023-11-14,4,Elective,I10,Hypertension,,,Counseling,12417.43,Private,0.88,1490.09,10927.34,Recovered,False
+P0674,37,Male,B-,29.2,2024-04-06,2024-04-08,2,Observation,K21,GERD,,,Respiratory Therapy,22326.29,Medicare,0.76,5358.31,16967.98,Stable,False
+P0675,16,Male,A-,24.9,2024-11-11,2024-11-13,2,Elective,J44,COPD,M17,Osteoarthritis,IV Fluids,10923.34,Medicare,0.79,2293.9,8629.44,Improved,False
+P0676,29,Female,A+,21.6,2024-10-10,2024-10-11,1,Emergency,J01,Sinusitis,,,Surgery,15211.67,Private,0.77,3498.68,11712.99,Recovered,False
+P0677,22,Male,O+,30.4,2025-04-28,2025-04-29,1,Emergency,F32,Depression,,,Counseling,6976.2,Medicare,0.78,1534.76,5441.44,Recovered,False
+P0678,80,Female,O+,29.6,2025-08-20,2025-08-21,1,Urgent,M17,Osteoarthritis,,,IV Fluids,4058.15,Medicare,0.76,973.96,3084.19,Stable,True
+P0679,63,Male,A-,21.4,2023-09-28,2023-10-05,7,Elective,K21,GERD,L20,Atopic Dermatitis,Counseling,35159.3,Private,0.97,1054.78,34104.52,Improved,True
+P0680,70,Female,A+,32.8,2025-04-19,2025-04-27,8,Elective,A09,Gastroenteritis,J45,Asthma,Pain Management,38761.43,Medicare,0.77,8915.13,29846.3,Recovered,False
+P0681,59,Male,O+,31.9,2024-10-01,2024-10-02,1,Urgent,L20,Atopic Dermatitis,J18,Pneumonia,Medication,8340.32,Medicare,0.76,2001.68,6338.64,Recovered,False
+P0682,22,Male,A+,26.7,2025-01-08,2025-01-09,1,Urgent,K21,GERD,,,Respiratory Therapy,14129.09,Medicare,0.82,2543.24,11585.85,Recovered,False
+P0683,34,Female,O+,26.4,2023-09-14,2023-09-27,13,Observation,S06,Head Injury,M54,Back Pain,Counseling,41546.67,Medicare,0.8,8309.33,33237.34,Deteriorated,False
+P0684,54,Female,O-,28.8,2024-09-02,2024-09-05,3,Emergency,S06,Head Injury,K21,GERD,Radiation Therapy,16272.83,Medicare,0.82,2929.11,13343.72,Improved,False
+P0685,20,Male,B+,21.7,2024-07-09,2024-07-10,1,Elective,J44,COPD,,,Physical Therapy,4871.34,Private,0.94,292.28,4579.06,Improved,False
+P0686,59,Female,A+,26.2,2024-10-11,2024-10-26,15,Elective,N39,Urinary Tract Infection,,,Respiratory Therapy,268261.38,Private,0.77,61700.12,206561.26,Improved,False
+P0687,40,Male,O+,15.2,2024-11-10,2024-11-15,5,Urgent,J45,Asthma,,,Pain Management,21548.79,Medicare,0.84,3447.81,18100.98,Improved,False
+P0688,37,Female,O+,30.4,2025-03-12,2025-03-15,3,Elective,E11,Type 2 Diabetes,R10,Abdominal Pain,Physical Therapy,32921.55,Medicare,0.81,6255.09,26666.46,Recovered,False
+P0689,59,Male,AB-,18.2,2025-03-20,2025-03-29,9,Emergency,L20,Atopic Dermatitis,,,Pain Management,37657.7,Medicare,0.81,7154.96,30502.74,Recovered,False
+P0690,53,Male,O-,33.5,2025-05-17,2025-05-27,10,Urgent,J18,Pneumonia,,,Chemotherapy,109669.64,Other,0.59,44964.55,64705.09,Improved,False
+P0691,37,Female,A+,24.3,2024-04-20,2024-04-22,2,Elective,I25,Coronary Artery Disease,K21,GERD,Medication,13772.46,Medicaid,0.92,1101.8,12670.66,Improved,False
+P0692,68,Female,B-,24.9,2025-01-19,2025-01-24,5,Emergency,R07,Chest Pain,R10,Abdominal Pain,Medication,35105.12,Self-Pay,0.0,35105.12,0.0,Improved,False
+P0693,23,Male,O+,22.9,2024-04-19,2024-04-20,1,Elective,J18,Pneumonia,J01,Sinusitis,Medication,6770.08,Private,0.88,812.41,5957.67,Stable,True
+P0694,57,Female,O+,24.6,2024-06-13,2024-07-03,20,Emergency,S06,Head Injury,G47,Sleep Disorder,Radiation Therapy,237943.94,Private,0.72,66624.3,171319.64,Recovered,False
+P0695,56,Female,A+,33.1,2024-11-27,2024-12-03,6,Emergency,J45,Asthma,,,Radiation Therapy,114276.32,Private,0.81,21712.5,92563.82,Recovered,True
+P0696,38,Male,O+,15.0,2025-01-17,2025-01-18,1,Emergency,S06,Head Injury,L20,Atopic Dermatitis,IV Fluids,8459.11,Medicare,0.81,1607.23,6851.88,Deteriorated,False
+P0697,51,Female,O+,32.4,2023-10-07,2023-10-17,10,Emergency,F32,Depression,,,Respiratory Therapy,110008.02,Private,0.8,22001.6,88006.42,Recovered,False
+P0698,19,Male,A-,27.7,2024-10-10,2024-10-11,1,Elective,N39,Urinary Tract Infection,O80,Normal Delivery,Medication,4062.02,Medicare,0.82,731.16,3330.86,Improved,False
+P0699,63,Female,A+,20.0,2024-08-17,2024-08-18,1,Elective,I10,Hypertension,,,Medication,7322.29,Private,0.79,1537.68,5784.61,Improved,False
+P0700,41,Female,O+,20.6,2025-07-23,2025-07-26,3,Elective,E11,Type 2 Diabetes,A09,Gastroenteritis,Medication,12291.99,Medicare,0.81,2335.48,9956.51,Improved,False
+P0701,34,Female,A+,34.4,2025-08-03,2025-08-05,2,Urgent,A09,Gastroenteritis,M17,Osteoarthritis,Counseling,7910.91,Private,0.96,316.44,7594.47,Recovered,False
+P0702,65,Male,A+,21.3,2024-10-26,2024-11-09,14,Emergency,F32,Depression,N39,Urinary Tract Infection,Medication,63967.26,Medicare,0.76,15352.14,48615.12,Improved,False
+P0703,30,Male,A+,20.2,2024-02-24,2024-02-25,1,Emergency,M54,Back Pain,,,Physical Therapy,3732.18,Self-Pay,0.0,3732.18,0.0,Stable,False
+P0704,16,Male,O+,31.7,2024-12-29,2024-12-31,2,Urgent,J45,Asthma,,,Observation,3209.68,Medicaid,0.88,385.16,2824.52,Improved,False
+P0705,13,Male,O+,27.7,2024-01-16,2024-01-17,1,Emergency,R07,Chest Pain,J44,COPD,Pain Management,8660.14,Private,0.77,1991.83,6668.31,Improved,True
+P0706,57,Male,O+,21.3,2025-06-06,2025-06-07,1,Maternity,I10,Hypertension,,,Medication,3873.14,Medicaid,0.93,271.12,3602.02,Recovered,False
+P0707,19,Female,A+,27.1,2025-03-07,2025-03-13,6,Urgent,S06,Head Injury,J44,COPD,Chemotherapy,68357.8,Medicaid,0.88,8202.94,60154.86,Recovered,False
+P0708,80,Male,O+,20.9,2023-10-05,2023-10-11,6,Elective,I10,Hypertension,,,Medication,20886.99,Medicare,0.79,4386.27,16500.72,Recovered,False
+P0709,3,Male,O+,31.5,2024-10-15,2024-10-16,1,Maternity,J45,Asthma,M54,Back Pain,IV Fluids,4681.55,Self-Pay,0.0,4681.55,0.0,Recovered,False
+P0710,78,Female,O+,31.3,2025-05-06,2025-05-12,6,Emergency,J45,Asthma,,,Counseling,19501.73,Medicare,0.83,3315.29,16186.44,Deteriorated,False
+P0711,49,Male,O+,28.7,2025-04-07,2025-04-16,9,Emergency,G47,Sleep Disorder,J18,Pneumonia,Surgery,216826.06,Self-Pay,0.0,216826.06,0.0,Improved,False
+P0712,43,Female,A+,27.8,2025-07-17,2025-07-18,1,Elective,K21,GERD,S06,Head Injury,IV Fluids,4418.02,Private,0.86,618.52,3799.5,Improved,False
+P0713,34,Male,O+,34.8,2023-10-05,2023-10-06,1,Emergency,F32,Depression,,,Physical Therapy,10668.72,Private,0.85,1600.31,9068.41,Improved,False
+P0714,52,Female,A+,26.0,2023-12-02,2023-12-03,1,Observation,R50,Fever,,,Physical Therapy,8602.77,Medicaid,0.89,946.3,7656.47,Recovered,False
+P0715,44,Male,AB-,20.1,2025-06-27,2025-06-28,1,Emergency,L20,Atopic Dermatitis,,,Radiation Therapy,10161.43,Medicaid,0.91,914.53,9246.9,Deceased,False
+P0716,67,Male,A+,28.2,2024-11-19,2024-11-29,10,Elective,I10,Hypertension,,,Physical Therapy,64840.18,Medicare,0.81,12319.63,52520.55,Recovered,False
+P0717,47,Female,A+,36.4,2024-01-24,2024-01-27,3,Elective,N39,Urinary Tract Infection,,,Radiation Therapy,43518.74,Medicaid,0.88,5222.25,38296.49,Recovered,False
+P0718,48,Male,A-,20.9,2024-12-23,2024-12-24,1,Elective,J18,Pneumonia,J45,Asthma,Surgery,18857.76,Private,0.73,5091.6,13766.16,Recovered,True
+P0719,37,Female,O+,24.2,2024-03-12,2024-03-13,1,Emergency,M17,Osteoarthritis,,,Radiation Therapy,19315.16,Medicare,0.79,4056.18,15258.98,Stable,True
+P0720,43,Male,A+,28.1,2023-10-29,2023-10-31,2,Emergency,E11,Type 2 Diabetes,,,Medication,10997.75,Medicare,0.81,2089.57,8908.18,Stable,False
+P0721,51,Male,O+,25.7,2024-05-31,2024-06-15,15,Urgent,R10,Abdominal Pain,,,IV Fluids,51169.46,Private,0.89,5628.64,45540.82,Recovered,False
+P0722,10,Female,B+,21.1,2024-09-30,2024-10-01,1,Emergency,L20,Atopic Dermatitis,,,Surgery,17395.35,Private,0.74,4522.79,12872.56,Recovered,False
+P0723,18,Male,A+,31.6,2024-08-08,2024-08-16,8,Urgent,N39,Urinary Tract Infection,,,Medication,39166.23,Private,0.82,7049.92,32116.31,Recovered,False
+P0724,59,Female,O+,37.6,2024-04-11,2024-04-15,4,Elective,E11,Type 2 Diabetes,J18,Pneumonia,Counseling,5340.43,Medicare,0.82,961.28,4379.15,Recovered,False
+P0725,48,Female,A+,27.0,2024-12-16,2024-12-17,1,Urgent,I25,Coronary Artery Disease,E11,Type 2 Diabetes,Respiratory Therapy,7345.4,Medicaid,0.88,881.45,6463.95,Stable,True
+P0726,41,Female,B+,21.5,2024-08-07,2024-08-16,9,Elective,L20,Atopic Dermatitis,,,Pain Management,41169.61,Medicaid,0.91,3705.26,37464.35,Stable,False
+P0727,45,Female,O+,18.3,2024-08-18,2024-08-21,3,Emergency,M54,Back Pain,,,Chemotherapy,36129.75,Medicaid,0.93,2529.08,33600.67,Improved,True
+P0728,51,Male,A+,27.3,2024-09-30,2024-10-07,7,Elective,G47,Sleep Disorder,A09,Gastroenteritis,Physical Therapy,43700.78,Self-Pay,0.0,43700.78,0.0,Improved,False
+P0729,34,Male,A+,31.5,2024-06-18,2024-07-02,14,Urgent,N39,Urinary Tract Infection,,,IV Fluids,40476.4,Private,0.97,1214.29,39262.11,Stable,False
+P0730,29,Male,A-,28.4,2024-11-12,2024-11-13,1,Emergency,J45,Asthma,,,Respiratory Therapy,6659.89,Medicare,0.83,1132.18,5527.71,Improved,False
+P0731,48,Female,O-,26.0,2024-05-23,2024-05-24,1,Maternity,O80,Normal Delivery,,,Physical Therapy,4687.83,Self-Pay,0.0,4687.83,0.0,Stable,False
+P0732,25,Female,O+,23.1,2023-11-30,2023-12-03,3,Elective,R50,Fever,,,Observation,7886.57,Medicaid,0.87,1025.25,6861.32,Recovered,False
+P0733,53,Male,O+,20.5,2025-01-01,2025-01-03,2,Emergency,R07,Chest Pain,R50,Fever,Surgery,30659.79,Private,0.72,8584.74,22075.05,Deteriorated,False
+P0734,10,Female,O+,30.2,2023-09-27,2023-09-28,1,Emergency,M54,Back Pain,I10,Hypertension,Observation,1645.9,Medicare,0.83,279.8,1366.1,Recovered,False
+P0735,65,Male,A+,30.6,2025-03-13,2025-03-14,1,Maternity,I10,Hypertension,,,Pain Management,6589.0,Medicare,0.77,1515.47,5073.53,Recovered,False
+P0736,54,Female,B+,18.3,2023-10-31,2023-11-01,1,Emergency,N39,Urinary Tract Infection,,,Respiratory Therapy,8352.58,Medicare,0.81,1586.99,6765.59,Stable,False
+P0737,50,Male,O+,33.9,2024-08-31,2024-09-08,8,Urgent,I25,Coronary Artery Disease,O80,Normal Delivery,Observation,34139.41,Medicaid,0.92,2731.15,31408.26,Recovered,False
+P0738,64,Female,A+,28.9,2024-04-24,2024-04-25,1,Urgent,R50,Fever,J01,Sinusitis,IV Fluids,7966.57,Medicare,0.83,1354.32,6612.25,Recovered,False
+P0739,78,Female,A+,33.0,2025-07-04,2025-07-10,6,Emergency,E11,Type 2 Diabetes,K21,GERD,Medication,51679.05,Medicare,0.81,9819.02,41860.03,Improved,False
+P0740,65,Male,A+,19.3,2023-11-17,2023-11-23,6,Emergency,M17,Osteoarthritis,J45,Asthma,Radiation Therapy,67717.4,Medicare,0.84,10834.78,56882.62,Recovered,False
+P0741,8,Male,B+,19.2,2025-07-06,2025-07-07,1,Elective,G47,Sleep Disorder,,,Medication,8138.72,Medicare,0.79,1709.13,6429.59,Improved,False
+P0742,19,Male,O-,25.3,2023-10-19,2023-10-20,1,Emergency,L20,Atopic Dermatitis,J01,Sinusitis,Radiation Therapy,12643.03,Medicare,0.79,2655.04,9987.99,Recovered,False
+P0743,32,Male,A+,28.5,2023-10-09,2023-10-14,5,Urgent,J44,COPD,M17,Osteoarthritis,Respiratory Therapy,22849.94,Private,0.83,3884.49,18965.45,Recovered,False
+P0744,45,Male,AB+,35.0,2024-05-18,2024-05-19,1,Emergency,K21,GERD,,,Radiation Therapy,9657.3,Medicare,0.76,2317.75,7339.55,Recovered,False
+P0745,55,Female,A+,29.5,2024-03-30,2024-04-07,8,Elective,J45,Asthma,R50,Fever,Radiation Therapy,119860.61,Private,0.91,10787.45,109073.16,Deteriorated,True
+P0746,30,Female,O-,24.8,2023-09-28,2023-10-05,7,Urgent,O80,Normal Delivery,,,Counseling,40749.02,Medicare,0.82,7334.82,33414.2,Recovered,False
+P0747,48,Female,A+,20.9,2025-06-05,2025-06-07,2,Emergency,I10,Hypertension,,,Pain Management,12677.83,Self-Pay,0.0,12677.83,0.0,Recovered,False
+P0748,29,Male,B+,32.2,2024-02-11,2024-02-13,2,Emergency,S06,Head Injury,,,Medication,6763.13,Self-Pay,0.0,6763.13,0.0,Recovered,False
+P0749,32,Female,O+,21.2,2024-05-09,2024-05-11,2,Emergency,S06,Head Injury,,,Radiation Therapy,39594.39,Medicare,0.79,8314.82,31279.57,Improved,False
+P0750,16,Female,O+,34.1,2024-01-15,2024-01-16,1,Emergency,G47,Sleep Disorder,,,Surgery,8248.91,Private,0.71,2392.18,5856.73,Recovered,False
+P0751,26,Male,B+,24.6,2025-01-04,2025-01-09,5,Elective,R10,Abdominal Pain,,,Respiratory Therapy,23184.7,Medicare,0.77,5332.48,17852.22,Stable,False
+P0752,17,Female,A-,34.0,2025-07-24,2025-07-28,4,Urgent,J44,COPD,,,Medication,29163.5,Self-Pay,0.0,29163.5,0.0,Recovered,False
+P0753,25,Female,A-,29.4,2024-01-03,2024-01-04,1,Emergency,O80,Normal Delivery,,,Respiratory Therapy,13121.07,Private,0.85,1968.16,11152.91,Recovered,False
+P0754,66,Male,A+,25.3,2025-04-07,2025-04-13,6,Elective,M17,Osteoarthritis,,,Physical Therapy,39264.09,Medicare,0.84,6282.25,32981.84,Improved,False
+P0755,26,Male,A+,23.4,2024-04-18,2024-04-25,7,Elective,J45,Asthma,,,Surgery,106363.62,Medicaid,0.9,10636.36,95727.26,Recovered,False
+P0756,97,Female,B+,24.3,2024-12-27,2025-01-28,32,Emergency,M54,Back Pain,R10,Abdominal Pain,Pain Management,164237.16,Medicare,0.84,26277.95,137959.21,Improved,False
+P0757,54,Male,A+,28.1,2025-08-24,2025-08-28,4,Emergency,E11,Type 2 Diabetes,,,Medication,22938.68,Medicaid,0.86,3211.42,19727.26,Improved,False
+P0758,48,Female,A+,26.4,2024-05-27,2024-05-30,3,Observation,O80,Normal Delivery,,,Chemotherapy,46017.6,Private,0.83,7822.99,38194.61,Improved,False
+P0759,27,Female,O+,23.0,2024-09-19,2024-09-20,1,Elective,I10,Hypertension,K21,GERD,Medication,3573.35,Medicaid,0.93,250.13,3323.22,Recovered,False
+P0760,59,Female,O-,25.2,2024-02-26,2024-03-15,18,Elective,J01,Sinusitis,R10,Abdominal Pain,Chemotherapy,201105.15,Medicaid,0.89,22121.57,178983.58,Recovered,False
+P0761,33,Male,O+,26.4,2025-05-20,2025-05-21,1,Elective,K21,GERD,M54,Back Pain,Counseling,2770.39,Medicare,0.78,609.49,2160.9,Recovered,False
+P0762,47,Male,A+,15.4,2025-05-21,2025-05-25,4,Emergency,R50,Fever,,,Radiation Therapy,45372.25,Medicare,0.83,7713.28,37658.97,Recovered,False
+P0763,96,Female,A+,28.3,2024-01-03,2024-01-06,3,Elective,I25,Coronary Artery Disease,,,Medication,14562.97,Medicare,0.79,3058.22,11504.75,Improved,False
+P0764,43,Female,O-,21.1,2024-02-22,2024-02-23,1,Elective,N39,Urinary Tract Infection,K21,GERD,Radiation Therapy,22394.28,Private,0.7,6718.28,15676.0,Recovered,False
+P0765,67,Male,A+,20.2,2024-07-22,2024-07-26,4,Elective,M17,Osteoarthritis,,,IV Fluids,18252.98,Medicare,0.81,3468.07,14784.91,Improved,False
+P0766,30,Female,A+,17.6,2023-12-27,2024-01-16,20,Emergency,R10,Abdominal Pain,,,IV Fluids,109124.02,Private,0.76,26189.76,82934.26,Recovered,True
+P0767,44,Female,O+,17.0,2025-04-22,2025-04-23,1,Emergency,E11,Type 2 Diabetes,,,Physical Therapy,10396.3,Medicaid,0.86,1455.48,8940.82,Recovered,False
+P0768,80,Male,O+,19.2,2023-10-04,2023-10-12,8,Emergency,E11,Type 2 Diabetes,K21,GERD,Counseling,62604.1,Medicare,0.81,11894.78,50709.32,Improved,False
+P0769,32,Male,O+,22.5,2024-07-23,2024-07-24,1,Maternity,M54,Back Pain,,,Physical Therapy,6806.46,Private,0.88,816.78,5989.68,Recovered,False
+P0770,81,Female,A+,35.8,2025-04-19,2025-04-20,1,Emergency,J01,Sinusitis,E11,Type 2 Diabetes,Physical Therapy,5381.27,Medicare,0.79,1130.07,4251.2,Stable,False
+P0771,59,Male,A+,23.4,2025-08-01,2025-08-04,3,Elective,I25,Coronary Artery Disease,J18,Pneumonia,Medication,12744.05,Medicaid,0.86,1784.17,10959.88,Recovered,False
+P0772,33,Male,O-,26.9,2024-09-26,2024-09-28,2,Emergency,N39,Urinary Tract Infection,,,Physical Therapy,6200.26,Private,0.72,1736.07,4464.19,Recovered,False
+P0773,57,Male,A+,28.0,2024-10-18,2024-10-20,2,Emergency,M54,Back Pain,R07,Chest Pain,Physical Therapy,7538.81,Medicaid,0.9,753.88,6784.93,Stable,False
+P0774,64,Male,O+,26.7,2024-03-29,2024-03-31,2,Elective,A09,Gastroenteritis,F32,Depression,Counseling,7451.44,Medicaid,0.9,745.14,6706.3,Improved,False
+P0775,57,Female,O+,25.6,2023-11-24,2023-11-25,1,Elective,S06,Head Injury,A09,Gastroenteritis,Counseling,3799.39,Private,0.9,379.94,3419.45,Recovered,False
+P0776,13,Female,O+,20.0,2025-05-06,2025-05-07,1,Elective,J01,Sinusitis,,,Observation,4708.0,Private,0.85,706.2,4001.8,Recovered,False
+P0777,30,Male,A+,33.3,2025-08-15,2025-08-25,10,Emergency,F32,Depression,M17,Osteoarthritis,Medication,48604.91,Medicare,0.8,9720.98,38883.93,Improved,False
+P0778,40,Female,A+,35.0,2025-06-11,2025-06-23,12,Elective,J45,Asthma,,,Respiratory Therapy,59392.22,Medicaid,0.93,4157.46,55234.76,Deceased,False
+P0779,43,Female,O+,17.6,2024-05-13,2024-05-15,2,Emergency,E11,Type 2 Diabetes,R10,Abdominal Pain,IV Fluids,13519.78,Medicare,0.78,2974.35,10545.43,Stable,False
+P0780,57,Female,O+,20.9,2023-12-21,2023-12-26,5,Emergency,J45,Asthma,,,Counseling,53669.44,Medicare,0.76,12880.67,40788.77,Recovered,False
+P0781,48,Male,O-,24.6,2025-08-21,2025-09-02,12,Elective,L20,Atopic Dermatitis,,,Physical Therapy,67494.72,Private,0.85,10124.21,57370.51,Deceased,False
+P0782,18,Male,A+,21.2,2024-07-12,2024-07-13,1,Emergency,N39,Urinary Tract Infection,R10,Abdominal Pain,Physical Therapy,6817.97,Self-Pay,0.0,6817.97,0.0,Improved,False
+P0783,52,Female,A+,28.5,2025-08-08,2025-08-17,9,Emergency,S06,Head Injury,J01,Sinusitis,Medication,66378.07,Self-Pay,0.0,66378.07,0.0,Recovered,False
+P0784,57,Female,O-,22.4,2025-05-14,2025-05-31,17,Elective,K21,GERD,,,Radiation Therapy,159861.92,Medicare,0.78,35169.62,124692.3,Stable,False
+P0785,56,Male,O+,36.8,2024-01-09,2024-01-10,1,Elective,R07,Chest Pain,,,IV Fluids,8448.4,Medicaid,0.91,760.36,7688.04,Recovered,False
+P0786,66,Male,O+,32.0,2025-04-09,2025-04-10,1,Urgent,M17,Osteoarthritis,,,Medication,2638.49,Private,0.74,686.01,1952.48,Recovered,False
+P0787,61,Male,A+,27.1,2023-10-20,2023-11-09,20,Emergency,M17,Osteoarthritis,I10,Hypertension,Physical Therapy,99262.34,Medicare,0.8,19852.47,79409.87,Recovered,False
+P0788,54,Female,O+,31.1,2024-08-28,2024-09-01,4,Emergency,J45,Asthma,I10,Hypertension,IV Fluids,20536.31,Private,0.85,3080.45,17455.86,Recovered,False
+P0789,43,Female,O+,31.5,2025-03-06,2025-03-07,1,Emergency,N39,Urinary Tract Infection,L20,Atopic Dermatitis,IV Fluids,5283.79,Private,0.74,1373.79,3910.0,Improved,False
+P0790,11,Female,O+,23.2,2024-11-19,2024-11-20,1,Maternity,N39,Urinary Tract Infection,,,Chemotherapy,5951.28,Self-Pay,0.0,5951.28,0.0,Recovered,False
+P0791,53,Male,B+,21.9,2025-07-16,2025-07-19,3,Elective,R07,Chest Pain,,,Respiratory Therapy,34586.04,Medicare,0.82,6225.49,28360.55,Recovered,False
+P0792,49,Female,A+,26.4,2024-09-21,2024-09-26,5,Elective,O80,Normal Delivery,R10,Abdominal Pain,Radiation Therapy,66632.23,Medicare,0.79,13992.77,52639.46,Improved,False
+P0793,50,Female,O+,30.3,2023-11-17,2023-11-24,7,Emergency,M17,Osteoarthritis,I25,Coronary Artery Disease,Physical Therapy,62371.2,Private,0.84,9979.39,52391.81,Deteriorated,True
+P0794,19,Male,A+,26.7,2025-02-07,2025-02-17,10,Elective,I10,Hypertension,,,Medication,91580.34,Private,0.9,9158.03,82422.31,Stable,False
+P0795,23,Female,B+,18.1,2025-07-02,2025-07-03,1,Emergency,N39,Urinary Tract Infection,F32,Depression,Counseling,2995.46,Self-Pay,0.0,2995.46,0.0,Recovered,False
+P0796,66,Female,O-,22.0,2024-08-22,2024-08-27,5,Elective,M17,Osteoarthritis,,,Observation,5908.8,Medicare,0.8,1181.76,4727.04,Deceased,False
+P0797,44,Male,A-,25.6,2023-09-20,2023-09-23,3,Observation,I25,Coronary Artery Disease,,,Medication,25004.16,Private,0.91,2250.37,22753.79,Improved,True
+P0798,58,Female,O+,25.6,2024-11-11,2024-11-14,3,Maternity,R07,Chest Pain,,,Counseling,10408.4,Private,0.88,1249.01,9159.39,Recovered,False
+P0799,45,Male,A+,35.9,2025-01-21,2025-01-22,1,Elective,R50,Fever,,,Radiation Therapy,8460.23,Medicare,0.82,1522.84,6937.39,Recovered,False
+P0800,45,Female,O+,19.1,2023-12-25,2024-01-11,17,Elective,O80,Normal Delivery,,,Counseling,83628.77,Private,0.83,14216.89,69411.88,Recovered,False
+P0801,63,Female,O-,28.5,2024-11-24,2024-12-06,12,Observation,E11,Type 2 Diabetes,,,Medication,150888.12,Private,0.95,7544.41,143343.71,Improved,False
+P0802,34,Female,A+,33.4,2024-09-12,2024-09-14,2,Elective,O80,Normal Delivery,,,Radiation Therapy,21841.04,Medicare,0.82,3931.39,17909.65,Recovered,False
+P0803,46,Female,A+,37.4,2025-06-19,2025-06-23,4,Emergency,R10,Abdominal Pain,J18,Pneumonia,Pain Management,31086.65,Medicare,0.79,6528.2,24558.45,Improved,False
+P0804,35,Male,B+,24.0,2024-12-21,2024-12-22,1,Elective,K21,GERD,,,Counseling,2665.82,Private,0.85,399.87,2265.95,Recovered,False
+P0805,36,Female,A+,28.5,2025-09-01,2025-09-03,2,Emergency,N39,Urinary Tract Infection,,,Chemotherapy,12916.19,Medicaid,0.88,1549.94,11366.25,Deteriorated,True
+P0806,38,Female,O+,28.8,2024-02-11,2024-02-15,4,Elective,R50,Fever,,,Physical Therapy,33266.29,Self-Pay,0.0,33266.29,0.0,Recovered,False
+P0807,49,Male,O+,27.0,2024-11-26,2024-11-29,3,Elective,G47,Sleep Disorder,,,Physical Therapy,22405.46,Medicaid,0.9,2240.55,20164.91,Stable,False
+P0808,35,Female,B+,25.5,2024-03-06,2024-03-22,16,Elective,K21,GERD,J44,COPD,Radiation Therapy,155857.59,Medicare,0.81,29612.94,126244.65,Deteriorated,True
+P0809,70,Female,A+,28.2,2025-02-23,2025-03-02,7,Emergency,M17,Osteoarthritis,,,Pain Management,76386.3,Medicare,0.78,16804.99,59581.31,Recovered,False
+P0810,27,Male,B+,15.0,2025-07-05,2025-07-06,1,Emergency,J01,Sinusitis,F32,Depression,Observation,1791.87,Self-Pay,0.0,1791.87,0.0,Recovered,False
+P0811,41,Female,O+,29.4,2024-06-10,2024-06-16,6,Elective,M54,Back Pain,F32,Depression,Chemotherapy,54992.69,Medicare,0.8,10998.54,43994.15,Recovered,False
+P0812,36,Female,A+,26.6,2025-05-30,2025-05-31,1,Urgent,O80,Normal Delivery,,,Radiation Therapy,9098.44,Private,0.83,1546.73,7551.71,Stable,False
+P0813,73,Male,O+,24.9,2025-03-12,2025-03-16,4,Elective,N39,Urinary Tract Infection,,,Pain Management,19047.44,Medicare,0.82,3428.54,15618.9,Improved,False
+P0814,48,Female,O+,36.2,2025-01-15,2025-01-17,2,Emergency,R07,Chest Pain,,,Chemotherapy,54009.85,Medicare,0.82,9721.77,44288.08,Recovered,False
+P0815,65,Male,O+,22.6,2024-12-27,2024-12-30,3,Observation,I10,Hypertension,,,Chemotherapy,38212.26,Medicare,0.78,8406.7,29805.56,Recovered,False
+P0816,15,Male,A+,24.0,2024-11-27,2024-11-29,2,Observation,L20,Atopic Dermatitis,J18,Pneumonia,Physical Therapy,11962.38,Medicare,0.78,2631.72,9330.66,Recovered,False
+P0817,50,Male,O+,36.0,2025-05-06,2025-05-10,4,Emergency,J44,COPD,,,Respiratory Therapy,13853.97,Private,0.88,1662.48,12191.49,Deteriorated,False
+P0818,62,Female,A+,21.8,2024-06-08,2024-06-17,9,Emergency,I10,Hypertension,,,Physical Therapy,88103.94,Private,0.89,9691.43,78412.51,Improved,False
+P0819,46,Female,A+,23.2,2024-08-03,2024-08-07,4,Elective,N39,Urinary Tract Infection,,,Pain Management,14395.38,Other,0.61,5614.2,8781.18,Stable,False
+P0820,66,Male,O+,25.3,2024-05-16,2024-05-19,3,Urgent,M54,Back Pain,,,Pain Management,11558.44,Private,0.74,3005.19,8553.25,Recovered,False
+P0821,34,Male,O+,30.2,2023-12-05,2023-12-11,6,Maternity,J01,Sinusitis,,,Physical Therapy,29047.27,Medicaid,0.92,2323.78,26723.49,Recovered,False
+P0822,73,Female,A+,27.0,2024-06-19,2024-06-21,2,Urgent,I10,Hypertension,,,Respiratory Therapy,14061.33,Medicare,0.77,3234.11,10827.22,Deceased,False
+P0823,90,Male,A+,19.5,2024-12-12,2024-12-15,3,Elective,J45,Asthma,,,Pain Management,12150.74,Medicare,0.84,1944.12,10206.62,Recovered,False
+P0824,37,Female,A+,23.3,2024-05-14,2024-05-16,2,Elective,M54,Back Pain,,,Physical Therapy,14844.23,Private,0.94,890.65,13953.58,Deteriorated,False
+P0825,36,Female,A+,23.0,2024-12-26,2024-12-27,1,Emergency,O80,Normal Delivery,M17,Osteoarthritis,Surgery,13887.05,Private,0.92,1110.96,12776.09,Recovered,False
+P0826,74,Female,A+,25.6,2025-04-13,2025-04-14,1,Emergency,K21,GERD,J45,Asthma,Medication,7531.34,Medicare,0.83,1280.33,6251.01,Recovered,False
+P0827,76,Female,A+,28.1,2025-05-24,2025-06-02,9,Elective,N39,Urinary Tract Infection,,,Chemotherapy,164557.51,Medicare,0.77,37848.23,126709.28,Improved,True
+P0828,34,Male,B+,28.1,2025-07-23,2025-07-25,2,Elective,F32,Depression,,,Physical Therapy,23806.36,Private,0.73,6427.72,17378.64,Deceased,False
+P0829,36,Female,O+,17.1,2024-09-30,2024-10-02,2,Elective,J44,COPD,N39,Urinary Tract Infection,Counseling,7076.02,Self-Pay,0.0,7076.02,0.0,Deteriorated,False
+P0830,39,Female,O+,31.3,2024-08-17,2024-08-31,14,Elective,O80,Normal Delivery,,,Surgery,286357.6,Other,0.81,54407.94,231949.66,Recovered,False
+P0831,18,Female,O+,27.3,2023-10-07,2023-10-08,1,Emergency,F32,Depression,,,IV Fluids,2898.98,Medicare,0.82,521.82,2377.16,Recovered,False
+P0832,26,Male,A+,32.9,2025-01-26,2025-01-31,5,Elective,K21,GERD,,,Physical Therapy,102375.58,Private,0.77,23546.38,78829.2,Improved,False
+P0833,24,Female,O-,28.2,2024-08-05,2024-08-06,1,Emergency,R07,Chest Pain,J18,Pneumonia,Physical Therapy,7825.4,Private,0.73,2112.86,5712.54,Recovered,False
+P0834,29,Male,O+,31.5,2024-03-12,2024-03-14,2,Emergency,I10,Hypertension,,,Physical Therapy,11285.76,Medicare,0.77,2595.72,8690.04,Recovered,False
+P0835,44,Male,O+,28.3,2025-01-19,2025-01-28,9,Urgent,A09,Gastroenteritis,N39,Urinary Tract Infection,Chemotherapy,119420.48,Private,0.85,17913.07,101507.41,Recovered,False
+P0836,49,Male,O+,32.7,2024-04-12,2024-04-16,4,Elective,N39,Urinary Tract Infection,R07,Chest Pain,Physical Therapy,20134.72,Medicare,0.77,4630.99,15503.73,Deteriorated,False
+P0837,76,Female,O-,28.6,2024-09-05,2024-09-15,10,Maternity,I25,Coronary Artery Disease,F32,Depression,Surgery,315453.38,Medicare,0.8,63090.68,252362.7,Improved,True
+P0838,25,Female,AB-,25.5,2024-05-29,2024-05-30,1,Emergency,E11,Type 2 Diabetes,I10,Hypertension,Medication,6438.7,Medicaid,0.87,837.03,5601.67,Recovered,False
+P0839,64,Female,A+,37.4,2024-08-21,2024-08-22,1,Elective,E11,Type 2 Diabetes,,,Respiratory Therapy,5711.34,Private,0.86,799.59,4911.75,Improved,True
+P0840,40,Female,O+,30.4,2024-06-20,2024-06-23,3,Emergency,O80,Normal Delivery,,,IV Fluids,9238.09,Medicaid,0.89,1016.19,8221.9,Recovered,False
+P0841,44,Male,O+,28.9,2025-05-10,2025-05-12,2,Emergency,R07,Chest Pain,O80,Normal Delivery,Chemotherapy,40597.51,Medicaid,0.91,3653.78,36943.73,Deceased,False
+P0842,58,Female,O+,19.6,2025-08-26,2025-09-07,12,Urgent,J45,Asthma,L20,Atopic Dermatitis,IV Fluids,88918.76,Medicare,0.78,19562.13,69356.63,Improved,False
+P0843,22,Male,AB+,19.6,2024-06-16,2024-06-17,1,Elective,E11,Type 2 Diabetes,,,Respiratory Therapy,8605.7,Medicare,0.79,1807.2,6798.5,Improved,False
+P0844,52,Female,A+,27.5,2025-03-30,2025-04-17,18,Urgent,L20,Atopic Dermatitis,J45,Asthma,Surgery,274872.75,Medicare,0.83,46728.37,228144.38,Deteriorated,True
+P0845,48,Female,A-,26.7,2023-09-18,2023-10-03,15,Emergency,J01,Sinusitis,,,Observation,50118.44,Medicare,0.77,11527.24,38591.2,Improved,False
+P0846,54,Female,O+,22.9,2025-02-18,2025-02-20,2,Urgent,K21,GERD,,,Pain Management,22865.46,Private,0.71,6630.98,16234.48,Improved,False
+P0847,50,Female,O+,26.7,2024-03-21,2024-03-24,3,Emergency,K21,GERD,,,Physical Therapy,32867.0,Private,0.81,6244.73,26622.27,Recovered,False
+P0848,94,Male,AB+,33.9,2023-12-04,2023-12-26,22,Urgent,E11,Type 2 Diabetes,,,Medication,146636.8,Medicare,0.79,30793.73,115843.07,Deteriorated,False
+P0849,32,Male,A+,29.5,2024-05-12,2024-05-22,10,Emergency,L20,Atopic Dermatitis,,,Surgery,220154.35,Medicare,0.82,39627.78,180526.57,Recovered,True
+P0850,34,Female,A-,20.3,2024-10-28,2024-10-30,2,Emergency,O80,Normal Delivery,,,Surgery,32071.48,Private,0.7,9621.44,22450.04,Recovered,False
+P0851,32,Male,O+,25.4,2025-01-20,2025-01-21,1,Elective,I25,Coronary Artery Disease,,,Respiratory Therapy,3552.75,Medicaid,0.89,390.8,3161.95,Recovered,False
+P0852,33,Male,O+,22.0,2025-03-29,2025-03-31,2,Observation,J01,Sinusitis,,,Chemotherapy,18608.04,Other,0.73,5024.17,13583.87,Recovered,False
+P0853,32,Female,O+,24.1,2024-05-11,2024-05-14,3,Emergency,N39,Urinary Tract Infection,,,IV Fluids,24824.82,Private,0.87,3227.23,21597.59,Recovered,False
+P0854,68,Female,B+,23.9,2025-08-15,2025-08-17,2,Emergency,F32,Depression,R50,Fever,Respiratory Therapy,22362.0,Medicare,0.78,4919.64,17442.36,Recovered,False
+P0855,73,Male,O+,23.6,2025-01-07,2025-01-17,10,Urgent,J44,COPD,,,Respiratory Therapy,98256.88,Medicare,0.76,23581.65,74675.23,Recovered,False
+P0856,33,Male,A+,19.7,2025-06-30,2025-07-01,1,Emergency,A09,Gastroenteritis,,,Respiratory Therapy,7890.77,Private,0.73,2130.51,5760.26,Recovered,False
+P0857,28,Female,O+,25.4,2025-09-05,2025-09-06,1,Emergency,N39,Urinary Tract Infection,,,Medication,7670.91,Medicare,0.79,1610.89,6060.02,Improved,False
+P0858,54,Female,B+,23.2,2025-01-22,2025-01-25,3,Emergency,N39,Urinary Tract Infection,,,Radiation Therapy,34128.25,Medicare,0.77,7849.5,26278.75,Improved,True
+P0859,33,Male,B+,15.0,2024-12-09,2024-12-10,1,Emergency,J45,Asthma,R07,Chest Pain,Respiratory Therapy,8767.29,Medicare,0.79,1841.13,6926.16,Recovered,False
+P0860,57,Male,O+,36.3,2023-09-25,2023-09-27,2,Observation,I25,Coronary Artery Disease,,,Medication,9160.47,Private,0.75,2290.12,6870.35,Improved,False
+P0861,49,Male,O-,31.4,2023-12-12,2023-12-15,3,Urgent,E11,Type 2 Diabetes,M17,Osteoarthritis,Medication,9094.97,Private,0.8,1818.99,7275.98,Stable,False
+P0862,14,Male,A+,24.1,2024-07-05,2024-07-06,1,Elective,R10,Abdominal Pain,,,Pain Management,8540.3,Medicare,0.78,1878.87,6661.43,Recovered,False
+P0863,75,Male,O+,26.1,2024-04-21,2024-04-24,3,Maternity,E11,Type 2 Diabetes,,,Respiratory Therapy,31012.85,Medicare,0.82,5582.31,25430.54,Improved,False
+P0864,80,Female,A+,20.1,2024-10-26,2024-10-29,3,Elective,N39,Urinary Tract Infection,,,Physical Therapy,50875.15,Medicare,0.81,9666.28,41208.87,Deteriorated,True
+P0865,32,Female,B+,34.5,2025-08-16,2025-08-28,12,Emergency,G47,Sleep Disorder,,,Respiratory Therapy,84414.85,Private,0.79,17727.12,66687.73,Stable,False
+P0866,37,Female,A+,35.5,2024-05-14,2024-05-16,2,Emergency,G47,Sleep Disorder,,,IV Fluids,7432.56,Medicare,0.79,1560.84,5871.72,Recovered,False
+P0867,50,Male,A+,26.8,2024-07-17,2024-07-20,3,Emergency,K21,GERD,,,Radiation Therapy,29708.08,Private,0.84,4753.29,24954.79,Improved,False
+P0868,51,Female,B-,31.1,2025-07-18,2025-07-23,5,Emergency,M17,Osteoarthritis,,,Medication,22789.77,Other,0.54,10483.29,12306.48,Recovered,False
+P0869,58,Male,A+,26.9,2025-04-25,2025-05-19,24,Observation,E11,Type 2 Diabetes,,,Observation,96089.62,Medicare,0.83,16335.24,79754.38,Improved,True
+P0870,85,Female,B-,19.3,2024-09-19,2024-09-22,3,Urgent,I25,Coronary Artery Disease,R07,Chest Pain,Physical Therapy,22677.95,Medicare,0.8,4535.59,18142.36,Deceased,False
+P0871,41,Female,O+,23.9,2025-01-04,2025-01-08,4,Emergency,R07,Chest Pain,,,Surgery,63554.89,Medicare,0.81,12075.43,51479.46,Improved,False
+P0872,29,Male,A+,26.7,2025-03-27,2025-03-31,4,Elective,L20,Atopic Dermatitis,,,Chemotherapy,71774.28,Medicare,0.8,14354.86,57419.42,Recovered,False
+P0873,17,Female,O+,23.7,2025-03-04,2025-03-05,1,Elective,K21,GERD,,,IV Fluids,5651.35,Medicaid,0.93,395.59,5255.76,Recovered,False
+P0874,30,Male,B+,24.9,2024-08-25,2024-08-26,1,Observation,K21,GERD,,,Physical Therapy,2494.47,Private,0.84,399.12,2095.35,Deceased,False
+P0875,44,Female,O+,25.5,2024-11-16,2024-11-21,5,Urgent,M54,Back Pain,,,Physical Therapy,33953.07,Self-Pay,0.0,33953.07,0.0,Improved,False
+P0876,80,Male,A+,25.6,2025-03-24,2025-03-25,1,Elective,E11,Type 2 Diabetes,K21,GERD,Medication,5342.2,Medicare,0.82,961.6,4380.6,Recovered,False
+P0877,34,Male,A+,26.3,2024-08-11,2024-08-14,3,Urgent,I10,Hypertension,S06,Head Injury,Observation,12887.55,Private,0.7,3866.27,9021.28,Improved,False
+P0878,49,Female,A+,20.7,2024-09-02,2024-09-08,6,Elective,O80,Normal Delivery,,,Surgery,81315.12,Private,0.93,5692.06,75623.06,Recovered,False
+P0879,44,Male,A+,22.4,2025-08-27,2025-08-28,1,Elective,M54,Back Pain,,,Respiratory Therapy,6898.85,Private,0.84,1103.82,5795.03,Recovered,False
+P0880,68,Female,A+,19.6,2024-12-15,2024-12-28,13,Emergency,J44,COPD,,,Pain Management,88571.39,Medicare,0.81,16828.56,71742.83,Stable,False
+P0881,95,Male,O+,30.9,2024-06-11,2024-06-12,1,Emergency,I25,Coronary Artery Disease,G47,Sleep Disorder,Medication,4669.42,Medicare,0.8,933.88,3735.54,Recovered,False
+P0882,34,Female,O+,15.5,2024-07-17,2024-07-23,6,Elective,I25,Coronary Artery Disease,,,Observation,29496.67,Medicaid,0.92,2359.73,27136.94,Improved,False
+P0883,35,Female,O+,31.8,2024-05-22,2024-05-24,2,Emergency,R07,Chest Pain,,,Observation,7491.08,Medicaid,0.86,1048.75,6442.33,Recovered,False
+P0884,65,Female,O+,32.9,2024-05-01,2024-05-03,2,Emergency,I10,Hypertension,,,Pain Management,12755.91,Medicare,0.84,2040.95,10714.96,Recovered,False
+P0885,58,Male,A+,24.5,2024-01-09,2024-01-10,1,Elective,J44,COPD,R07,Chest Pain,Surgery,4714.83,Private,0.9,471.48,4243.35,Deceased,False
+P0886,81,Male,A+,15.0,2024-03-23,2024-04-17,25,Emergency,G47,Sleep Disorder,,,Respiratory Therapy,109786.18,Medicare,0.79,23055.1,86731.08,Recovered,False
+P0887,56,Male,A+,24.2,2024-07-27,2024-07-28,1,Elective,F32,Depression,,,Respiratory Therapy,3989.67,Medicare,0.77,917.62,3072.05,Improved,True
+P0888,37,Male,A+,25.7,2024-01-08,2024-01-09,1,Elective,R07,Chest Pain,E11,Type 2 Diabetes,Observation,3624.8,Self-Pay,0.0,3624.8,0.0,Improved,True
+P0889,56,Female,AB+,20.9,2025-03-09,2025-03-12,3,Maternity,N39,Urinary Tract Infection,,,Surgery,80583.92,Private,0.88,9670.07,70913.85,Improved,False
+P0890,67,Female,AB+,23.4,2025-08-14,2025-08-20,6,Elective,I25,Coronary Artery Disease,M54,Back Pain,Respiratory Therapy,39219.37,Medicare,0.79,8236.07,30983.3,Stable,False
+P0891,61,Female,A-,33.7,2024-03-15,2024-03-19,4,Emergency,N39,Urinary Tract Infection,,,Radiation Therapy,66560.84,Medicare,0.81,12646.56,53914.28,Improved,False
+P0892,55,Female,A-,29.3,2024-03-22,2024-03-23,1,Elective,J44,COPD,E11,Type 2 Diabetes,Medication,6323.52,Private,0.86,885.29,5438.23,Recovered,False
+P0893,66,Female,O+,21.4,2024-04-16,2024-04-18,2,Urgent,M17,Osteoarthritis,I25,Coronary Artery Disease,Radiation Therapy,25546.74,Medicare,0.8,5109.35,20437.39,Stable,True
+P0894,68,Female,O+,18.0,2025-01-15,2025-01-17,2,Maternity,F32,Depression,,,Respiratory Therapy,14948.06,Medicare,0.82,2690.65,12257.41,Recovered,False
+P0895,72,Male,A+,24.4,2024-06-17,2024-06-19,2,Emergency,I25,Coronary Artery Disease,R50,Fever,Chemotherapy,33148.59,Medicare,0.8,6629.72,26518.87,Improved,True
+P0896,57,Female,O+,24.9,2025-05-03,2025-05-06,3,Emergency,N39,Urinary Tract Infection,,,Counseling,10929.64,Medicare,0.81,2076.63,8853.01,Deteriorated,True
+P0897,41,Female,O-,28.5,2025-02-26,2025-03-03,5,Observation,R50,Fever,M54,Back Pain,Observation,21624.39,Medicaid,0.9,2162.44,19461.95,Improved,False
+P0898,47,Female,A+,23.3,2025-05-11,2025-05-12,1,Emergency,O80,Normal Delivery,,,Radiation Therapy,20553.79,Self-Pay,0.0,20553.79,0.0,Stable,False
+P0899,69,Male,A-,28.6,2024-06-23,2024-06-27,4,Elective,K21,GERD,O80,Normal Delivery,Respiratory Therapy,31172.35,Self-Pay,0.0,31172.35,0.0,Improved,False
+P0900,28,Male,B-,35.7,2023-12-19,2023-12-20,1,Emergency,M17,Osteoarthritis,,,Physical Therapy,5822.36,Other,0.62,2212.5,3609.86,Improved,False
+P0901,52,Male,O-,30.1,2024-03-24,2024-04-12,19,Emergency,M54,Back Pain,N39,Urinary Tract Infection,Physical Therapy,83056.42,Other,0.54,38205.95,44850.47,Deteriorated,False
+P0902,37,Female,O+,25.8,2024-07-07,2024-07-18,11,Emergency,F32,Depression,,,Counseling,77431.97,Medicare,0.77,17809.35,59622.62,Recovered,False
+P0903,45,Female,A+,25.1,2024-04-27,2024-05-05,8,Emergency,N39,Urinary Tract Infection,R50,Fever,Observation,16070.73,Medicare,0.84,2571.32,13499.41,Recovered,False
+P0904,70,Male,A-,24.2,2024-09-11,2024-09-13,2,Elective,I25,Coronary Artery Disease,N39,Urinary Tract Infection,Counseling,3617.89,Medicare,0.84,578.86,3039.03,Recovered,False
+P0905,48,Female,O+,31.9,2024-03-09,2024-03-10,1,Observation,O80,Normal Delivery,,,IV Fluids,5909.79,Medicaid,0.89,650.08,5259.71,Improved,True
+P0906,45,Male,B-,22.9,2024-07-13,2024-07-14,1,Emergency,F32,Depression,M54,Back Pain,Medication,3161.24,Private,0.86,442.57,2718.67,Recovered,True
+P0907,17,Male,A+,26.2,2023-09-22,2023-09-23,1,Urgent,G47,Sleep Disorder,S06,Head Injury,Physical Therapy,8732.67,Self-Pay,0.0,8732.67,0.0,Improved,True
+P0908,59,Male,O+,26.3,2025-09-02,2025-09-06,4,Emergency,M17,Osteoarthritis,,,Chemotherapy,28784.72,Medicare,0.81,5469.1,23315.62,Recovered,False
+P0909,57,Female,O+,23.5,2025-03-07,2025-03-16,9,Elective,A09,Gastroenteritis,,,Medication,65847.55,Private,0.72,18437.31,47410.24,Deteriorated,False
+P0910,88,Female,O+,19.1,2024-01-15,2024-02-01,17,Emergency,N39,Urinary Tract Infection,,,Physical Therapy,142359.35,Medicare,0.82,25624.68,116734.67,Improved,True
+P0911,38,Male,O+,27.6,2024-06-14,2024-06-21,7,Observation,J01,Sinusitis,,,Counseling,29137.32,Medicaid,0.9,2913.73,26223.59,Recovered,False
+P0912,49,Female,O+,25.7,2023-10-24,2023-10-26,2,Urgent,K21,GERD,,,Medication,4051.58,Medicare,0.83,688.77,3362.81,Recovered,False
+P0913,49,Male,B+,28.5,2023-11-02,2023-11-07,5,Elective,A09,Gastroenteritis,,,Physical Therapy,14044.53,Medicaid,0.94,842.67,13201.86,Recovered,False
+P0914,76,Female,O+,23.3,2025-03-27,2025-03-30,3,Urgent,I10,Hypertension,,,Physical Therapy,18061.73,Medicaid,0.9,1806.17,16255.56,Recovered,False
+P0915,43,Female,A+,32.1,2024-07-03,2024-07-04,1,Elective,R50,Fever,,,Counseling,3832.32,Private,0.89,421.56,3410.76,Recovered,False
+P0916,50,Female,O+,21.6,2025-08-22,2025-08-29,7,Maternity,N39,Urinary Tract Infection,,,Observation,32964.81,Medicaid,0.88,3955.78,29009.03,Stable,False
+P0917,57,Male,A+,34.6,2024-01-15,2024-01-16,1,Elective,M17,Osteoarthritis,R07,Chest Pain,Respiratory Therapy,5827.41,Medicare,0.79,1223.76,4603.65,Deceased,False
+P0918,48,Female,O+,17.3,2025-06-22,2025-06-24,2,Observation,N39,Urinary Tract Infection,S06,Head Injury,Chemotherapy,24196.37,Other,0.58,10162.48,14033.89,Recovered,False
+P0919,36,Female,A+,28.2,2025-01-22,2025-01-23,1,Elective,R10,Abdominal Pain,,,Observation,1400.74,Private,0.85,210.11,1190.63,Recovered,False
+P0920,48,Male,A+,28.4,2023-12-22,2023-12-27,5,Emergency,I10,Hypertension,G47,Sleep Disorder,IV Fluids,39384.42,Medicaid,0.94,2363.07,37021.35,Recovered,False
+P0921,66,Female,A+,22.0,2023-09-20,2023-09-30,10,Elective,A09,Gastroenteritis,J01,Sinusitis,Physical Therapy,46940.23,Medicare,0.82,8449.24,38490.99,Recovered,False
+P0922,24,Male,A+,28.1,2025-04-17,2025-04-18,1,Emergency,K21,GERD,R10,Abdominal Pain,Surgery,12339.08,Medicare,0.83,2097.64,10241.44,Recovered,False
+P0923,47,Female,O+,32.4,2024-06-25,2024-07-03,8,Elective,K21,GERD,,,Respiratory Therapy,31733.21,Medicare,0.76,7615.97,24117.24,Recovered,False
+P0924,30,Male,O+,15.0,2024-12-31,2025-01-01,1,Elective,J44,COPD,,,Counseling,2326.82,Private,0.84,372.29,1954.53,Recovered,True
+P0925,68,Female,AB+,28.5,2025-01-10,2025-01-14,4,Elective,F32,Depression,R10,Abdominal Pain,Respiratory Therapy,48789.08,Medicare,0.8,9757.82,39031.26,Improved,False
+P0926,14,Female,A+,15.0,2024-12-02,2024-12-03,1,Emergency,N39,Urinary Tract Infection,M17,Osteoarthritis,IV Fluids,7137.04,Private,0.89,785.07,6351.97,Recovered,False
+P0927,33,Male,A+,21.2,2024-08-21,2024-08-24,3,Emergency,M17,Osteoarthritis,M54,Back Pain,IV Fluids,24002.76,Medicare,0.79,5040.58,18962.18,Improved,False
+P0928,52,Male,A+,34.1,2024-03-14,2024-04-05,22,Elective,L20,Atopic Dermatitis,O80,Normal Delivery,Observation,73002.82,Medicare,0.83,12410.48,60592.34,Recovered,False
+P0929,76,Male,A+,23.1,2023-10-30,2023-11-02,3,Maternity,J45,Asthma,,,Counseling,5646.94,Private,0.72,1581.14,4065.8,Stable,False
+P0930,43,Male,O+,20.1,2024-05-23,2024-05-28,5,Emergency,R50,Fever,,,Surgery,168395.34,Medicare,0.76,40414.88,127980.46,Deteriorated,False
+P0931,33,Male,A+,25.0,2025-01-09,2025-01-12,3,Emergency,J01,Sinusitis,,,Pain Management,19633.29,Private,0.78,4319.32,15313.97,Recovered,False
+P0932,82,Female,A-,36.3,2024-01-02,2024-01-23,21,Elective,R07,Chest Pain,,,Physical Therapy,120641.41,Medicare,0.82,21715.45,98925.96,Recovered,False
+P0933,16,Male,A+,16.8,2023-11-13,2023-11-14,1,Elective,M54,Back Pain,R10,Abdominal Pain,Pain Management,5336.13,Self-Pay,0.0,5336.13,0.0,Recovered,False
+P0934,1,Male,A+,20.7,2024-10-22,2024-10-23,1,Emergency,G47,Sleep Disorder,,,Observation,1447.93,Private,0.82,260.63,1187.3,Recovered,False
+P0935,53,Female,AB+,33.5,2025-01-23,2025-01-28,5,Emergency,M17,Osteoarthritis,,,IV Fluids,45406.84,Medicare,0.76,10897.64,34509.2,Recovered,False
+P0936,34,Male,O+,35.3,2023-11-22,2023-11-23,1,Emergency,N39,Urinary Tract Infection,K21,GERD,Counseling,2830.72,Private,0.75,707.68,2123.04,Improved,False
+P0937,24,Female,A+,25.5,2025-04-20,2025-04-21,1,Maternity,R50,Fever,,,Chemotherapy,15674.18,Private,0.88,1880.9,13793.28,Recovered,False
+P0938,59,Female,A+,19.8,2025-06-13,2025-06-16,3,Emergency,E11,Type 2 Diabetes,M17,Osteoarthritis,Medication,19961.05,Private,0.82,3592.99,16368.06,Recovered,False
+P0939,49,Female,A-,36.5,2025-08-10,2025-08-14,4,Emergency,E11,Type 2 Diabetes,K21,GERD,Medication,23827.97,Private,0.91,2144.52,21683.45,Improved,False
+P0940,33,Female,A+,34.0,2023-11-01,2023-11-08,7,Emergency,R50,Fever,,,Respiratory Therapy,57093.52,Private,0.76,13702.44,43391.08,Deteriorated,False
+P0941,19,Female,A+,29.4,2024-02-10,2024-02-11,1,Emergency,J45,Asthma,,,IV Fluids,9744.43,Medicaid,0.91,877.0,8867.43,Recovered,False
+P0942,62,Male,O-,21.9,2024-02-07,2024-02-13,6,Urgent,N39,Urinary Tract Infection,,,Respiratory Therapy,27078.39,Private,0.92,2166.27,24912.12,Improved,False
+P0943,58,Male,O+,25.8,2025-04-06,2025-04-10,4,Emergency,N39,Urinary Tract Infection,,,Surgery,62407.17,Medicare,0.8,12481.43,49925.74,Recovered,False
+P0944,43,Male,O+,25.2,2024-07-15,2024-07-16,1,Emergency,A09,Gastroenteritis,,,Chemotherapy,12815.27,Medicare,0.79,2691.21,10124.06,Recovered,False
+P0945,81,Female,B+,27.7,2023-12-04,2023-12-07,3,Elective,E11,Type 2 Diabetes,,,IV Fluids,8507.11,Medicare,0.8,1701.42,6805.69,Improved,True
+P0946,23,Male,B+,33.3,2024-05-19,2024-05-20,1,Emergency,J44,COPD,R10,Abdominal Pain,Chemotherapy,14899.06,Medicare,0.78,3277.79,11621.27,Recovered,False
+P0947,14,Female,AB-,30.4,2024-01-07,2024-01-08,1,Emergency,L20,Atopic Dermatitis,,,Counseling,7034.59,Medicare,0.76,1688.3,5346.29,Recovered,False
+P0948,31,Female,O+,20.6,2025-04-01,2025-04-02,1,Urgent,O80,Normal Delivery,R07,Chest Pain,IV Fluids,8942.92,Medicare,0.81,1699.15,7243.77,Recovered,False
+P0949,44,Female,O+,32.9,2024-11-07,2024-11-10,3,Urgent,G47,Sleep Disorder,,,Respiratory Therapy,44235.78,Private,0.76,10616.59,33619.19,Improved,False
+P0950,49,Female,A+,27.6,2025-05-20,2025-05-21,1,Observation,M17,Osteoarthritis,,,Radiation Therapy,6249.7,Medicaid,0.88,749.96,5499.74,Improved,False
+P0951,40,Male,B-,29.4,2025-05-10,2025-05-11,1,Urgent,J01,Sinusitis,N39,Urinary Tract Infection,Pain Management,11231.17,Private,0.74,2920.1,8311.07,Recovered,False
+P0952,52,Female,B+,33.3,2025-06-02,2025-06-06,4,Elective,S06,Head Injury,,,Surgery,64943.13,Medicaid,0.91,5844.88,59098.25,Improved,False
+P0953,19,Female,O+,20.4,2024-04-26,2024-04-27,1,Emergency,R50,Fever,,,Observation,6229.11,Medicaid,0.93,436.04,5793.07,Recovered,False
+P0954,73,Male,O+,25.8,2025-02-24,2025-03-16,20,Urgent,R50,Fever,R07,Chest Pain,Surgery,240437.3,Medicare,0.79,50491.83,189945.47,Improved,True
+P0955,43,Male,AB+,23.3,2024-10-01,2024-10-10,9,Urgent,I10,Hypertension,K21,GERD,Medication,33006.67,Private,0.92,2640.53,30366.14,Recovered,False
+P0956,67,Female,A+,18.2,2024-12-12,2024-12-21,9,Urgent,E11,Type 2 Diabetes,I25,Coronary Artery Disease,Pain Management,30124.84,Medicare,0.81,5723.72,24401.12,Improved,False
+P0957,51,Female,O+,27.7,2024-12-04,2024-12-05,1,Elective,N39,Urinary Tract Infection,,,Physical Therapy,7799.17,Other,0.66,2651.72,5147.45,Deceased,False
+P0958,54,Female,A+,38.6,2024-07-08,2024-07-16,8,Emergency,A09,Gastroenteritis,,,IV Fluids,55925.63,Self-Pay,0.0,55925.63,0.0,Deteriorated,False
+P0959,56,Female,A+,16.8,2025-05-02,2025-05-12,10,Urgent,J45,Asthma,R50,Fever,Pain Management,38540.59,Private,0.74,10020.55,28520.04,Recovered,False
+P0960,53,Female,A+,25.8,2024-11-20,2024-11-28,8,Elective,J45,Asthma,J44,COPD,Pain Management,18274.99,Self-Pay,0.0,18274.99,0.0,Stable,False
+P0961,57,Female,O+,29.2,2024-07-16,2024-07-17,1,Maternity,R10,Abdominal Pain,,,Observation,4348.12,Medicaid,0.9,434.81,3913.31,Recovered,False
+P0962,71,Male,A+,26.6,2025-04-12,2025-04-20,8,Emergency,I10,Hypertension,R07,Chest Pain,Medication,49571.95,Medicare,0.77,11401.55,38170.4,Deteriorated,True
+P0963,48,Male,A-,25.4,2025-06-04,2025-06-12,8,Emergency,M17,Osteoarthritis,,,Pain Management,34722.74,Private,0.8,6944.55,27778.19,Recovered,False
+P0964,59,Male,O+,19.5,2023-11-08,2023-11-13,5,Emergency,G47,Sleep Disorder,,,Surgery,47400.57,Private,0.87,6162.07,41238.5,Recovered,False
+P0965,43,Female,A+,27.2,2025-05-24,2025-05-29,5,Urgent,J01,Sinusitis,,,Chemotherapy,83636.33,Self-Pay,0.0,83636.33,0.0,Recovered,False
+P0966,73,Female,B-,22.2,2023-12-18,2023-12-23,5,Emergency,J01,Sinusitis,,,Pain Management,61639.6,Private,0.92,4931.17,56708.43,Recovered,False
+P0967,31,Female,B+,15.1,2024-04-07,2024-04-09,2,Emergency,K21,GERD,,,Radiation Therapy,20758.45,Other,0.61,8095.8,12662.65,Improved,False
+P0968,81,Male,A+,32.0,2025-06-09,2025-06-10,1,Maternity,K21,GERD,,,Counseling,2504.64,Medicare,0.8,500.93,2003.71,Deteriorated,False
+P0969,44,Female,O+,30.8,2024-04-11,2024-04-16,5,Emergency,L20,Atopic Dermatitis,,,Counseling,20005.95,Private,0.86,2800.83,17205.12,Improved,True
+P0970,16,Female,A+,26.3,2024-06-04,2024-06-05,1,Urgent,L20,Atopic Dermatitis,J01,Sinusitis,Respiratory Therapy,7627.04,Private,0.92,610.16,7016.88,Recovered,False
+P0971,47,Female,B+,27.1,2025-07-15,2025-07-17,2,Emergency,R07,Chest Pain,A09,Gastroenteritis,Observation,5652.27,Private,0.72,1582.64,4069.63,Improved,True
+P0972,31,Female,O+,31.4,2023-11-30,2023-12-01,1,Urgent,F32,Depression,R50,Fever,Medication,10892.68,Medicaid,0.86,1524.98,9367.7,Recovered,False
+P0973,61,Male,O+,27.1,2024-02-15,2024-02-19,4,Elective,I10,Hypertension,J45,Asthma,Counseling,22500.88,Private,0.7,6750.26,15750.62,Recovered,False
+P0974,31,Female,O+,30.5,2024-05-10,2024-05-11,1,Observation,J44,COPD,,,Pain Management,4696.93,Self-Pay,0.0,4696.93,0.0,Recovered,False
+P0975,36,Male,A+,24.5,2024-03-03,2024-03-07,4,Observation,M54,Back Pain,,,Chemotherapy,30122.0,Medicare,0.83,5120.74,25001.26,Recovered,True
+P0976,7,Male,A+,32.6,2025-03-26,2025-03-27,1,Emergency,J01,Sinusitis,F32,Depression,Medication,8491.44,Private,0.83,1443.54,7047.9,Recovered,False
+P0977,35,Female,O+,27.6,2023-11-23,2023-11-24,1,Emergency,R50,Fever,,,Counseling,6073.27,Medicaid,0.86,850.26,5223.01,Recovered,False
+P0978,0,Female,AB+,27.0,2024-02-15,2024-02-16,1,Emergency,R07,Chest Pain,,,Radiation Therapy,9826.72,Other,0.54,4520.29,5306.43,Improved,False
+P0979,13,Female,O+,19.6,2023-09-10,2023-09-11,1,Elective,A09,Gastroenteritis,,,Surgery,15530.95,Medicaid,0.92,1242.48,14288.47,Recovered,False
+P0980,60,Female,O+,27.4,2024-10-30,2024-11-12,13,Urgent,M17,Osteoarthritis,J01,Sinusitis,Pain Management,70628.14,Medicare,0.77,16244.47,54383.67,Stable,True
+P0981,60,Female,O+,21.8,2024-12-12,2024-12-16,4,Elective,K21,GERD,,,Counseling,18027.87,Medicaid,0.93,1261.95,16765.92,Recovered,False
+P0982,53,Female,B+,22.8,2025-08-13,2025-08-17,4,Elective,K21,GERD,J01,Sinusitis,Observation,8907.91,Private,0.84,1425.27,7482.64,Improved,False
+P0983,25,Female,A+,21.9,2025-05-08,2025-05-09,1,Emergency,M54,Back Pain,,,Pain Management,3791.92,Medicare,0.77,872.14,2919.78,Recovered,False
+P0984,44,Male,O+,20.7,2025-01-01,2025-01-06,5,Urgent,E11,Type 2 Diabetes,A09,Gastroenteritis,Respiratory Therapy,44602.75,Private,0.89,4906.3,39696.45,Improved,True
+P0985,44,Male,B+,36.6,2024-07-02,2024-07-11,9,Maternity,J01,Sinusitis,G47,Sleep Disorder,Medication,60901.09,Self-Pay,0.0,60901.09,0.0,Recovered,False
+P0986,21,Male,A+,32.7,2023-10-11,2023-10-14,3,Emergency,R50,Fever,R10,Abdominal Pain,Chemotherapy,32865.58,Self-Pay,0.0,32865.58,0.0,Recovered,False
+P0987,75,Male,O+,35.6,2024-05-02,2024-05-09,7,Elective,E11,Type 2 Diabetes,,,Medication,26077.07,Medicare,0.81,4954.64,21122.43,Recovered,False
+P0988,62,Male,O+,19.9,2024-06-29,2024-06-30,1,Emergency,I10,Hypertension,,,Pain Management,10006.94,Other,0.62,3802.64,6204.3,Recovered,False
+P0989,40,Male,B+,26.4,2025-08-31,2025-09-01,1,Elective,R10,Abdominal Pain,L20,Atopic Dermatitis,Surgery,11636.59,Private,0.9,1163.66,10472.93,Recovered,False
+P0990,45,Male,A+,19.5,2024-06-23,2024-06-24,1,Elective,M54,Back Pain,,,Physical Therapy,6094.3,Medicare,0.79,1279.8,4814.5,Improved,False
+P0991,49,Female,A-,22.5,2025-08-27,2025-08-28,1,Emergency,S06,Head Injury,,,Counseling,3715.85,Medicare,0.81,706.01,3009.84,Improved,False
+P0992,4,Male,O+,21.4,2024-12-15,2024-12-16,1,Emergency,R10,Abdominal Pain,,,Physical Therapy,3191.35,Medicare,0.79,670.18,2521.17,Improved,False
+P0993,40,Female,O+,32.2,2023-11-19,2023-11-20,1,Emergency,O80,Normal Delivery,R07,Chest Pain,Physical Therapy,6852.09,Private,0.7,2055.63,4796.46,Recovered,False
+P0994,31,Male,A+,24.0,2025-08-11,2025-08-12,1,Elective,M17,Osteoarthritis,,,Respiratory Therapy,6023.66,Medicare,0.83,1024.02,4999.64,Recovered,False
+P0995,24,Female,A+,31.3,2024-05-04,2024-05-11,7,Elective,R07,Chest Pain,S06,Head Injury,Medication,43612.95,Medicare,0.81,8286.46,35326.49,Stable,True
+P0996,39,Male,O+,29.0,2024-06-04,2024-06-07,3,Emergency,K21,GERD,,,Medication,16224.06,Private,0.75,4056.01,12168.04,Recovered,False
+P0997,80,Male,A-,37.5,2025-06-09,2025-06-25,16,Urgent,G47,Sleep Disorder,,,Radiation Therapy,478657.78,Medicare,0.78,105304.71,373353.07,Deteriorated,True
+P0998,57,Female,AB-,18.6,2025-05-03,2025-05-10,7,Elective,G47,Sleep Disorder,R07,Chest Pain,IV Fluids,54662.85,Private,0.75,13665.71,40997.14,Improved,True
+P0999,33,Male,O-,32.3,2025-07-16,2025-07-17,1,Emergency,I25,Coronary Artery Disease,,,Counseling,4077.61,Private,0.85,611.64,3465.97,Recovered,True
+P1000,56,Male,A+,31.7,2024-03-28,2024-04-04,7,Emergency,G47,Sleep Disorder,,,Chemotherapy,101171.88,Medicare,0.8,20234.38,80937.5,Recovered,False
